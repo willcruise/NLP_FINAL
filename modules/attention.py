@@ -32,9 +32,37 @@ class CausalSelfAttention(nn.Module):
     return proj
 
   def attention(self, key, query, value, attention_mask):
-
     ### YOUR CODE HERE
-    raise NotImplementedError
+
+    ## attention(q,k,v) == softmax(qk^t/d**0.5 +m)v
+    # b: batch, t: seauence length, h: num_heads, d: head size (dimension of embedding)
+    attn_scores = torch.matmul(query,key.transpose(-1,-2)) / self.attention_head_size**0.5 ## b h t(q) t(k)
+    
+    seq_len = query.size(-2) # t: sequence length (size)
+
+    # lower triangular (seq_len * seq_len) -> masking -> view
+    causal_mask = torch.tril(torch.ones(seq_len, seq_len, device = query.device)).view(1, 1, seq_len, seq_len)
+
+    # casual masking
+    attn_scores = attn_scores.masked_fill(causal_mask == 0,-1e9)
+
+    # padding (before softmax)
+    attn_scores = attn_scores + attention_mask
+
+    # softmax
+    attn_probs = torch.softmax(attn_scores, dim=-1)
+
+    # dropout
+    attn_probs = self.dropout(attn_probs)
+
+    # attn_score * value (b h t t * b h t d -> b h t d)
+    out = torch.matmul(attn_probs,value)
+
+    # multi -> one head
+    out = rearrange(out, 'b h t d -> b t (h d)')
+
+    return out
+
 
 
   def forward(self, hidden_states, attention_mask):
@@ -53,3 +81,5 @@ class CausalSelfAttention(nn.Module):
     # Calculate the multi-head attention.
     attn_value = self.attention(key_layer, query_layer, value_layer, attention_mask)
     return attn_value
+
+

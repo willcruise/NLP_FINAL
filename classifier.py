@@ -24,6 +24,32 @@ TQDM_DISABLE = False
 # Fix the random seed.
 def seed_everything(seed=11711):
   random.seed(seed)
+  #!/usr/bin/env python3
+
+'''
+Trains and evaluates GPT2SentimentClassifier on SST and CFIMDB
+'''
+
+import random, numpy as np, argparse
+from types import SimpleNamespace
+import csv
+
+import torch
+import torch.nn.functional as F
+from torch.utils.data import Dataset, DataLoader
+from transformers import GPT2Tokenizer
+from sklearn.metrics import f1_score, accuracy_score
+
+from models.gpt2 import GPT2Model
+from optimizer import AdamW
+from tqdm import tqdm
+
+TQDM_DISABLE = False
+
+
+# Fix the random seed.
+def seed_everything(seed=42):
+  random.seed(seed)
   np.random.seed(seed)
   torch.manual_seed(seed)
   torch.cuda.manual_seed(seed)
@@ -55,7 +81,8 @@ class GPT2SentimentClassifier(torch.nn.Module):
 
     ### TODO: Create any instance variables you need to classify the sentiment of BERT embeddings.
     ### YOUR CODE HERE
-    raise NotImplementedError
+    self.dropout = torch.nn.Dropout(p=config.hidden_dropout_prob) # Dropout layer
+    self.classifier = torch.nn.Linear(in_features = config.hidden_size, out_features = self.num_labels) # Linear classifier
 
 
   def forward(self, input_ids, attention_mask):
@@ -65,7 +92,20 @@ class GPT2SentimentClassifier(torch.nn.Module):
     ###       HINT: You should consider what is an appropriate return value given that
     ###       the training loop currently uses F.cross_entropy as the loss function.
     ### YOUR CODE HERE
-    raise NotImplementedError
+
+    # forward pass
+    gpt_outputs = self.gpt(input_ids, attention_mask)
+
+    # extract last token embedding
+    last_token_embedding = gpt_outputs['last_token']
+
+    # dropout
+    x=self.dropout(last_token_embedding)
+
+    # classification
+    logit = self.classifier(x)
+
+    return logit
 
 
 
@@ -308,7 +348,8 @@ def train(args):
 def test(args):
   with torch.no_grad():
     device = torch.device('cuda') if args.use_gpu else torch.device('cpu')
-    saved = torch.load(args.filepath)
+    #saved = torch.load(args.filepath)
+    saved = torch.load(args.filepath, weights_only=False)
     config = saved['model_config']
     model = GPT2SentimentClassifier(config)
     model.load_state_dict(saved['model'])
@@ -406,3 +447,4 @@ if __name__ == "__main__":
 
   print('Evaluating on cfimdb...')
   test(config)
+

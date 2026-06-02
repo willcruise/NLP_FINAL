@@ -47,7 +47,7 @@ class ParaphraseDetectionDataset(Dataset):
 
     cloze_style_sents = [f'Question 1: "{s1}"\nQuestion 2: "{s2}\nAre these questions asking the same thing?\n' for
                          (s1, s2) in zip(sent1, sent2)]
-    encoding = self.tokenizer(cloze_style_sents, return_tensors='pt', padding=True, truncation=True)
+    encoding = self.tokenizer(cloze_style_sents, return_tensors='pt', padding=True, truncation=True, max_length=900)
 
     token_ids = torch.LongTensor(encoding['input_ids'])
     attention_mask = torch.LongTensor(encoding['attention_mask'])
@@ -161,3 +161,93 @@ class SonnetsDataset(Dataset):
     }
 
     return batched_data
+  
+
+
+class ReasoningDataset(Dataset):
+
+  def __init__(self, file_path):
+
+    self.max_length = 256  # or 512 depending on memory
+    self.tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
+    self.tokenizer.pad_token = self.tokenizer.eos_token
+
+    self.examples = self._load_examples(file_path)
+    print("Loaded examples:", len(self.examples))
+
+    if self.has_eos:
+
+      missing_eos = 0
+
+      for i, example in enumerate(self.examples):
+        if not example.endswith(self.tokenizer.eos_token):
+            missing_eos += 1
+            print(f"Missing EOS in example {i}")
+
+      print("Examples missing EOS:", missing_eos)
+
+    else:
+      print("Held-out dataset detected; EOS check skipped.")
+
+    lengths = [
+      len(self.tokenizer(x)["input_ids"])
+      for x in self.examples
+    ]
+    print("Min length:", min(lengths))
+    print("Max length:", max(lengths))
+    print("Average length:", sum(lengths)/len(lengths))
+
+
+    print("First example preview:")
+    print(repr(self.examples[0][:300]))
+
+    print("EOS token id:", self.tokenizer.eos_token_id)
+
+    first_ids = self.tokenizer(self.examples[0])["input_ids"]
+    print("Last 20 tokens:", first_ids[-20:])
+
+    for i in range(3):
+      print(repr(self.examples[i][-30:]))
+
+  def _load_examples(self, file_path):
+
+    with open(file_path, 'r', encoding='utf-8') as f:
+        text = f.read()
+
+    self.has_eos = "<|endoftext|>" in text
+
+    if self.has_eos:
+        examples = [
+            e.strip() + self.tokenizer.eos_token
+            for e in text.split("<|endoftext|>")
+            if e.strip()
+        ]
+    else:
+        examples = re.split(r'\n\s*\d+\s*\n', text)
+        examples = [e.strip() for e in examples if e.strip()]
+
+    return examples
+
+  def __len__(self):
+    return len(self.examples)
+
+  def __getitem__(self, idx):
+    return (idx, self.examples[idx])
+
+  def collate_fn(self, all_data):
+    idx = [example[0] for example in all_data]
+    texts = [example[1] for example in all_data]
+
+    encoding = self.tokenizer(
+        texts,
+        return_tensors='pt',
+        padding=True,
+        truncation=True,
+        max_length=900
+    )
+
+    return {
+        'token_ids': torch.LongTensor(encoding['input_ids']),
+        'attention_mask': torch.LongTensor(encoding['attention_mask']),
+        'sent_ids': idx
+    }

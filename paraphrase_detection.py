@@ -22,7 +22,7 @@ from torch import nn
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
-from datasets import (
+from gpt_datasets import (
   ParaphraseDetectionDataset,
   ParaphraseDetectionTestDataset,
   load_paraphrase_data
@@ -72,7 +72,19 @@ class ParaphraseGPT(nn.Module):
 
     'Takes a batch of sentences and produces embeddings for them.'
     ### YOUR CODE HERE
-    raise NotImplementedError
+
+    # calling gpt2.py's forward function, which returns a dictionary of the last hidden state and the last token.pip
+    outputs = self.gpt(input_ids, attention_mask)
+
+    # gpt2.py returns {'last hidden state' : sequence_output, 'last_token': last_token}, so 'outputs' is a dictionary.
+    last_token = outputs['last_token']
+
+    # because self.paraphrase_detection_head = nn.Linear(args.d, 2)
+    logits = self.paraphrase_detection_head(last_token)
+
+    return logits
+
+    #raise NotImplementedError
 
 
 
@@ -124,6 +136,8 @@ def train(args):
       b_ids = b_ids.to(device)
       b_mask = b_mask.to(device)
       labels = labels.to(device)
+      # The labels are currently the byte pair encoding indices of "yes" and "no". We want to convert them to 1 and 0, respectively. 
+      labels = (labels == 8505).long()
 
       # Compute the loss, gradients, and update the model's parameters.
       optimizer.zero_grad()
@@ -151,6 +165,7 @@ def train(args):
 def test(args):
   """Evaluate your model on the dev and test datasets; save the predictions to disk."""
   device = torch.device('cuda') if args.use_gpu else torch.device('cpu')
+  #saved = torch.load(args.filepath)
   saved = torch.load(args.filepath)
 
   model = ParaphraseGPT(saved['args'])

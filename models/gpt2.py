@@ -1,6 +1,7 @@
 import torch
 from torch import nn
 from transformers import GPT2Model as OpenAIGPT2Model
+import torch.nn.functional as F
 
 from config import GPT2Config
 from models.base_gpt import GPTPreTrainedModel
@@ -47,14 +48,17 @@ class GPT2Model(GPTPreTrainedModel):
     input_shape = input_ids.size()
     seq_length = input_shape[1]
 
-    inputs_embeds = None
+    inputs_embeds = self.word_embedding(input_ids)
 
     ### YOUR CODE HERE
-    raise NotImplementedError
-
-
     pos_ids = self.position_ids[:, :seq_length]
-    pos_embeds = None
+    pos_embeds = self.pos_embedding(pos_ids)
+
+    hidden_states = inputs_embeds + pos_embeds 
+    hidden_states = self.embed_dropout(hidden_states)
+
+    return hidden_states
+
 
     ### TODO: Use pos_ids to get position embedding from self.pos_embedding into pos_embeds.
     ###       Then, add two embeddings together; then apply dropout and return.
@@ -106,7 +110,8 @@ class GPT2Model(GPTPreTrainedModel):
       return hidden_state(s) * E^T
     """
     ### YOUR CODE HERE
-    raise NotImplementedError
+    return hidden_state @ self.word_embedding.weight.T
+   
 
 
   @classmethod
@@ -152,3 +157,5 @@ class GPT2Model(GPTPreTrainedModel):
     our_model.final_layer_norm.bias.data = gpt_model.state_dict()['ln_f.bias']
 
     return our_model
+
+
