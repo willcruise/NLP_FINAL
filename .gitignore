@@ -34,5 +34,14 @@ nul
 # Antigravity intermediate part files
 data/_aug_cot_part*.jsonl
 
-# Trained model outputs
-outputs/
+# Trained model outputs (generations/logs); keep experiment metrics JSON
+outputs/*
+!outputs/exp1_gsm8k/
+!outputs/exp2_gsm8k_ma/
+!outputs/exp3_gsm8k_ma_ent/
+outputs/exp1_gsm8k/*
+!outputs/exp1_gsm8k/*.json
+outputs/exp2_gsm8k_ma/*
+!outputs/exp2_gsm8k_ma/*.json
+outputs/exp3_gsm8k_ma_ent/*
+!outputs/exp3_gsm8k_ma_ent/*.json

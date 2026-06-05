@@ -1,0 +1,106 @@
+{
+  "checkpoint_tag": "exp1_gsm8k",
+  "train_path": "data/experiments/exp1_gsm8k_train.txt",
+  "best_epoch": 4,
+  "best_exact_accuracy": 0.03333333333333333,
+  "best_checkpoint": "best_exp1_gsm8k.pt",
+  "history": [
+    {
+      "n": 90,
+      "exact_accuracy": 0.011111111111111112,
+      "no_answer_rate": 0.011111111111111112,
+      "format_valid_rate": 0.3888888888888889,
+      "repetition_rate": 0.5,
+      "dataset": "multiarith",
+      "n_dev": 90,
+      "epoch": 0,
+      "train_loss": 1.9450923124949138,
+      "checkpoint_tag": "exp1_gsm8k"
+    },
+    {
+      "n": 90,
+      "exact_accuracy": 0.011111111111111112,
+      "no_answer_rate": 0.0,
+      "format_valid_rate": 0.9555555555555556,
+      "repetition_rate": 0.1111111111111111,
+      "dataset": "multiarith",
+      "n_dev": 90,
+      "epoch": 2,
+      "train_loss": 1.405549786567688,
+      "checkpoint_tag": "exp1_gsm8k"
+    },
+    {
+      "n": 90,
+      "exact_accuracy": 0.03333333333333333,
+      "no_answer_rate": 0.0,
+      "format_valid_rate": 0.9666666666666667,
+      "repetition_rate": 0.011111111111111112,
+      "dataset": "multiarith",
+      "n_dev": 90,
+      "epoch": 4,
+      "train_loss": 1.2883385235468547,
+      "checkpoint_tag": "exp1_gsm8k"
+    },
+    {
+      "n": 90,
+      "exact_accuracy": 0.022222222222222223,
+      "no_answer_rate": 0.0,
+      "format_valid_rate": 0.9888888888888889,
+      "repetition_rate": 0.022222222222222223,
+      "dataset": "multiarith",
+      "n_dev": 90,
+      "epoch": 6,
+      "train_loss": 1.210312969684601,
+      "checkpoint_tag": "exp1_gsm8k"
+    },
+    {
+      "n": 90,
+      "exact_accuracy": 0.011111111111111112,
+      "no_answer_rate": 0.0,
+      "format_valid_rate": 1.0,
+      "repetition_rate": 0.0,
+      "dataset": "multiarith",
+      "n_dev": 90,
+      "epoch": 8,
+      "train_loss": 1.1531675898234048,
+      "checkpoint_tag": "exp1_gsm8k"
+    },
+    {
+      "n": 90,
+      "exact_accuracy": 0.022222222222222223,
+      "no_answer_rate": 0.0,
+      "format_valid_rate": 1.0,
+      "repetition_rate": 0.022222222222222223,
+      "dataset": "multiarith",
+      "n_dev": 90,
+      "epoch": 10,
+      "train_loss": 1.1069273449579875,
+      "checkpoint_tag": "exp1_gsm8k"
+    },
+    {
+      "n": 90,
+      "exact_accuracy": 0.022222222222222223,
+      "no_answer_rate": 0.0,
+      "format_valid_rate": 1.0,
+      "repetition_rate": 0.011111111111111112,
+      "dataset": "multiarith",
+      "n_dev": 90,
+      "epoch": 12,
+      "train_loss": 1.0628341652552287,
+      "checkpoint_tag": "exp1_gsm8k"
+    },
+    {
+      "n": 90,
+      "exact_accuracy": 0.022222222222222223,
+      "no_answer_rate": 0.0,
+      "format_valid_rate": 0.9888888888888889,
+      "repetition_rate": 0.022222222222222223,
+      "dataset": "multiarith",
+      "n_dev": 90,
+      "epoch": 14,
+      "train_loss": 1.029381894906362,
+      "checkpoint_tag": "exp1_gsm8k"
+    }
+  ],
+  "finished_epoch": 14
+}

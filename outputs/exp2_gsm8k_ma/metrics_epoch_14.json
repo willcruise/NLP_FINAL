@@ -1,0 +1,12 @@
+{
+  "n": 90,
+  "exact_accuracy": 0.05555555555555555,
+  "no_answer_rate": 0.0,
+  "format_valid_rate": 1.0,
+  "repetition_rate": 0.011111111111111112,
+  "dataset": "multiarith",
+  "n_dev": 90,
+  "epoch": 14,
+  "train_loss": 0.9485428330591517,
+  "checkpoint_tag": "exp2_gsm8k_ma"
+}
