@@ -2,10 +2,11 @@
 """
 Train ReasoningGPT from pretrained GPT-2 with periodic MultiArith eval and best-checkpoint tracking.
 
-Designed for three clean from-scratch experiments (see prepare_experiment_data.py):
-  exp1_gsm8k              — GSM8K only
-  exp2_gsm8k_ma           — GSM8K + MultiArith
-  exp3_gsm8k_ma_ent       — GSM8K + MultiArith + entity
+Experiments (see prepare_experiment_data.py + scripts/run_overnight_experiments.sh):
+  exp1–exp3  from-scratch data ablations
+  exp4       arithmetic curriculum → exp3 mix
+  exp5       GSM8K + MultiArith aug + entity
+  exp6       exp3 mix + subsampled PEMDAS arithmetic
 
 Each run:
   - starts from pretrained GPT-2 (no resume unless --resume)
@@ -73,6 +74,30 @@ EXPERIMENT_CONFIGS = {
         'train_path': 'data/experiments/exp3_gsm8k_multiarith_entity_train.txt',
         'checkpoint_tag': 'exp3_gsm8k_ma_ent',
         'epochs': 32,
+        'eval_every': 2,
+        'patience': 5,
+        'lr': 5e-6,
+    },
+    'exp4': {
+        'train_path': 'data/experiments/exp3_gsm8k_multiarith_entity_train.txt',
+        'checkpoint_tag': 'exp4_gsm8k_ma_ent',
+        'epochs': 32,
+        'eval_every': 2,
+        'patience': 5,
+        'lr': 5e-6,
+    },
+    'exp5': {
+        'train_path': 'data/experiments/exp5_gsm8k_ma_aug_entity_train.txt',
+        'checkpoint_tag': 'exp5_gsm8k_ma_aug_ent',
+        'epochs': 36,
+        'eval_every': 2,
+        'patience': 6,
+        'lr': 5e-6,
+    },
+    'exp6': {
+        'train_path': 'data/experiments/exp6_gsm8k_ma_ent_arith_train.txt',
+        'checkpoint_tag': 'exp6_gsm8k_ma_ent_arith',
+        'epochs': 34,
         'eval_every': 2,
         'patience': 5,
         'lr': 5e-6,
@@ -207,6 +232,11 @@ def train(args):
   model = ReasoningGPT(args).to(device)
   if args.resume:
     start_epoch, latest_epoch = resolve_training_start(model, args)
+  elif args.init_checkpoint:
+    saved = torch.load(args.init_checkpoint, weights_only=False)
+    model.load_state_dict(saved['model'])
+    start_epoch, latest_epoch = 0, -1
+    print(f'Initialized weights from {args.init_checkpoint}; starting at epoch 0')
   else:
     start_epoch, latest_epoch = 0, -1
     print('Training from pretrained GPT-2 (no checkpoint resume).')
@@ -281,6 +311,7 @@ def train(args):
   summary = {
       'checkpoint_tag': args.checkpoint_tag,
       'train_path': args.train_path,
+      'init_checkpoint': getattr(args, 'init_checkpoint', None),
       'best_epoch': best_epoch,
       'best_exact_accuracy': best_acc,
       'best_checkpoint': best_checkpoint_path(args.checkpoint_tag),
@@ -317,7 +348,7 @@ def get_args():
       '--experiment',
       choices=list(EXPERIMENT_CONFIGS.keys()),
       default=None,
-      help='Preset: exp1 (GSM8K), exp2 (+MultiArith), exp3 (+entity).',
+      help='Preset: exp1–exp6 (see EXPERIMENT_CONFIGS).',
   )
   parser.add_argument('--train_path', type=str, default=None)
   parser.add_argument('--dev_path', type=str, default=DEV_JSONL)

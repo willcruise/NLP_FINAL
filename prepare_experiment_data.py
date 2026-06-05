@@ -1,21 +1,23 @@
 #!/usr/bin/env python3
 """
-Build merged training files for the three from-scratch SFT experiments.
+Build merged training files for from-scratch SFT experiments.
 
 Experiments:
   exp1  GSM8K only
-  exp2  GSM8K + MultiArith (clean train split, no dev leakage)
-  exp3  GSM8K + MultiArith + entity stage-2 data (Entities + Reasoning)
+  exp2  GSM8K + MultiArith (clean train split)
+  exp3  GSM8K + MultiArith + entity stage-2
+  exp4  (uses exp3 file — arithmetic curriculum applied at train time)
+  exp5  GSM8K + MultiArith augmented + entity
+  exp6  exp3 mix + 3000 subsampled PEMDAS arithmetic examples
 
-Outputs (under data/experiments/):
-  exp1_gsm8k_train.txt
-  exp2_gsm8k_multiarith_train.txt
-  exp3_gsm8k_multiarith_entity_train.txt
+Outputs under data/experiments/
 
 Usage:
   python prepare_experiment_data.py
+  python prepare_experiment_data.py --experiments exp5,exp6
 """
 
+import argparse
 import os
 import random
 import re
@@ -25,9 +27,7 @@ DATA_DIR = os.path.join('data', 'experiments')
 EXPERIMENTS = {
     'exp1': {
         'out': 'exp1_gsm8k_train.txt',
-        'sources': [
-            'data/gsm8k_sft_train.txt',
-        ],
+        'sources': ['data/gsm8k_sft_train.txt'],
     },
     'exp2': {
         'out': 'exp2_gsm8k_multiarith_train.txt',
@@ -44,6 +44,24 @@ EXPERIMENTS = {
             'data/entity_stage2_train.txt',
         ],
     },
+    'exp5': {
+        'out': 'exp5_gsm8k_ma_aug_entity_train.txt',
+        'sources': [
+            'data/gsm8k_sft_train.txt',
+            'data/multiarith_sft_train_aug.txt',
+            'data/entity_stage2_train.txt',
+        ],
+    },
+    'exp6': {
+        'out': 'exp6_gsm8k_ma_ent_arith_train.txt',
+        'sources': [
+            'data/gsm8k_sft_train.txt',
+            'data/multiarith_sft_train.txt',
+            'data/entity_stage2_train.txt',
+        ],
+        'arithmetic_path': 'data/arithmetic_pretrain.txt',
+        'arithmetic_subsample': 3000,
+    },
 }
 
 
@@ -58,6 +76,13 @@ def load_blocks(path: str) -> list:
   return blocks
 
 
+def subsample_blocks(blocks: list, max_blocks: int, seed: int) -> list:
+  if len(blocks) <= max_blocks:
+    return blocks
+  rng = random.Random(seed)
+  return rng.sample(blocks, max_blocks)
+
+
 def write_blocks(blocks, out_path: str, shuffle_seed=None):
   if shuffle_seed is not None:
     rng = random.Random(shuffle_seed)
@@ -70,22 +95,54 @@ def write_blocks(blocks, out_path: str, shuffle_seed=None):
       f.write(f'{i}\n\n{block}\n\n<|endoftext|>\n\n')
 
 
+def build_experiment(name: str, cfg: dict, seed: int):
+  blocks = []
+  for src in cfg['sources']:
+    if not os.path.exists(src):
+      raise FileNotFoundError(f'Missing source for {name}: {src}')
+    part = load_blocks(src)
+    print(f'{name}: {len(part):4d} blocks from {src}')
+    blocks.extend(part)
+
+  arith_path = cfg.get('arithmetic_path')
+  if arith_path:
+    if not os.path.exists(arith_path):
+      raise FileNotFoundError(
+          f'Missing {arith_path} for {name}. Run: '
+          f'python prepare_arithmetic.py --num_examples 20000'
+      )
+    arith = load_blocks(arith_path)
+    n = cfg.get('arithmetic_subsample', 3000)
+    arith = subsample_blocks(arith, n, seed + 1)
+    print(f'{name}: {len(arith):4d} blocks subsampled from {arith_path}')
+    blocks.extend(arith)
+
+  out_path = os.path.join(DATA_DIR, cfg['out'])
+  write_blocks(blocks, out_path, shuffle_seed=seed)
+  print(f'{name}: wrote {len(blocks)} total -> {out_path}\n')
+
+
 def main():
+  parser = argparse.ArgumentParser()
+  parser.add_argument(
+      '--experiments',
+      type=str,
+      default='exp1,exp2,exp3',
+      help='Comma-separated experiment ids to build (exp4 uses exp3 file).',
+  )
+  parser.add_argument('--seed', type=int, default=11711)
+  args = parser.parse_args()
+
   os.makedirs(DATA_DIR, exist_ok=True)
-  seed = 11711
+  names = [x.strip() for x in args.experiments.split(',') if x.strip()]
 
-  for name, cfg in EXPERIMENTS.items():
-    blocks = []
-    for src in cfg['sources']:
-      if not os.path.exists(src):
-        raise FileNotFoundError(f'Missing source for {name}: {src}')
-      part = load_blocks(src)
-      print(f'{name}: {len(part):4d} blocks from {src}')
-      blocks.extend(part)
-
-    out_path = os.path.join(DATA_DIR, cfg['out'])
-    write_blocks(blocks, out_path, shuffle_seed=seed)
-    print(f'{name}: wrote {len(blocks)} total -> {out_path}\n')
+  for name in names:
+    if name == 'exp4':
+      print('exp4: uses data/experiments/exp3_gsm8k_multiarith_entity_train.txt (no merge step)\n')
+      continue
+    if name not in EXPERIMENTS:
+      raise ValueError(f'Unknown experiment {name!r}; choose from {list(EXPERIMENTS)} + exp4')
+    build_experiment(name, EXPERIMENTS[name], args.seed)
 
 
 if __name__ == '__main__':

@@ -45,3 +45,12 @@ outputs/exp2_gsm8k_ma/*
 !outputs/exp2_gsm8k_ma/*.json
 outputs/exp3_gsm8k_ma_ent/*
 !outputs/exp3_gsm8k_ma_ent/*.json
+!outputs/exp4_gsm8k_ma_ent/
+outputs/exp4_gsm8k_ma_ent/*
+!outputs/exp4_gsm8k_ma_ent/*.json
+!outputs/exp5_gsm8k_ma_aug_ent/
+outputs/exp5_gsm8k_ma_aug_ent/*
+!outputs/exp5_gsm8k_ma_aug_ent/*.json
+!outputs/exp6_gsm8k_ma_ent_arith/
+outputs/exp6_gsm8k_ma_ent_arith/*
+!outputs/exp6_gsm8k_ma_ent_arith/*.json
