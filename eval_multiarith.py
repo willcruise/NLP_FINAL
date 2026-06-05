@@ -14,6 +14,8 @@ Outputs:
     outputs/<name>_multiarith_generations.txt full generations per dev item
 """
 
+from __future__ import annotations
+
 import argparse
 import json
 import os
@@ -72,7 +74,7 @@ def main():
                 out_ids = model.generate(
                     **enc,
                     max_new_tokens=args.max_new_tokens,
-                    do_sample=True,
+                    do_sample=not args.greedy,
                     temperature=args.temperature,
                     top_p=args.top_p,
                     pad_token_id=tokenizer.eos_token_id,
@@ -87,6 +89,7 @@ def main():
                 temperature=args.temperature,
                 top_p=args.top_p,
                 max_length=args.max_new_tokens,
+                sample=not args.greedy,
             )
 
         continuation = generated[len(prompt):] if generated.startswith(prompt) else generated
@@ -123,6 +126,8 @@ def get_args():
     parser.add_argument("--temperature", type=float, default=0.7)
     parser.add_argument("--top_p", type=float, default=0.9)
     parser.add_argument("--max_new_tokens", type=int, default=256)
+    parser.add_argument("--greedy", action="store_true",
+                        help="Use greedy decoding instead of nucleus sampling.")
     parser.add_argument("--limit", type=int, default=0,
                         help="If >0, only evaluate first N dev items (smoke test).")
     return parser.parse_args()

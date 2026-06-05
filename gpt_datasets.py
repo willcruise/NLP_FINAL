@@ -164,6 +164,64 @@ class SonnetsDataset(Dataset):
   
 
 
+REASONING_DELIMITER = "Reasoning:\n"
+
+
+def get_reasoning_token_start(text, tokenizer, max_length=900):
+  """
+  Index in token_ids of the first token after the prompt prefix (through Reasoning:\\n).
+  Loss should be applied only for tokens at indices >= this value.
+  """
+  idx = text.find(REASONING_DELIMITER)
+  if idx == -1:
+    idx = text.find("Reasoning:")
+    if idx == -1:
+      return 0
+    end = idx + len("Reasoning:")
+    if end < len(text) and text[end] == "\n":
+      end += 1
+    prefix = text[:end]
+  else:
+    prefix = text[:idx + len(REASONING_DELIMITER)]
+
+  full_ids = tokenizer(
+      text,
+      truncation=True,
+      max_length=max_length,
+      add_special_tokens=True,
+  )["input_ids"]
+  prefix_ids = tokenizer(
+      prefix,
+      truncation=True,
+      max_length=max_length,
+      add_special_tokens=True,
+  )["input_ids"]
+
+  if len(prefix_ids) <= len(full_ids) and full_ids[:len(prefix_ids)] == prefix_ids:
+    return len(prefix_ids)
+
+  # Fallback: longest shared prefix between encodings (BPE boundary mismatch).
+  shared = 0
+  for i, tok in enumerate(prefix_ids):
+    if i < len(full_ids) and full_ids[i] == tok:
+      shared = i + 1
+    else:
+      break
+  return shared
+
+
+def mask_labels_to_reasoning_only(labels, attention_mask, reasoning_starts):
+  """Set label positions to -100 for question/prompt tokens (before reasoning)."""
+  for i in range(labels.size(0)):
+    start = int(reasoning_starts[i].item())
+    seq_len = int(attention_mask[i].sum().item())
+    start = min(start, seq_len)
+    if start > 1:
+      labels[i, :start - 1] = -100
+  labels[attention_mask[:, 1:] == 0] = -100
+  return labels
+
+
 class ReasoningDataset(Dataset):
 
   # Boundary between the prompt (Question) and the completion (Reasoning) the
@@ -243,17 +301,24 @@ class ReasoningDataset(Dataset):
     idx = [example[0] for example in all_data]
     texts = [example[1] for example in all_data]
 
+    max_length = 900
     encoding = self.tokenizer(
         texts,
         return_tensors='pt',
         padding=True,
         truncation=True,
-        max_length=self.max_length
+        max_length=max_length
     )
+
+    reasoning_starts = torch.LongTensor([
+        get_reasoning_token_start(text, self.tokenizer, max_length=max_length)
+        for text in texts
+    ])
 
     batched_data = {
         'token_ids': torch.LongTensor(encoding['input_ids']),
         'attention_mask': torch.LongTensor(encoding['attention_mask']),
+        'reasoning_starts': reasoning_starts,
         'sent_ids': idx
     }
 

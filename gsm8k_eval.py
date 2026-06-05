@@ -130,7 +130,7 @@ def evaluate(records):
         if gold is None and "gold_reasoning" in r:
             gold = extract_gold_answer(r["gold_reasoning"])
 
-        pred, source = extract_pred_answer(gen)
+        pred, _ = extract_pred_answer(gen)
         if pred is None:
             no_answer += 1
         if is_format_valid(gen):

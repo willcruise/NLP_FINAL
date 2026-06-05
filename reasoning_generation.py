@@ -23,10 +23,21 @@ from einops import rearrange
 
 from gpt_datasets import (
   ReasoningDataset,
+  mask_labels_to_reasoning_only,
 )
 from models.gpt2 import GPT2Model
 
 from optimizer import AdamW
+from checkpoint_utils import (
+  add_checkpoint_args,
+  checkpoint_path,
+  cleanup_incomplete_checkpoints,
+  find_latest_checkpoint_any,
+  prune_old_checkpoints,
+  resolve_training_start,
+  save_model,
+  set_checkpoint_filepath,
+)
 
 TQDM_DISABLE = False
 
@@ -81,7 +92,8 @@ class ReasoningGPT(nn.Module):
       return param.device
 
   @torch.no_grad()
-  def generate(self, encoding, temperature=0.7, top_p=0.9, max_length=128):
+  def generate(self, encoding, temperature=0.7, top_p=0.9, max_length=128, sample=True):
+    """Generate continuation. Uses nucleus sampling when sample=True and temperature > 0."""
 
     token_ids = encoding.to(self.get_device())
     attention_mask = torch.ones(
@@ -121,11 +133,14 @@ class ReasoningGPT(nn.Module):
       top_p_mask[..., 1:] = top_p_mask[..., :-1].clone()  # Shift mask right for proper thresholding
       top_p_mask[..., 0] = True  # Always include the highest probability token
       filtered_probs = sorted_probs * top_p_mask  # Zero out unlikely tokens
-      filtered_probs /= filtered_probs.sum(dim=-1, keepdim=True)  # Normalize probabilities
+      filtered_probs = filtered_probs / filtered_probs.sum(dim=-1, keepdim=True)
 
-      # Sample from filtered distribution
-      sampled_index = torch.multinomial(filtered_probs, 1)
-      sampled_token = sorted_indices.gather(dim=-1, index=sampled_index)
+      use_greedy = (not sample) or temperature <= 0
+      if use_greedy:
+        sampled_token = torch.argmax(logits_last_token, dim=-1, keepdim=True)
+      else:
+        sampled_index = torch.multinomial(filtered_probs, num_samples=1)
+        sampled_token = sorted_indices.gather(dim=-1, index=sampled_index)
 
       # Stop if end-of-sequence token is reached
       if sampled_token.item() == self.tokenizer.eos_token_id:
@@ -149,20 +164,6 @@ class ReasoningGPT(nn.Module):
     return token_ids, generated_output
 
 
-def save_model(model, optimizer, args, filepath):
-  save_info = {
-    'model': model.state_dict(),
-    'optim': optimizer.state_dict(),
-    'args': args,
-    'system_rng': random.getstate(),
-    'numpy_rng': np.random.get_state(),
-    'torch_rng': torch.random.get_rng_state(),
-  }
-
-  torch.save(save_info, filepath)
-  print(f"save the model to {filepath}")
-
-
 def train(args):
   """Train GPT-2 for reasoning generation on GSM8K."""
   device = torch.device('cuda') if args.use_gpu else torch.device('cpu')
@@ -176,83 +177,98 @@ def train(args):
   held_out_reasoning_dataset = ReasoningDataset(args.held_out_reasoning_path)
   print("Held-out examples:", len(held_out_reasoning_dataset))
 
+  cleanup_incomplete_checkpoints(args)
+
   model = ReasoningGPT(args)
   model = model.to(device)
+  start_epoch, latest_epoch = resolve_training_start(
+      model, args, init_checkpoint=getattr(args, 'init_checkpoint', None)
+  )
 
   lr = args.lr
   optimizer = AdamW(model.parameters(), lr=lr)
 
-  # Run for the specified number of epochs.
-  for epoch in range(args.epochs):
-    model.train()
-    train_loss = 0
-    num_batches = 0
+  if start_epoch >= args.epochs:
+    print(f"Training already complete through epoch {latest_epoch}; skipping training.")
+  else:
+    for epoch in range(start_epoch, args.epochs):
+      model.train()
+      train_loss = 0
+      num_batches = 0
 
-    for batch in tqdm(reasoning_dataloader, desc=f'train-{epoch}', disable=TQDM_DISABLE):
-      # Get the input and move it to the gpu (I do not recommend training this model on CPU).
-      b_ids, b_mask = batch['token_ids'], batch['attention_mask']
-      b_ids = b_ids.to(device)
-      b_mask = b_mask.to(device)
+      for batch in tqdm(reasoning_dataloader, desc=f'train-{epoch}', disable=TQDM_DISABLE):
+        # Get the input and move it to the gpu (I do not recommend training this model on CPU).
+        b_ids, b_mask = batch['token_ids'], batch['attention_mask']
+        b_ids = b_ids.to(device)
+        b_mask = b_mask.to(device)
 
-      # Compute the loss, gradients, and update the model's parameters.
-      optimizer.zero_grad()
-      logits = model(b_ids, b_mask)
-      logits = rearrange(logits[:, :-1].contiguous(), 'b t d -> (b t) d')  # Ignore the last prediction in the sequence.
-      labels = b_ids[:, 1:].clone()
-      labels[b_mask[:, 1:] == 0] = -100  # Set padding token labels to -100 so they are ignored in the loss.
+        # Compute the loss, gradients, and update the model's parameters.
+        optimizer.zero_grad()
+        logits = model(b_ids, b_mask)
+        logits = rearrange(logits[:, :-1].contiguous(), 'b t d -> (b t) d')  # Ignore the last prediction in the sequence.
+        labels = b_ids[:, 1:].clone()
+        if args.mask_prompt:
+          labels = mask_labels_to_reasoning_only(
+              labels, b_mask, batch['reasoning_starts']
+          )
+        else:
+          labels[b_mask[:, 1:] == 0] = -100  # Set padding token labels to -100 so they are ignored in the loss.
 
-      # Prompt-loss masking: train only on the reasoning completion, not the
-      # question tokens. labels are shifted by 1, so the boundary is p_len - 1.
-      if args.mask_prompt and 'prompt_lens' in batch:
-        for i, p_len in enumerate(batch['prompt_lens']):
-          if p_len > 1:
-            labels[i, :p_len - 1] = -100
+        loss = F.cross_entropy(
+          logits,
+          labels.flatten(),
+          ignore_index=-100,
+          reduction='mean'
+        )
+        loss.backward()
+        optimizer.step()
 
-      loss = F.cross_entropy(
-        logits,
-        labels.flatten(),
-        ignore_index=-100,
-        reduction='mean'
-      )
-      loss.backward()
-      optimizer.step()
+        train_loss += loss.item()
+        num_batches += 1
 
-      train_loss += loss.item()
-      num_batches += 1
+      train_loss = train_loss / num_batches
+      print(f"Epoch {epoch}: train loss :: {train_loss :.3f}.")
+      print('Generating several output reasoning sequences...')
+      model.eval()
+      for batch in list(held_out_reasoning_dataset)[:1]:
+        ids = model.tokenizer(batch[1])["input_ids"]
+        print("Original token length:", len(ids))
+        encoding = model.tokenizer(
+          batch[1],
+          return_tensors='pt',
+          padding=True,
+          truncation=True,
+          max_length=900
+        ).to(device)
 
-    train_loss = train_loss / num_batches
-    print(f"Epoch {epoch}: train loss :: {train_loss :.3f}.")
-    print('Generating several output reasoning sequences...')
-    model.eval()
-    batch = held_out_reasoning_dataset[0]
-    ids = model.tokenizer(batch[1])["input_ids"]
-    print("Original token length:", len(ids))
-    encoding = model.tokenizer(
-      batch[1],
-      return_tensors='pt',
-      padding=True,
-      truncation=True,
-      max_length=512
-    ).to(device)
+        output = model.generate(
+          encoding['input_ids'],
+          temperature=args.temperature,
+          top_p=args.top_p,
+          max_length=args.max_gen_length,
+          sample=not args.greedy,
+        )
 
-    output = model.generate(
-      encoding['input_ids'],
-      temperature=args.temperature,
-      top_p=args.top_p
-    )
+        print(output[1])
 
-    print(output[1])
+        print("\n\n")
 
-    print("\n\n")
-
-    # TODO: consider early stopping to prevent overfitting.
-    save_model(model, optimizer, args, f'{epoch}_{args.filepath}')
+      # TODO: consider early stopping to prevent overfitting.
+      prune_old_checkpoints(epoch, args)
+      save_model(model, optimizer, args, checkpoint_path(epoch, args))
 
 
 @torch.no_grad()
 def generate_submission_reasonings(args):
   device = torch.device('cuda') if args.use_gpu else torch.device('cpu')
-  saved = torch.load(f'{args.epochs-1}_{args.filepath}', weights_only=False)
+  latest_path, latest_epoch = find_latest_checkpoint_any(args)
+  if latest_path is None:
+    raise FileNotFoundError(
+        f"No checkpoint found for tag '{args.checkpoint_tag}' (*_{args.filepath})"
+    )
+
+  saved = torch.load(latest_path, weights_only=False)
+  print(f"Loaded model for generation from {latest_path} (epoch {latest_epoch})")
 
   model = ReasoningGPT(saved['args'])
   model.load_state_dict(saved['model'])
@@ -271,7 +287,9 @@ def generate_submission_reasonings(args):
     token_ids, generated_text = model.generate(
         encoding['input_ids'],
         temperature=args.temperature,
-        top_p=args.top_p
+        top_p=args.top_p,
+        max_length=args.max_gen_length,
+        sample=not args.greedy,
     )
 
     print(
@@ -317,14 +335,18 @@ def get_args():
                       help="Train only on the reasoning completion (mask question tokens).")
 
   # Generation parameters.
-  parser.add_argument("--temperature", type=float, help="softmax temperature.", default=0.7)
-  parser.add_argument("--top_p", type=float, help="Cumulative probability distribution for nucleus sampling.",
-                      default=0.9)
+  parser.add_argument("--temperature", type=float, help="Softmax temperature for nucleus sampling.", default=0.7)
+  parser.add_argument("--top_p", type=float, help="Nucleus sampling probability mass.", default=0.9)
+  parser.add_argument("--max_gen_length", type=int, default=256,
+                      help="Max new tokens to generate per example.")
+  parser.add_argument("--greedy", action='store_true',
+                      help="Use greedy argmax decoding instead of nucleus sampling.")
 
   parser.add_argument("--batch_size", help='The training batch size.', type=int, default=8)
   parser.add_argument("--lr", type=float, help="learning rate", default=1e-5)
   parser.add_argument("--model_size", type=str, help="The model size as specified on hugging face.",
-                      choices=['gpt2', 'gpt2-medium', 'gpt2-large'], default='gpt2')
+                      choices=['gpt2', 'gpt2-medium', 'gpt2-large', 'gpt2-xl'], default='gpt2')
+  add_checkpoint_args(parser)
 
   args = parser.parse_args()
   return args
@@ -344,6 +366,10 @@ def add_arguments(args):
     args.d = 1280
     args.l = 36
     args.num_heads = 20
+  elif args.model_size == 'gpt2-xl':
+    args.d = 1600
+    args.l = 48
+    args.num_heads = 25
   else:
     raise Exception(f'{args.model_size} is not supported.')
   return args
@@ -352,7 +378,7 @@ def add_arguments(args):
 if __name__ == "__main__":
   args = get_args()
   args = add_arguments(args)
-  args.filepath = f'{args.epochs}-{args.lr}-reasoning.pt'  # Save path.
+  set_checkpoint_filepath(args)
   seed_everything(args.seed)  # Fix the seed for reproducibility.
   train(args)
   generate_submission_reasonings(args)
