@@ -1,26 +1,60 @@
 #!/usr/bin/env python3
 """
-Synthetic entity-binding word problems for staged CoT training.
+Entity-binding word-problem generation for staged CoT training.
+
+By default this script uses a strong LLM (OpenAI-compatible chat completions API)
+to generate high-quality, diverse examples with explicit Entities bindings.
 
 Outputs:
-  data/entity_stage1_train.txt  — Question + Entities (stage 1: bind numbers to entities)
+  data/entity_stage1_train.txt  — Question + Entities (stage 1)
   data/entity_stage2_train.txt  — Question + Entities + Reasoning + #### (stage 2)
   data/gsm8k_small_held_out_entities.txt — held-out prompts with Entities:\\n (optional)
 
-Usage:
-  python prepare_entity_data.py
-  python prepare_entity_data.py --num_examples 5000 --held_out_path data/gsm8k_small_held_out.txt
+Examples:
+  # LLM mode (default)
+  OPENAI_API_KEY=... python prepare_entity_data.py --num_examples 500
+
+  # Explicit model/base URL
+  OPENAI_API_KEY=... python prepare_entity_data.py \
+    --model gpt-4.1 \
+    --base_url https://api.openai.com/v1
+
+  # Synthetic fallback mode
+  python prepare_entity_data.py --generator synthetic --num_examples 3000
 """
 
 import argparse
+import json
 import random
 import re
+from typing import List, Tuple
+
+import requests
 
 
 NAMES = [
     'Alice', 'Bob', 'Lisa', 'Sandra', 'John', 'Mary', 'Katie', 'James',
     'Emma', 'Noah', 'Mia', 'Liam', 'Zoe', 'Leo', 'Nina', 'Omar',
 ]
+
+LLM_SYSTEM_PROMPT = """You generate high-quality grade-school arithmetic word problems.
+Return ONLY valid JSON with this schema:
+{
+  "question": string,
+  "entities": [string, ...],
+  "reasoning": string,
+  "answer": integer
+}
+
+Rules:
+- Problem must require 2-4 arithmetic steps.
+- Use realistic narrative with entity tracking (people/objects/rates/percent/part-whole).
+- "entities" must bind all key quantities and relationships in concise symbolic style.
+- "reasoning" must be correct and include GSM8K-style calculator tags like <<a+b=c>>c.
+- Do NOT include "####" in reasoning.
+- answer must be an integer matching reasoning.
+- No markdown, no extra text, JSON only.
+"""
 
 
 def block_stage1(example_id, question, entities_lines):
@@ -42,6 +76,113 @@ def block_stage2(example_id, question, entities_lines, reasoning, answer):
       f"Reasoning:\n{reasoning}\n#### {answer}\n\n"
       f"<|endoftext|>\n\n"
   )
+
+
+def _extract_json_object(text: str) -> dict:
+  text = text.strip()
+  if text.startswith("```"):
+    text = text.strip("`")
+    text = text.replace("json\n", "", 1).strip()
+  try:
+    return json.loads(text)
+  except json.JSONDecodeError:
+    m = re.search(r"\{.*\}", text, flags=re.DOTALL)
+    if not m:
+      raise
+    return json.loads(m.group(0))
+
+
+def _validate_example(obj: dict) -> Tuple[str, List[str], str, int]:
+  question = str(obj.get("question", "")).strip()
+  entities = obj.get("entities", [])
+  reasoning = str(obj.get("reasoning", "")).strip()
+  answer = obj.get("answer", None)
+
+  if not question:
+    raise ValueError("Missing question")
+  if not isinstance(entities, list) or not entities:
+    raise ValueError("entities must be non-empty list")
+  entities = [str(x).strip() for x in entities if str(x).strip()]
+  if not entities:
+    raise ValueError("entities list empty after cleanup")
+  if not reasoning:
+    raise ValueError("Missing reasoning")
+  if "####" in reasoning:
+    reasoning = reasoning.split("####", 1)[0].strip()
+
+  try:
+    answer_int = int(answer)
+  except Exception as exc:
+    raise ValueError(f"answer must be integer, got: {answer}") from exc
+
+  return question, entities, reasoning, answer_int
+
+
+def _llm_chat_completion(
+    *,
+    api_key: str,
+    base_url: str,
+    model: str,
+    seed: int,
+    temperature: float,
+    max_tokens: int,
+    timeout_s: int,
+    user_prompt: str,
+) -> str:
+  url = base_url.rstrip("/") + "/chat/completions"
+  headers = {
+      "Authorization": f"Bearer {api_key}",
+      "Content-Type": "application/json",
+  }
+  payload = {
+      "model": model,
+      "temperature": temperature,
+      "max_tokens": max_tokens,
+      "seed": seed,
+      "response_format": {"type": "json_object"},
+      "messages": [
+          {"role": "system", "content": LLM_SYSTEM_PROMPT},
+          {"role": "user", "content": user_prompt},
+      ],
+  }
+  resp = requests.post(url, headers=headers, json=payload, timeout=timeout_s)
+  resp.raise_for_status()
+  data = resp.json()
+  return data["choices"][0]["message"]["content"]
+
+
+def _make_llm_prompt(template_hint: str) -> str:
+  return (
+      "Generate one problem with this style hint: "
+      f"{template_hint}. "
+      "Keep quantities small/moderate and answer integer."
+  )
+
+
+def gen_with_llm(i: int, args) -> Tuple[str, List[str], str, int]:
+  hints = [
+      "twice as many / multiplicative comparison",
+      "three entities with offset relation",
+      "percent comparison from total population",
+      "part-whole body/length decomposition",
+      "collection accumulation chain with relatives",
+      "time-rate-percent composition",
+      "discount then tax sequence",
+      "work-rate aggregation across days",
+  ]
+  prompt = _make_llm_prompt(hints[i % len(hints)])
+  content = _llm_chat_completion(
+      api_key=args.api_key,
+      base_url=args.base_url,
+      model=args.model,
+      seed=args.seed + i,
+      temperature=args.llm_temperature,
+      max_tokens=args.llm_max_tokens,
+      timeout_s=args.timeout_s,
+      user_prompt=prompt,
+  )
+  parsed = _extract_json_object(content)
+  return _validate_example(parsed)
 
 
 def gen_twice_as_many(rng):
@@ -210,14 +351,35 @@ GENERATORS = [
 ]
 
 
-def write_training_data(num_examples, seed, stage1_path, stage2_path):
+def write_training_data(num_examples, seed, stage1_path, stage2_path, args):
   rng = random.Random(seed)
   s1_parts, s2_parts = [], []
+  failures = 0
   for i in range(num_examples):
-    gen = rng.choice(GENERATORS)
-    q, entities, reasoning, answer = gen(rng)
+    if args.generator == 'llm':
+      ok = False
+      last_err = None
+      for _ in range(max(1, args.max_retries)):
+        try:
+          q, entities, reasoning, answer = gen_with_llm(i, args)
+          ok = True
+          break
+        except Exception as exc:
+          last_err = exc
+      if not ok:
+        failures += 1
+        print(f"[warn] LLM generation failed at example {i}: {last_err}. Falling back to synthetic.")
+        gen = rng.choice(GENERATORS)
+        q, entities, reasoning, answer = gen(rng)
+    else:
+      gen = rng.choice(GENERATORS)
+      q, entities, reasoning, answer = gen(rng)
+
     s1_parts.append(block_stage1(i, q, entities))
     s2_parts.append(block_stage2(i, q, entities, reasoning, answer))
+
+    if (i + 1) % 50 == 0 or i == num_examples - 1:
+      print(f"Generated {i + 1}/{num_examples}")
 
   with open(stage1_path, 'w', encoding='utf-8') as f:
     f.writelines(s1_parts)
@@ -225,6 +387,8 @@ def write_training_data(num_examples, seed, stage1_path, stage2_path):
     f.writelines(s2_parts)
   print(f"Wrote {num_examples} examples -> {stage1_path}")
   print(f"Wrote {num_examples} examples -> {stage2_path}")
+  if failures:
+    print(f"LLM failures with synthetic fallback: {failures}")
 
 
 def write_entity_held_out(src_path, dst_path):
@@ -256,15 +420,35 @@ def write_entity_held_out(src_path, dst_path):
 
 def main():
   parser = argparse.ArgumentParser()
-  parser.add_argument('--num_examples', type=int, default=3000)
+  parser.add_argument('--num_examples', type=int, default=500)
   parser.add_argument('--seed', type=int, default=11711)
   parser.add_argument('--stage1_path', type=str, default='data/entity_stage1_train.txt')
   parser.add_argument('--stage2_path', type=str, default='data/entity_stage2_train.txt')
   parser.add_argument('--held_out_src', type=str, default='data/gsm8k_small_held_out.txt')
   parser.add_argument('--held_out_path', type=str, default='data/gsm8k_small_held_out_entities.txt')
+  parser.add_argument('--generator', choices=['llm', 'synthetic'], default='llm')
+  parser.add_argument('--model', type=str, default='gpt-4.1')
+  parser.add_argument('--base_url', type=str, default='https://api.openai.com/v1')
+  parser.add_argument('--api_key', type=str, default=None)
+  parser.add_argument('--llm_temperature', type=float, default=0.7)
+  parser.add_argument('--llm_max_tokens', type=int, default=700)
+  parser.add_argument('--timeout_s', type=int, default=60)
+  parser.add_argument('--max_retries', type=int, default=3)
   args = parser.parse_args()
 
-  write_training_data(args.num_examples, args.seed, args.stage1_path, args.stage2_path)
+  if args.generator == 'llm' and not args.api_key:
+    args.api_key = None
+    for env_name in ('OPENAI_API_KEY',):
+      value = __import__('os').environ.get(env_name)
+      if value:
+        args.api_key = value
+        break
+    if not args.api_key:
+      raise ValueError(
+          "LLM mode requires API key. Set --api_key or OPENAI_API_KEY."
+      )
+
+  write_training_data(args.num_examples, args.seed, args.stage1_path, args.stage2_path, args)
   write_entity_held_out(args.held_out_src, args.held_out_path)
 
 
