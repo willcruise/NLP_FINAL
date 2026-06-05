@@ -166,9 +166,14 @@ class SonnetsDataset(Dataset):
 
 class ReasoningDataset(Dataset):
 
-  def __init__(self, file_path):
+  # Boundary between the prompt (Question) and the completion (Reasoning) the
+  # model is trained to produce. Used for prompt-loss masking.
+  PROMPT_DELIMITER = "Reasoning:\n"
 
-    self.max_length = 256  # or 512 depending on memory
+  def __init__(self, file_path, mask_prompt=False):
+
+    self.max_length = 512
+    self.mask_prompt = mask_prompt
     self.tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
     self.tokenizer.pad_token = self.tokenizer.eos_token
 
@@ -243,11 +248,24 @@ class ReasoningDataset(Dataset):
         return_tensors='pt',
         padding=True,
         truncation=True,
-        max_length=900
+        max_length=self.max_length
     )
 
-    return {
+    batched_data = {
         'token_ids': torch.LongTensor(encoding['input_ids']),
         'attention_mask': torch.LongTensor(encoding['attention_mask']),
         'sent_ids': idx
     }
+
+    if self.mask_prompt:
+      prompt_lens = []
+      for text in texts:
+        # Prompt = everything up to and including "Reasoning:\n".
+        prompt_part = text
+        if self.PROMPT_DELIMITER in text:
+          prompt_part = text.split(self.PROMPT_DELIMITER)[0] + self.PROMPT_DELIMITER
+        prompt_enc = self.tokenizer(prompt_part)
+        prompt_lens.append(len(prompt_enc["input_ids"]))
+      batched_data['prompt_lens'] = prompt_lens
+
+    return batched_data

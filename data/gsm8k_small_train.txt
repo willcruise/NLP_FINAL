@@ -29910,7 +29910,7 @@ Now subtract the 13 ounces James drank from the initial amount of milk: 384 oz -
 
 2381
 
-Question: Clive opens a box full of different colored balls.   The box contains 6 blue balls, 4 red balls, 3 times as many green balls as blue ones and twice as many yellow ones as red ones.   How many balls are in the box Clive opens?
+Question: Clive opens a box full of different colored balls.  The box contains 6 blue balls, 4 red balls, 3 times as many green balls as blue ones and twice as many yellow ones as red ones.  How many balls are in the box Clive opens?
 
 Reasoning:
 There are 3 times as many green balls as blue balls so green balls = blue balls * 3. Green balls = 6 blue balls * 3 = <<6*3=18>>18 green balls

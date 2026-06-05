@@ -1,41 +1,61 @@
-299
+2
 
-Question: While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total?
-
-Reasoning:
-266
-
-Question: While shopping for music online, Zoe bought 3 country albums and 5 pop albums. Each album came with a lyric sheet and had 3 songs. How many songs did Zoe buy total?
+Question: Luke was trying to expand his game collection. He bought 2 games from a friend and bought 2 more at a garage sale. If 2 of the games didn't work, how many good games did he end up with?
 
 Reasoning:
-468
+9
 
-Question: A chef needs to cook 15 potatoes. He has already cooked 8. If each potato takes 9 minutes to cook, how long will it take him to cook the rest?
-
-Reasoning:
-548
-
-Question: Sarah had 60 homework problems. She finished 20 of them but still had 5 pages of problems to do. If each page has the same number of problems on it, how many problems are on each page?
+Question: Ned had to wash 9 short sleeve shirts and 21 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash?
 
 Reasoning:
-148
+11
 
-Question: At the arcade Victor won 46 tickets. If he spent 27 tickets on a beanie and later won 39 more tickets, how many would he have?
-
-Reasoning:
-177
-
-Question: A florist had 11 roses. If she sold 2 of them and then later picked 32 more, how many roses would she have?
+Question: For the school bake sale Wendy made pastries. She baked 4 cupcakes and 29 cookies. After the sale she had 24 to take back home. How many pastries did she sell?
 
 Reasoning:
-140
+14
 
-Question: A florist had 6 roses. If she sold 5 of them and then later picked 12 more, how many roses would she have?
+Question: Faye had 46 math problems and 9 science problems for homework. If she finished 40 of the problems at school, how many problems did she have to do for homework?
 
 Reasoning:
-329
+38
 
-Question: Dave was helping the cafeteria workers pick up lunch trays, but he could only carry 9 trays at a time. If he had to pick up 17 trays from one table and 55 trays from another, how many trips will he make?
+Question: Dave had to wash 29 short sleeve shirts and 11 long sleeve shirts before school. If he had only washed 35 of them by the time school started, how many did he not wash?
+
+Reasoning:
+43
+
+Question: Emily was playing a trivia game. In the first round she scored 16 points and in the second round she scored 33 points. In the last round she lost 48 points. How many points did she have at the end of the game?
+
+Reasoning:
+44
+
+Question: Paige had 43 math problems and 12 science problems for homework. If she finished 44 of the problems at school, how many problems did she have to do for homework?
+
+Reasoning:
+45
+
+Question: The school cafeteria ordered 33 red apples and 23 green apples for students lunches. But, if only 21 students wanted fruit, how many extra did the cafeteria end up with?
+
+Reasoning:
+47
+
+Question: While on vacation, Rachel took 6 pictures at the zoo and 9 at the museum. If she later deleted 11 of the pictures, how many pictures from her vacation did she still have?
+
+Reasoning:
+52
+
+Question: Oliver had 35 dollars. For his birthday he got 50 more dollars but spent 84 on a new game. How much money does he have now?
+
+Reasoning:
+70
+
+Question: At the schools book fair Victor bought 32 adventure books and 37 mystery books. If 16 of the books were used, how many new books did he buy?
+
+Reasoning:
+73
+
+Question: While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with?
 
 Reasoning:
 75
@@ -43,194 +63,9 @@ Reasoning:
 Question: Nancy and her mom were picking carrots from their garden. Nancy picked 38 and her mother picked 47. If only 71 of the carrots were good, how many bad carrots did they have?
 
 Reasoning:
-288
+78
 
-Question: While shopping for music online, Faye bought 2 country albums and 3 pop albums. Each album came with a lyric sheet and had 6 songs. How many songs did Faye buy total?
-
-Reasoning:
-426
-
-Question: In a video game, each enemy defeated gives you 5 points. If a level has 8 enemies total and you destroy all but 6 of them, how many points would you earn?
-
-Reasoning:
-447
-
-Question: Kaleb had 10 video games but 8 of them weren't working. If he wanted to sell the working games for $6 each, how much money could he earn?
-
-Reasoning:
-253
-
-Question: A pet store has 8 bird cages. If each cage has 2 parrots and 7 parakeets in it, how many birds does the pet store have total?
-
-Reasoning:
-563
-
-Question: Haley uploaded 65 pictures to Facebook. She put 17 pics into one album and put the rest into 6 different albums. How many pictures were in each album?
-
-Reasoning:
-451
-
-Question: Bianca earned 5 points for each bag of cans she recycled. If she had 17 bags, but didn't recycle 8 of them, how many points would she have earned?
-
-Reasoning:
-116
-
-Question: For the school bake sale Katie made 26 cupcakes. If she sold 20 of them and then made 20 more, how many cupcakes would she have?
-
-Reasoning:
-193
-
-Question: In fourth grade there were 4 students at the start of the year. During the year 3 students left and 42 new students came to school. How many students were in fourth grade at the end?
-
-Reasoning:
-118
-
-Question: Tiffany was playing a video game and had 43 lives. In a hard part of the game she lost 14 lives. If she got 27 more lives in the next level, how many lives would she have?
-
-Reasoning:
-474
-
-Question: A worksheet had 3 problems on it. If a teacher had 15 worksheets to grade and had already graded 7 of them, how many more problems does she have to grade?
-
-Reasoning:
-218
-
-Question: Victor and his friend were buying trick decks from the magic shop for 8 dollars each. How much did they spend if Victor bought 6 decks and his friend bought 2 decks?
-
-Reasoning:
-380
-
-Question: Nancy's old washing machine could only wash 9 pieces of clothing at a time. If she had to wash 19 shirts and 8 sweaters how many loads would she have to do?
-
-Reasoning:
-561
-
-Question: For Halloween Bianca received 78 pieces of candy. She ate 30 pieces then placed the rest into piles with 8 in each pile. How many piles could she make?
-
-Reasoning:
-359
-
-Question: Frank had saved up 3 dollars. If he received another 37 dollars for his allowance, how many 8 dollar toys could he buy?
-
-Reasoning:
-517
-
-Question: Isabel picked 66 flowers for her friend’s wedding. She was making bouquets with 8 flowers in each one. If 10 of the flowers wilted before the wedding, how many bouquets could she still make?
-
-Reasoning:
-227
-
-Question: George was working as a sacker at a grocery store where he made 5 dollars an hour. On Monday he worked 7 hours and on Tuesday he worked 2 hours. How much money did George make in those two days?
-
-Reasoning:
-477
-
-Question: Tom bought 14 boxes of chocolate candy and gave 8 to his little brother. If each box has 3 pieces inside it, how many pieces did Tom still have?
-
-Reasoning:
-278
-
-Question: Chloe was playing a video game where she scores 9 points for each treasure she finds. If she found 6 treasures on the first level and 3 on the second, what would her score be?
-
-Reasoning:
-551
-
-Question: Oliver made 35 dollars mowing lawns over the summer. If he spent 7 dollars buying new mower blades, how many 4 dollar games could he buy with the money he had left?
-
-Reasoning:
-294
-
-Question: Kaleb was collecting cans for recycling. On Saturday he filled 4 bags up and on Sunday he filled 6 more bags. If each bag had 4 cans in it, how many cans did he pick up total?
-
-Reasoning:
-282
-
-Question: A waiter had 5 tables he was waiting on, with 5 women and 3 men at each table. How many customers total did the waiter have?
-
-Reasoning:
-586
-
-Question: A pet store had 56 puppies. In one day they sold 24 of them and put the rest into cages with 4 in each cage. How many cages did they use?
-
-Reasoning:
-455
-
-Question: There were 10 friends playing a video game online when 7 players quit. If each player left had 8 lives, how many lives did they have total?
-
-Reasoning:
-131
-
-Question: Zoe had 15 songs on her mp3 player. If she deleted 8 old songs from it and then added 50 new songs, how many songs does she have on her mp3 player?
-
-Reasoning:
-484
-
-Question: At the fair Kaleb bought 6 tickets. After riding the ferris wheel he had 3 tickets left. If each ticket cost 9 dollars, how much money did Kaleb spend riding the ferris wheel?
-
-Reasoning:
-268
-
-Question: Isabel was selling her necklaces at a garage sale. She sold 3 bead necklaces and 3 gem stone necklaces. If each necklace cost 6 dollars, how much money did she earn?
-
-Reasoning:
-179
-
-Question: Haley was playing a video game and had 14 lives. In a hard part of the game she lost 4 lives. If she got 36 more lives in the next level, how many lives would she have?
-
-Reasoning:
-313
-
-Question: A pet shelter had 9 puppies when another 12 were brought in. If 3 puppies a day are adopted, how long would it take for all of them to be adopted?
-
-Reasoning:
-188
-
-Question: A waiter had 33 customers to wait on. If 31 customers left and he got another 26 customers, how many customers would he have?
-
-Reasoning:
-309
-
-Question: Will was organizing his baseball cards in a binder with 3 on each page. If he had 8 new cards and 10 old cards to put in the binder, how many pages would he use?
-
-Reasoning:
-395
-
-Question: Paul had saved up 4 dollars. If he received another 11 dollars for his allowance, how many 5 dollar toys could he buy?
-
-Reasoning:
-12
-
-Question: While on vacation, Debby took 24 pictures at the zoo and 12 at the museum. If she later deleted 14 of the pictures, how many pictures from her vacation did she still have?
-
-Reasoning:
-505
-
-Question: Megan had 93 files on her computer. She deleted 21 of them and put the rest into folders with 8 files in each one. How many folders did Megan end up with?
-
-Reasoning:
-186
-
-Question: Zoe had 6 songs on her mp3 player. If she deleted 3 old songs from it and then added 20 new songs, how many songs does she have on her mp3 player?
-
-Reasoning:
-86
-
-Question: There were 9 girls and 14 boys trying out for the schools basketball team. If only 2 of them got called back, how many students didn't make the cut?
-
-Reasoning:
-539
-
-Question: Nancy was planting vegetables in her garden. She started with 52 seeds and planted 28 of them in the big garden and in each of her small gardens put 4 seeds each. How many small gardens did Nancy have?
-
-Reasoning:
-21
-
-Question: Zoe bought two coloring books. One had 44 pictures and the other had 44. After one week she had already colored 20 of the pictures. How many pictures does she still have to color?
-
-Reasoning:
-83
-
-Question: Gwen had 18 math problems and 11 science problems for homework. If she finished 24 of the problems at school, how many problems did she have to do for homework?
+Question: Vanessa had 16 music files and 48 video files on her flash drive. If she deleted 30 of the files, how many files were still on her flash drive?
 
 Reasoning:
 88
@@ -238,54 +73,14 @@ Reasoning:
 Question: While shopping, Maria bought 40 green towels and 44 white towels. If she gave her mother 65 of them, how many towels did Maria end up with?
 
 Reasoning:
-443
+101
 
-Question: A painter needed to paint 12 rooms in a building. Each room takes 3 hours to paint. If he already painted 4 rooms, how much longer will he take to paint the rest?
-
-Reasoning:
-346
-
-Question: Haley and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Haley recycled 11 pounds and her friends recycled 16 pounds, how many points did they earn?
+Question: For Halloween Faye scored 47 pieces of candy. She ate 25 pieces the first night and then her sister gave her 40 more pieces. How many pieces of candy does Faye have now?
 
 Reasoning:
-18
+102
 
-Question: At the arcade, Tom won 32 tickets playing 'whack a mole' and 25 tickets playing 'skee ball'. If he spent 7 of his tickets on a hat, how many tickets does Tom have left?
-
-Reasoning:
-106
-
-Question: A teacher had 6 worksheets to grade. If she graded 4, but then another 18 were turned in, how many worksheets would she have to grade?
-
-Reasoning:
-155
-
-Question: At the arcade Dave won 25 tickets. If he spent 22 tickets on a beanie and later won 15 more tickets, how many would he have?
-
-Reasoning:
-172
-
-Question: Katie had 11 songs on her mp3 player. If she deleted 7 old songs from it and then added 24 new songs, how many songs does she have on her mp3 player?
-
-Reasoning:
-476
-
-Question: April's discount flowers was having a sale where each rose was 9 dollars. If April started with 11 roses and had 8 roses left, how much money did she earn?
-
-Reasoning:
-147
-
-Question: A store had 40 oranges in a bin. If they threw away 37 of the old ones and put 7 new ones in the bin how many would be in the bin?
-
-Reasoning:
-324
-
-Question: For Halloween Megan received 11 pieces of candy from neighbors and 5 pieces from her older sister. If she only ate 8 pieces a day, how long would the candy last her?
-
-Reasoning:
-312
-
-Question: A vase can hold 6 flowers. If you had 7 carnations and 47 roses, how many vases would you need to hold the flowers?
+Question: Kaleb had 34 books. If he sold 17 of them and used the money he earned to buy 7 new books, how many books would Kaleb have?
 
 Reasoning:
 107
@@ -293,8 +88,363 @@ Reasoning:
 Question: A book store had 41 books in the bargin bin. If they sold 33 books, but then put 2 more in the bin, how many books would be in the bin?
 
 Reasoning:
-319
+120
 
-Question: Isabel uploaded 2 pictures from her phone and 4 from her camera to facebook. If she sorted the pics into 3 different albums with the same amount of pics in each album, how many pictures were in each of the albums?
+Question: A waiter had 14 customers to wait on. If 3 customers left and he got another 39 customers, how many customers would he have?
+
+Reasoning:
+130
+
+Question: Bianca had 45 coloring books. If she gave away 6 of them, but then bought 20 more, how many would she have total?
+
+Reasoning:
+133
+
+Question: A store had 31 oranges in a bin. If they threw away 9 of the old ones and put 38 new ones in the bin how many would be in the bin?
+
+Reasoning:
+134
+
+Question: Adam had 33 books. If he sold 11 of them and used the money he earned to buy 23 new books, how many books would Adam have?
+
+Reasoning:
+140
+
+Question: A florist had 6 roses. If she sold 5 of them and then later picked 12 more, how many roses would she have?
+
+Reasoning:
+149
+
+Question: Chloe picked 48 carrots from her garden. If she threw out 45 of them and then picked 42 more the next day, how many carrots would she have total?
+
+Reasoning:
+157
+
+Question: The school cafeteria had 23 apples. If they used 20 to make lunch for the students and then bought 6 more, how many apples would they have?
+
+Reasoning:
+179
+
+Question: Haley was playing a video game and had 14 lives. In a hard part of the game she lost 4 lives. If she got 36 more lives in the next level, how many lives would she have?
+
+Reasoning:
+185
+
+Question: A florist had 50 roses. If she sold 15 of them and then later picked 21 more, how many roses would she have?
+
+Reasoning:
+189
+
+Question: In fourth grade there were 11 students at the start of the year. During the year 6 students left and 42 new students came to school. How many students were in fourth grade at the end?
+
+Reasoning:
+194
+
+Question: Haley picked 28 carrots from her garden. If she threw out 11 of them and then picked 9 more the next day, how many carrots would she have total?
+
+Reasoning:
+198
+
+Question: John had 5 dollars. At the store he spent $2 on a new game. If he got another 26 dollars for his allowance, how much money does he have now?
+
+Reasoning:
+201
+
+Question: Chloe was unboxing some of her old winter clothes. She found 4 boxes of clothing and inside each box there were 2 scarves and 6 mittens. How many pieces of winter clothing did Chloe have total?
+
+Reasoning:
+209
+
+Question: Rachel was organizing her book case making sure each of the shelves had exactly 9 books on it. If she had 6 shelves of mystery books and 2 shelves of picture books, how many books did she have total?
+
+Reasoning:
+210
+
+Question: Rachel was unboxing some of her old winter clothes. She found 7 boxes of clothing and inside each box there were 3 scarves and 4 mittens. How many pieces of winter clothing did Rachel have total?
+
+Reasoning:
+215
+
+Question: While playing a trivia game, Adam answered 5 questions correct in the first half and 5 questions correct in the second half. If each question was worth 5 points, what was his final score?
+
+Reasoning:
+241
+
+Question: Edward was working as a sacker at a grocery store where he made 6 dollars an hour. On Monday he worked 3 hours and on Tuesday he worked 5 hours. How much money did Edward make in those two days?
+
+Reasoning:
+242
+
+Question: While playing a trivia game, Mike answered 3 questions correct in the first half and 5 questions correct in the second half. If each question was worth 3 points, what was his final score?
+
+Reasoning:
+250
+
+Question: Zoe was unboxing some of her old winter clothes. She found 8 boxes of clothing and inside each box there were 4 scarves and 6 mittens. How many pieces of winter clothing did Zoe have total?
+
+Reasoning:
+255
+
+Question: At Tom's Restaurant a group with 2 adults and 5 children came in to eat. If each meal cost 8 dollars, how much was the bill?
+
+Reasoning:
+256
+
+Question: Gwen was organizing her book case making sure each of the shelves had exactly 4 books on it. If she had 5 shelves of mystery books and 3 shelves of picture books, how many books did she have total?
+
+Reasoning:
+265
+
+Question: Tiffany was playing a video game where she scores 6 points for each treasure she finds. If she found 3 treasures on the first level and 5 on the second, what would her score be?
+
+Reasoning:
+270
+
+Question: April's discount flowers was having a sale where each flower was 8 dollars. If Vanessa bought 3 roses and 3 daisies, how much did she spend?
+
+Reasoning:
+272
+
+Question: Rachel bought 7 new chairs and 3 new tables for her house. If she spent 4 minutes on each piece furniture putting it together, how many minutes did it take her to finish?
+
+Reasoning:
+273
+
+Question: While playing a trivia game, Adam answered 8 questions correct in the first half and 2 questions correct in the second half. If each question was worth 8 points, what was his final score?
+
+Reasoning:
+278
+
+Question: Chloe was playing a video game where she scores 9 points for each treasure she finds. If she found 6 treasures on the first level and 3 on the second, what would her score be?
+
+Reasoning:
+291
+
+Question: Lana was unboxing some of her old winter clothes. She found 4 boxes of clothing and inside each box there were 2 scarves and 6 mittens. How many pieces of winter clothing did Lana have total?
+
+Reasoning:
+307
+
+Question: Paige and her friends were recycling paper for their class. For every 4 pounds they recycled they earned one point. If Paige recycled 14 pounds and her friends recycled 2 pounds, how many points did they earn?
+
+Reasoning:
+323
+
+Question: Robin uploaded 31 pictures from her phone and 5 from her camera to facebook. If she sorted the pics into 9 different albums with the same amount of pics in each album, how many pictures were in each of the albums?
+
+Reasoning:
+333
+
+Question: For Halloween Sarah received 66 pieces of candy from neighbors and 15 pieces from her older sister. If she only ate 9 pieces a day, how long would the candy last her?
+
+Reasoning:
+335
+
+Question: Tiffany uploaded 7 pictures from her phone and 13 from her camera to facebook. If she sorted the pics into 5 different albums with the same amount of pics in each album, how many pictures were in each of the albums?
+
+Reasoning:
+336
+
+Question: A toy store had 5 giant stuffed bears in stock when they got another shipment with 7 bears in it. The put the bears onto shelves with 6 on each shelf. How many shelves did they use?
+
+Reasoning:
+340
+
+Question: Luke was organizing his baseball cards in a binder with 3 on each page. If he had 3 new cards and 9 old cards to put in the binder, how many pages would he use?
+
+Reasoning:
+357
+
+Question: A pet shelter had 17 puppies when another 55 were brought in. If 8 puppies a day are adopted, how long would it take for all of them to be adopted?
+
+Reasoning:
+358
+
+Question: There school's baseball team had 12 new players and 44 returning players. If the coach put them into groups with 8 players in each group, how many groups would there be?
+
+Reasoning:
+361
+
+Question: For homework Faye had 13 math problems and 2 spelling problems. If she can finish 3 problems in an hour how long will it take her to finish all the problems?
+
+Reasoning:
+363
+
+Question: Bianca and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Bianca recycled 24 pounds and her friends recycled 3 pounds, how many points did they earn?
+
+Reasoning:
+376
+
+Question: Sarah's old washing machine could only wash 5 pieces of clothing at a time. If she had to wash 43 shirts and 2 sweaters how many loads would she have to do?
+
+Reasoning:
+377
+
+Question: A pet shelter had 3 puppies when another 3 were brought in. If 3 puppies a day are adopted, how long would it take for all of them to be adopted?
+
+Reasoning:
+380
+
+Question: Nancy's old washing machine could only wash 9 pieces of clothing at a time. If she had to wash 19 shirts and 8 sweaters how many loads would she have to do?
+
+Reasoning:
+393
+
+Question: For a birthday party Tom bought 4 regular sodas and 52 diet sodas. If his fridge would only hold 7 on each shelf, how many shelves would he fill up?
+
+Reasoning:
+397
+
+Question: Debby's class is going on a field trip to the zoo. If each van can hold 9 people and there are 40 students and 14 adults going, how many vans will they need?
+
+Reasoning:
+405
+
+Question: A trivia team had 5 members total, but during a game 2 members didn't show up. If each member that did show up scored 6 points, how many points were scored total?
+
+Reasoning:
+413
+
+Question: In a video game, each enemy defeated gives you 9 points. If a level has 11 enemies total and you destroy all but 3 of them, how many points would you earn?
+
+Reasoning:
+422
+
+Question: Ned had 15 video games but 6 of them weren't working. If he wanted to sell the working games for $7 each, how much money could he earn?
+
+Reasoning:
+424
+
+Question: Will bought 7 boxes of chocolate candy and gave 3 to his little brother. If each box has 4 pieces inside it, how many pieces did Will still have?
+
+Reasoning:
+425
+
+Question: Mike invited 13 friends to a birthday party, but 7 couldn't come. If he wanted to buy enough cupcakes so each person could have exactly 4, how many should he buy?
+
+Reasoning:
+426
+
+Question: In a video game, each enemy defeated gives you 5 points. If a level has 8 enemies total and you destroy all but 6 of them, how many points would you earn?
+
+Reasoning:
+438
+
+Question: Will invited 9 friends to a birthday party, but 4 couldn't come. If he wanted to buy enough cupcakes so each person could have exactly 8, how many should he buy?
+
+Reasoning:
+442
+
+Question: Each chocolate bar in a box cost $3. If a box had 9 bars total and Wendy sold all but 3 bars, how much money would she have made?
+
+Reasoning:
+444
+
+Question: Adam bought 13 boxes of chocolate candy and gave 7 to his little brother. If each box has 6 pieces inside it, how many pieces did Adam still have?
+
+Reasoning:
+452
+
+Question: A chef needs to cook 15 potatoes. He has already cooked 6. If each potato takes 8 minutes to cook, how long will it take him to cook the rest?
+
+Reasoning:
+457
+
+Question: A painter needed to paint 11 rooms in a building. Each room takes 7 hours to paint. If he already painted 2 rooms, how much longer will he take to paint the rest?
+
+Reasoning:
+461
+
+Question: April's discount flowers was having a sale where each rose was 4 dollars. If April started with 13 roses and had 4 roses left, how much money did she earn?
+
+Reasoning:
+467
+
+Question: A new building needed 12 windows. The builder had already installed 6 of them. If it takes 4 hours to install each window, how long will it take him to install the rest?
+
+Reasoning:
+479
+
+Question: Edward earned 4 dollars for each lawn he mowed. If he had 17 lawns to mow, but forgot to mow 9 of them, how much money did he actually earn?
+
+Reasoning:
+485
+
+Question: Tiffany baked 8 brownies, but needed 17 total for her party. If she used 8 cups of flour on each one, how much cups of flour does she still need?
+
+Reasoning:
+507
+
+Question: Isabel had 72 homework problems. She finished 32 of them but still had 5 pages of problems to do. If each page has the same number of problems on it, how many problems are on each page?
+
+Reasoning:
+510
+
+Question: Paige's team won their dodgeball game and scored 41 points total. If Paige scored 11 of the points and everyone else scored 6 points each, how many players were on her team?
+
+Reasoning:
+519
+
+Question: Nancy had 80 files on her computer. She deleted 31 of them and put the rest into folders with 7 files in each one. How many folders did Nancy end up with?
+
+Reasoning:
+532
+
+Question: Emily's team won their dodgeball game and scored 39 points total. If Emily scored 23 of the points and everyone else scored 2 points each, how many players were on her team?
+
+Reasoning:
+533
+
+Question: A company invited 47 people to a luncheon, but 7 of them didn't show up. If the tables they had held 5 people each, how many tables do they need?
+
+Reasoning:
+543
+
+Question: There are 25 students trying out for the school's trivia teams. If 15 of them didn't get picked for the team and the rest were put into 2 groups, how many students would be in each group?
+
+Reasoning:
+545
+
+Question: Megan baked 68 cupcakes for her school's bake sale. If her brother, Todd, ate 32 of them how many packages could she make if she put 6 cupcake in each package?
+
+Reasoning:
+556
+
+Question: Wendy uploaded 45 pictures to Facebook. She put 27 pics into one album and put the rest into 9 different albums. How many pictures were in each album?
+
+Reasoning:
+560
+
+Question: Paige had 27 files on her computer. She deleted 9 of them and put the rest into folders with 6 files in each one. How many folders did Paige end up with?
+
+Reasoning:
+566
+
+Question: Wendy picked 45 flowers for her friend’s wedding. She was making bouquets with 5 flowers in each one. If 35 of the flowers wilted before the wedding, how many bouquets could she still make?
+
+Reasoning:
+570
+
+Question: Paige picked 53 flowers for her friend’s wedding. She was making bouquets with 7 flowers in each one. If 18 of the flowers wilted before the wedding, how many bouquets could she still make?
+
+Reasoning:
+575
+
+Question: A store had 27 coloring books in stock. They ended up putting them on sale and getting rid of 6 of them. The put the ones they still had onto shelves with 7 on each shelf. How many shelves did they use?
+
+Reasoning:
+577
+
+Question: Kaleb had 12 dollars. If he spent 8 bucks on a new game, how many 2 dollar toys could he buy with the money he had left?
+
+Reasoning:
+580
+
+Question: A company invited 24 people to a luncheon, but 10 of them didn't show up. If the tables they had held 7 people each, how many tables do they need?
+
+Reasoning:
+581
+
+Question: Bianca's team won their dodgeball game and scored 75 points total. If Bianca scored 45 of the points and everyone else scored 6 points each, how many players were on her team?
 
 Reasoning:

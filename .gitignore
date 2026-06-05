@@ -24,3 +24,15 @@ checkpoints/
 
 # Environment Variables
 .env
+
+# IDE
+.vscode/
+
+# Windows artifacts
+nul
+
+# Antigravity intermediate part files
+data/_aug_cot_part*.jsonl
+
+# Trained model outputs
+outputs/
