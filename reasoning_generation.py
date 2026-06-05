@@ -22,7 +22,9 @@ from transformers import GPT2Tokenizer
 from einops import rearrange
 
 from gpt_datasets import (
+  MASK_TARGETS,
   ReasoningDataset,
+  mask_labels_from_start,
   mask_labels_to_reasoning_only,
 )
 from models.gpt2 import GPT2Model
@@ -168,7 +170,12 @@ def train(args):
   """Train GPT-2 for reasoning generation on GSM8K."""
   device = torch.device('cuda') if args.use_gpu else torch.device('cpu')
   # Create the data and its corresponding datasets and dataloader.
-  reasoning_dataset = ReasoningDataset(args.reasoning_path, mask_prompt=args.mask_prompt)
+  mask_target = args.mask_target if args.mask_prompt else None
+  reasoning_dataset = ReasoningDataset(
+      args.reasoning_path,
+      mask_prompt=args.mask_prompt,
+      mask_target=mask_target,
+  )
   print(reasoning_dataset.examples[0])
   reasoning_dataloader = DataLoader(reasoning_dataset, shuffle=True, batch_size=args.batch_size,
                                     collate_fn=reasoning_dataset.collate_fn)
@@ -208,8 +215,8 @@ def train(args):
         logits = rearrange(logits[:, :-1].contiguous(), 'b t d -> (b t) d')  # Ignore the last prediction in the sequence.
         labels = b_ids[:, 1:].clone()
         if args.mask_prompt:
-          labels = mask_labels_to_reasoning_only(
-              labels, b_mask, batch['reasoning_starts']
+          labels = mask_labels_from_start(
+              labels, b_mask, batch['loss_starts']
           )
         else:
           labels[b_mask[:, 1:] == 0] = -100  # Set padding token labels to -100 so they are ignored in the loss.
@@ -332,7 +339,11 @@ def get_args():
   parser.add_argument("--epochs", type=int, default=10)
   parser.add_argument("--use_gpu", action='store_true')
   parser.add_argument("--mask_prompt", action='store_true',
-                      help="Train only on the reasoning completion (mask question tokens).")
+                      help="Train only on the completion region (mask question tokens).")
+  parser.add_argument("--mask_target", type=str, default='reasoning', choices=list(MASK_TARGETS),
+                      help="With --mask_prompt: loss starts after Entities: or Reasoning:.")
+  parser.add_argument("--skip_submission", action='store_true',
+                      help="Skip held-out generation after training.")
 
   # Generation parameters.
   parser.add_argument("--temperature", type=float, help="Softmax temperature for nucleus sampling.", default=0.7)
@@ -381,4 +392,5 @@ if __name__ == "__main__":
   set_checkpoint_filepath(args)
   seed_everything(args.seed)  # Fix the seed for reproducibility.
   train(args)
-  generate_submission_reasonings(args)
+  if not args.skip_submission:
+    generate_submission_reasonings(args)

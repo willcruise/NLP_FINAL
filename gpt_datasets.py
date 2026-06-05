@@ -165,24 +165,43 @@ class SonnetsDataset(Dataset):
 
 
 REASONING_DELIMITER = "Reasoning:\n"
+ENTITIES_DELIMITER = "Entities:\n"
+
+# Where CE loss starts when mask_prompt is enabled.
+#   reasoning          — after Reasoning:\\n (default GSM8K CoT)
+#   entities           — after Entities:\\n (stage-1 entity binding)
+#   entities_reasoning — after Entities:\\n (entities + reasoning + ####)
+MASK_TARGETS = ('reasoning', 'entities', 'entities_reasoning')
 
 
-def get_reasoning_token_start(text, tokenizer, max_length=900):
-  """
-  Index in token_ids of the first token after the prompt prefix (through Reasoning:\\n).
-  Loss should be applied only for tokens at indices >= this value.
-  """
-  idx = text.find(REASONING_DELIMITER)
+def _prefix_through_delimiter(text, delimiter):
+  idx = text.find(delimiter)
+  if idx != -1:
+    return text[:idx + len(delimiter)]
+  # Loose fallback without trailing newline.
+  bare = delimiter.rstrip('\n')
+  idx = text.find(bare)
   if idx == -1:
-    idx = text.find("Reasoning:")
-    if idx == -1:
-      return 0
-    end = idx + len("Reasoning:")
-    if end < len(text) and text[end] == "\n":
-      end += 1
-    prefix = text[:end]
+    return None
+  end = idx + len(bare)
+  if end < len(text) and text[end] == '\n':
+    end += 1
+  return text[:end]
+
+
+def get_loss_token_start(text, tokenizer, mask_target='reasoning', max_length=900):
+  """
+  Token index where supervised loss begins (first predicted token after the masked prefix).
+  """
+  if mask_target == 'entities' or mask_target == 'entities_reasoning':
+    prefix = _prefix_through_delimiter(text, ENTITIES_DELIMITER)
+    if prefix is None:
+      prefix = _prefix_through_delimiter(text, REASONING_DELIMITER)
   else:
-    prefix = text[:idx + len(REASONING_DELIMITER)]
+    prefix = _prefix_through_delimiter(text, REASONING_DELIMITER)
+
+  if prefix is None:
+    return 0
 
   full_ids = tokenizer(
       text,
@@ -200,7 +219,6 @@ def get_reasoning_token_start(text, tokenizer, max_length=900):
   if len(prefix_ids) <= len(full_ids) and full_ids[:len(prefix_ids)] == prefix_ids:
     return len(prefix_ids)
 
-  # Fallback: longest shared prefix between encodings (BPE boundary mismatch).
   shared = 0
   for i, tok in enumerate(prefix_ids):
     if i < len(full_ids) and full_ids[i] == tok:
@@ -210,10 +228,15 @@ def get_reasoning_token_start(text, tokenizer, max_length=900):
   return shared
 
 
-def mask_labels_to_reasoning_only(labels, attention_mask, reasoning_starts):
-  """Set label positions to -100 for question/prompt tokens (before reasoning)."""
+def get_reasoning_token_start(text, tokenizer, max_length=900):
+  """Backward-compatible alias (loss starts at Reasoning:\\n)."""
+  return get_loss_token_start(text, tokenizer, mask_target='reasoning', max_length=max_length)
+
+
+def mask_labels_from_start(labels, attention_mask, loss_starts):
+  """Mask labels before loss_starts so CE is computed only on the completion region."""
   for i in range(labels.size(0)):
-    start = int(reasoning_starts[i].item())
+    start = int(loss_starts[i].item())
     seq_len = int(attention_mask[i].sum().item())
     start = min(start, seq_len)
     if start > 1:
@@ -222,16 +245,29 @@ def mask_labels_to_reasoning_only(labels, attention_mask, reasoning_starts):
   return labels
 
 
+def mask_labels_to_reasoning_only(labels, attention_mask, reasoning_starts):
+  """Backward-compatible alias."""
+  return mask_labels_from_start(labels, attention_mask, reasoning_starts)
+
+
 class ReasoningDataset(Dataset):
 
-  # Boundary between the prompt (Question) and the completion (Reasoning) the
-  # model is trained to produce. Used for prompt-loss masking.
-  PROMPT_DELIMITER = "Reasoning:\n"
+  PROMPT_DELIMITER = REASONING_DELIMITER
 
-  def __init__(self, file_path, mask_prompt=False):
+  def __init__(self, file_path, mask_prompt=False, mask_target=None):
+    """
+    mask_target: 'reasoning' | 'entities' | 'entities_reasoning' (requires mask_prompt).
+    """
+    if mask_target is not None and mask_target not in MASK_TARGETS:
+      raise ValueError(f"mask_target must be one of {MASK_TARGETS}, got {mask_target!r}")
+    if mask_target is not None:
+      mask_prompt = True
+    elif mask_prompt:
+      mask_target = 'reasoning'
 
     self.max_length = 512
     self.mask_prompt = mask_prompt
+    self.mask_target = mask_target
     self.tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
     self.tokenizer.pad_token = self.tokenizer.eos_token
 
@@ -310,27 +346,18 @@ class ReasoningDataset(Dataset):
         max_length=max_length
     )
 
-    reasoning_starts = torch.LongTensor([
-        get_reasoning_token_start(text, self.tokenizer, max_length=max_length)
+    target = self.mask_target or 'reasoning'
+    loss_starts = torch.LongTensor([
+        get_loss_token_start(text, self.tokenizer, mask_target=target, max_length=max_length)
         for text in texts
     ])
 
     batched_data = {
         'token_ids': torch.LongTensor(encoding['input_ids']),
         'attention_mask': torch.LongTensor(encoding['attention_mask']),
-        'reasoning_starts': reasoning_starts,
+        'reasoning_starts': loss_starts,
+        'loss_starts': loss_starts,
         'sent_ids': idx
     }
-
-    if self.mask_prompt:
-      prompt_lens = []
-      for text in texts:
-        # Prompt = everything up to and including "Reasoning:\n".
-        prompt_part = text
-        if self.PROMPT_DELIMITER in text:
-          prompt_part = text.split(self.PROMPT_DELIMITER)[0] + self.PROMPT_DELIMITER
-        prompt_enc = self.tokenizer(prompt_part)
-        prompt_lens.append(len(prompt_enc["input_ids"]))
-      batched_data['prompt_lens'] = prompt_lens
 
     return batched_data
