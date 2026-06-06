@@ -9,6 +9,7 @@ Experiments:
   exp4  (uses exp3 file — arithmetic curriculum applied at train time)
   exp5  GSM8K + MultiArith augmented + entity
   exp6  exp3 mix + 3000 subsampled PEMDAS arithmetic examples
+  exp7  GSM8K + entity + subsampled MultiArith (arith curriculum at train time)
 
 Outputs under data/experiments/
 
@@ -62,6 +63,16 @@ EXPERIMENTS = {
         'arithmetic_path': 'data/arithmetic_pretrain.txt',
         'arithmetic_subsample': 3000,
     },
+    'exp7': {
+        'out': 'exp7_gsm8k_ma_sub_ent_train.txt',
+        'sources': [
+            'data/gsm8k_sft_train.txt',
+            'data/entity_stage2_train.txt',
+        ],
+        'subsampled_sources': [
+            {'path': 'data/multiarith_sft_train.txt', 'n': 150, 'seed_offset': 2},
+        ],
+    },
 }
 
 
@@ -104,6 +115,17 @@ def build_experiment(name: str, cfg: dict, seed: int):
     print(f'{name}: {len(part):4d} blocks from {src}')
     blocks.extend(part)
 
+  for item in cfg.get('subsampled_sources', []):
+    src = item['path']
+    if not os.path.exists(src):
+      raise FileNotFoundError(f'Missing source for {name}: {src}')
+    part = load_blocks(src)
+    n = item['n']
+    offset = item.get('seed_offset', 0)
+    part = subsample_blocks(part, n, seed + offset)
+    print(f'{name}: {len(part):4d} blocks subsampled from {src} (n={n})')
+    blocks.extend(part)
+
   arith_path = cfg.get('arithmetic_path')
   if arith_path:
     if not os.path.exists(arith_path):
@@ -140,8 +162,10 @@ def main():
     if name == 'exp4':
       print('exp4: uses data/experiments/exp3_gsm8k_multiarith_entity_train.txt (no merge step)\n')
       continue
+    if name == 'exp7':
+      print('exp7: uses data/experiments/exp7_gsm8k_ma_sub_ent_train.txt (arith curriculum at train time)\n')
     if name not in EXPERIMENTS:
-      raise ValueError(f'Unknown experiment {name!r}; choose from {list(EXPERIMENTS)} + exp4')
+      raise ValueError(f'Unknown experiment {name!r}; choose from {list(EXPERIMENTS)} + exp4 + exp7')
     build_experiment(name, EXPERIMENTS[name], args.seed)
 
 

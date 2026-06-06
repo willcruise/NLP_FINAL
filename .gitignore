@@ -54,3 +54,6 @@ outputs/exp5_gsm8k_ma_aug_ent/*
 !outputs/exp6_gsm8k_ma_ent_arith/
 outputs/exp6_gsm8k_ma_ent_arith/*
 !outputs/exp6_gsm8k_ma_ent_arith/*.json
+!outputs/exp7_gsm8k_ma_sub_ent/
+outputs/exp7_gsm8k_ma_sub_ent/*
+!outputs/exp7_gsm8k_ma_sub_ent/*.json

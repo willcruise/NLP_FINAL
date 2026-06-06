@@ -7,6 +7,7 @@ Experiments (see prepare_experiment_data.py + scripts/run_overnight_experiments.
   exp4       arithmetic curriculum → exp3 mix
   exp5       GSM8K + MultiArith aug + entity
   exp6       exp3 mix + subsampled PEMDAS arithmetic
+  exp7       arithmetic curriculum → GSM8K + entity + subsampled MA (best on GSM8K dev)
 
 Each run:
   - starts from pretrained GPT-2 (no resume unless --resume)
@@ -52,6 +53,7 @@ from reasoning_generation import ReasoningGPT, add_arguments, seed_everything
 
 TQDM_DISABLE = False
 DEV_JSONL = os.path.join('data', 'multiarith_dev.jsonl')
+GSM8K_DEV_JSONL = os.path.join('data', 'gsm8k_dev.jsonl')
 
 EXPERIMENT_CONFIGS = {
     'exp1': {
@@ -102,6 +104,15 @@ EXPERIMENT_CONFIGS = {
         'patience': 5,
         'lr': 5e-6,
     },
+    'exp7': {
+        'train_path': 'data/experiments/exp7_gsm8k_ma_sub_ent_train.txt',
+        'checkpoint_tag': 'exp7_gsm8k_ma_sub_ent',
+        'dev_path': GSM8K_DEV_JSONL,
+        'epochs': 32,
+        'eval_every': 4,
+        'patience': 5,
+        'lr': 5e-6,
+    },
 }
 
 
@@ -114,7 +125,7 @@ def load_dev(path: str) -> list:
 
 
 @torch.no_grad()
-def evaluate_multiarith(
+def evaluate_dev(
     model: ReasoningGPT,
     device: torch.device,
     *,
@@ -147,9 +158,18 @@ def evaluate_multiarith(
     eval_records.append({'generation': continuation, 'gold': rec['gold_answer']})
 
   metrics = gsm8k_eval.evaluate(eval_records)
-  metrics['dataset'] = 'multiarith'
+  if 'gsm8k' in os.path.basename(dev_path):
+    metrics['dataset'] = 'gsm8k_dev'
+  else:
+    metrics['dataset'] = 'multiarith'
   metrics['n_dev'] = len(dev)
+  metrics['dev_path'] = dev_path
   return metrics
+
+
+def evaluate_multiarith(*args, **kwargs):
+  """Backward-compatible alias."""
+  return evaluate_dev(*args, **kwargs)
 
 
 def best_checkpoint_path(checkpoint_tag: str) -> str:
@@ -264,7 +284,7 @@ def train(args):
 
     should_eval = (epoch % args.eval_every == 0) or (epoch == args.epochs - 1)
     if should_eval:
-      metrics = evaluate_multiarith(
+      metrics = evaluate_dev(
           model,
           device,
           dev_path=args.dev_path,
@@ -339,6 +359,8 @@ def apply_experiment_preset(args):
   args.eval_every = cfg['eval_every']
   args.patience = cfg['patience']
   args.lr = cfg['lr']
+  if cfg.get('dev_path'):
+    args.dev_path = cfg['dev_path']
   return args
 
 
@@ -348,7 +370,7 @@ def get_args():
       '--experiment',
       choices=list(EXPERIMENT_CONFIGS.keys()),
       default=None,
-      help='Preset: exp1–exp6 (see EXPERIMENT_CONFIGS).',
+      help='Preset: exp1–exp7 (see EXPERIMENT_CONFIGS).',
   )
   parser.add_argument('--train_path', type=str, default=None)
   parser.add_argument('--dev_path', type=str, default=DEV_JSONL)
