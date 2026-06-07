@@ -7,6 +7,7 @@ additional sources of data, or if you change how the Quora dataset is processed 
 """
 
 import csv
+import json
 
 import re
 import torch
@@ -248,6 +249,171 @@ def mask_labels_from_start(labels, attention_mask, loss_starts):
 def mask_labels_to_reasoning_only(labels, attention_mask, reasoning_starts):
   """Backward-compatible alias."""
   return mask_labels_from_start(labels, attention_mask, reasoning_starts)
+
+
+def _shared_prefix_token_len(full_ids, prefix_ids):
+  if len(prefix_ids) <= len(full_ids) and full_ids[:len(prefix_ids)] == prefix_ids:
+    return len(prefix_ids)
+  shared = 0
+  for i, tok in enumerate(prefix_ids):
+    if i < len(full_ids) and full_ids[i] == tok:
+      shared = i + 1
+    else:
+      break
+  return shared
+
+
+def get_step_loss_span(text, prefix, tokenizer, max_length=900):
+  """
+  Token span [loss_start, loss_end) for step-conditioned training.
+  Loss applies only to target step tokens (not prefix, not trailing EOS).
+  """
+  full_ids = tokenizer(
+      text,
+      truncation=True,
+      max_length=max_length,
+      add_special_tokens=True,
+  )["input_ids"]
+  prefix_ids = tokenizer(
+      prefix,
+      truncation=True,
+      max_length=max_length,
+      add_special_tokens=True,
+  )["input_ids"]
+  loss_start = _shared_prefix_token_len(full_ids, prefix_ids)
+  loss_end = len(full_ids)
+  if loss_end > 0 and full_ids[-1] == tokenizer.eos_token_id:
+    loss_end -= 1
+  return loss_start, loss_end
+
+
+def mask_labels_for_step(labels, attention_mask, loss_starts, loss_ends):
+  """Mask labels so CE is computed only on [loss_start, loss_end) token positions."""
+  for i in range(labels.size(0)):
+    start = int(loss_starts[i].item())
+    end = int(loss_ends[i].item())
+    seq_len = int(attention_mask[i].sum().item())
+    start = min(start, seq_len)
+    end = min(end, seq_len)
+    if start > 1:
+      labels[i, : start - 1] = -100
+    if end < seq_len:
+      labels[i, end - 1 :] = -100
+  labels[attention_mask[:, 1:] == 0] = -100
+  return labels
+
+
+class StepReasoningDataset(Dataset):
+  """Step-conditioned SFT: prefix + target step, loss only on target tokens."""
+
+  def __init__(self, jsonl_path: str):
+    self.tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
+    self.tokenizer.pad_token = self.tokenizer.eos_token
+    self.max_length = 900
+    self.records = []
+    with open(jsonl_path, encoding="utf-8") as f:
+      for line in f:
+        if line.strip():
+          self.records.append(json.loads(line))
+    print(f"Loaded step SFT examples: {len(self.records)}")
+
+  def __len__(self):
+    return len(self.records)
+
+  def __getitem__(self, idx):
+    rec = self.records[idx]
+    prefix = rec["prefix"]
+    target = rec["target"]
+    text = prefix + target + self.tokenizer.eos_token
+    return idx, prefix, text
+
+  def collate_fn(self, all_data):
+    idx = [row[0] for row in all_data]
+    prefixes = [row[1] for row in all_data]
+    texts = [row[2] for row in all_data]
+
+    encoding = self.tokenizer(
+        texts,
+        return_tensors="pt",
+        padding=True,
+        truncation=True,
+        max_length=self.max_length,
+    )
+    loss_starts = []
+    loss_ends = []
+    for prefix, text in zip(prefixes, texts):
+      start, end = get_step_loss_span(
+          text, prefix, self.tokenizer, max_length=self.max_length
+      )
+      loss_starts.append(start)
+      loss_ends.append(end)
+
+    return {
+        "token_ids": torch.LongTensor(encoding["input_ids"]),
+        "attention_mask": torch.LongTensor(encoding["attention_mask"]),
+        "loss_starts": torch.LongTensor(loss_starts),
+        "loss_ends": torch.LongTensor(loss_ends),
+        "sent_ids": idx,
+    }
+
+
+class StepDPODataset(Dataset):
+  """Step-level DPO pairs: prompt + chosen/rejected completions."""
+
+  def __init__(self, jsonl_path: str):
+    self.tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
+    self.tokenizer.pad_token = self.tokenizer.eos_token
+    self.max_length = 900
+    self.records = []
+    with open(jsonl_path, encoding="utf-8") as f:
+      for line in f:
+        if line.strip():
+          self.records.append(json.loads(line))
+    print(f"Loaded step DPO pairs: {len(self.records)}")
+
+  def __len__(self):
+    return len(self.records)
+
+  def __getitem__(self, idx):
+    return idx, self.records[idx]
+
+  def collate_fn(self, all_data):
+    idx = [row[0] for row in all_data]
+    prompts = [row[1]["prompt"] for row in all_data]
+    chosen = [row[1]["chosen"] for row in all_data]
+    rejected = [row[1]["rejected"] for row in all_data]
+
+    chosen_texts = [p + c for p, c in zip(prompts, chosen)]
+    rejected_texts = [p + r for p, r in zip(prompts, rejected)]
+
+    enc_c = self.tokenizer(
+        chosen_texts,
+        return_tensors="pt",
+        padding=True,
+        truncation=True,
+        max_length=self.max_length,
+    )
+    enc_r = self.tokenizer(
+        rejected_texts,
+        return_tensors="pt",
+        padding=True,
+        truncation=True,
+        max_length=self.max_length,
+    )
+
+    prompt_lens = []
+    for prompt, text in zip(prompts, chosen_texts):
+      start, _ = get_step_loss_span(text, prompt, self.tokenizer, max_length=self.max_length)
+      prompt_lens.append(start)
+
+    return {
+        "chosen_ids": torch.LongTensor(enc_c["input_ids"]),
+        "chosen_mask": torch.LongTensor(enc_c["attention_mask"]),
+        "rejected_ids": torch.LongTensor(enc_r["input_ids"]),
+        "rejected_mask": torch.LongTensor(enc_r["attention_mask"]),
+        "prompt_lens": torch.LongTensor(prompt_lens),
+        "sent_ids": idx,
+    }
 
 
 class ReasoningDataset(Dataset):
