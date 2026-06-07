@@ -58,17 +58,17 @@ def cleanup_experiment_checkpoints(checkpoint_tag: str):
       print(f"removed {path}")
 
 
-def sequence_logprob(model, input_ids, attention_mask, prompt_len):
-  """Sum log-prob of completion tokens (positions >= prompt_len)."""
+def sequence_logprob(model, input_ids, attention_mask, prompt_lens):
+  """Sum log-prob of completion tokens (positions >= prompt_lens per example)."""
   logits = model(input_ids, attention_mask)
   log_probs = F.log_softmax(logits[:, :-1, :], dim=-1)
   targets = input_ids[:, 1:]
   token_logps = log_probs.gather(2, targets.unsqueeze(-1)).squeeze(-1)
 
-  batch_size, seq_len = token_logps.shape
-  positions = torch.arange(seq_len, device=token_logps.device).unsqueeze(0)
-  # Predict token at index t uses logit at t-1; completion starts at prompt_len.
-  completion_mask = (positions >= prompt_len - 1) & (attention_mask[:, 1:] == 1)
+  _, seq_len = token_logps.shape
+  positions = torch.arange(seq_len, device=token_logps.device).unsqueeze(0)  # [1, T]
+  start = (prompt_lens - 1).unsqueeze(1)  # [B, 1] broadcasts against [1, T]
+  completion_mask = (positions >= start) & (attention_mask[:, 1:] == 1)
   masked = token_logps * completion_mask.float()
   return masked.sum(dim=1)
 
