@@ -19,7 +19,7 @@ LEGACY_CHECKPOINT_GLOBS = [
 ]
 
 
-def add_checkpoint_args(parser, default_tag='reasoning'):
+def add_checkpoint_args(parser, default_tag='reasoning', default_init=None):
   parser.add_argument(
       '--checkpoint_tag',
       type=str,
@@ -29,7 +29,7 @@ def add_checkpoint_args(parser, default_tag='reasoning'):
   parser.add_argument(
       '--init_checkpoint',
       type=str,
-      default=None,
+      default=default_init,
       help='Optional .pt path; used only when no checkpoint exists for --checkpoint_tag.',
   )
   return parser

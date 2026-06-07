@@ -229,7 +229,6 @@ def get_args():
   parser = argparse.ArgumentParser()
   parser.add_argument("--train_path", type=str, default=DEFAULT_TRAIN)
   parser.add_argument("--dev_path", type=str, default=GSM8K_DEV_JSONL)
-  parser.add_argument("--init_checkpoint", type=str, default=DEFAULT_INIT)
   parser.add_argument("--beta", type=float, default=0.2)
   parser.add_argument("--epochs", type=int, default=4)
   parser.add_argument("--eval_every", type=int, default=1)
@@ -247,7 +246,7 @@ def get_args():
   parser.add_argument("--eval_limit", type=int, default=0)
   parser.add_argument("--model_size", default="gpt2",
                       choices=["gpt2", "gpt2-medium", "gpt2-large", "gpt2-xl"])
-  add_checkpoint_args(parser, default_tag=DEFAULT_TAG)
+  add_checkpoint_args(parser, default_tag=DEFAULT_TAG, default_init=DEFAULT_INIT)
   return parser.parse_args()
 
 
