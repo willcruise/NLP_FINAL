@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Evaluate best exp1–exp6 checkpoints on GSM8K small held-out (data/gsm8k_small_held_out.txt).
+# Evaluate best exp1–exp6, exp7, exp10–exp13 checkpoints on GSM8K small held-out.
 #
 # Usage (server):
 #   bash scripts/eval_all_experiments_gsm8k_heldout.sh
@@ -18,7 +18,7 @@ for arg in "$@"; do
   case "$arg" in
     --smoke) SMOKE=1 ;;
     --greedy) EXTRA_ARGS+=(--greedy) ;;
-    exp[1-6]) ONLY+=("$arg") ;;
+    exp[1-6]|exp7|exp10|exp11|exp12|exp13) ONLY+=("$arg") ;;
     *) echo "Unknown arg: $arg"; exit 1 ;;
   esac
 done
@@ -34,6 +34,11 @@ declare -A CHECKPOINTS=(
   [exp4]="best_exp4_gsm8k_ma_ent.pt"
   [exp5]="best_exp5_gsm8k_ma_aug_ent.pt"
   [exp6]="best_exp6_gsm8k_ma_ent_arith.pt"
+  [exp7]="best_exp7_gsm8k_ma_sub_ent.pt"
+  [exp10]="best_exp10_gsm8k_ma_aug_sub_ent.pt"
+  [exp11]="best_exp11_gsm8k.pt"
+  [exp12]="best_exp12_ma_gsm8k.pt"
+  [exp13]="best_exp13_ent_gsm8k.pt"
 )
 
 run_one() {
@@ -56,7 +61,7 @@ if [[ ${#ONLY[@]} -gt 0 ]]; then
     run_one "$tag"
   done
 else
-  for tag in exp1 exp2 exp3 exp4 exp5 exp6; do
+  for tag in exp1 exp2 exp3 exp4 exp5 exp6 exp7 exp10 exp11 exp12 exp13; do
     run_one "$tag"
   done
 fi

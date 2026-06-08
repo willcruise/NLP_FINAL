@@ -10,6 +10,9 @@ Experiments:
   exp5  GSM8K + MultiArith augmented + entity
   exp6  exp3 mix + 3000 subsampled PEMDAS arithmetic examples
   exp7  GSM8K + entity + subsampled MultiArith (arith curriculum at train time)
+  exp10 exp4-style arith curriculum → GSM8K + entity + subsampled MA aug (best on GSM8K dev)
+  exp11_ma  aug MA subsample only (for sequential exp11 MA stage)
+  exp11     sequential curriculum: arith → entity → MA → GSM8K (see scripts/run_exp11.sh)
 
 Outputs under data/experiments/
 
@@ -73,6 +76,31 @@ EXPERIMENTS = {
             {'path': 'data/multiarith_sft_train.txt', 'n': 150, 'seed_offset': 2},
         ],
     },
+    'exp10': {
+        'out': 'exp10_gsm8k_ma_aug_sub_ent_train.txt',
+        'sources': [
+            'data/gsm8k_sft_train.txt',
+            'data/entity_stage2_train.txt',
+        ],
+        'subsampled_sources': [
+            {
+                'path': 'data/multiarith_sft_train_aug.txt',
+                'n': 600,
+                'seed_offset': 3,
+            },
+        ],
+    },
+    'exp11_ma': {
+        'out': 'exp11_ma_aug_sub_train.txt',
+        'sources': [],
+        'subsampled_sources': [
+            {
+                'path': 'data/multiarith_sft_train_aug.txt',
+                'n': 600,
+                'seed_offset': 3,
+            },
+        ],
+    },
 }
 
 
@@ -104,6 +132,17 @@ def write_blocks(blocks, out_path: str, shuffle_seed=None):
   with open(out_path, 'w', encoding='utf-8') as f:
     for i, block in enumerate(blocks):
       f.write(f'{i}\n\n{block}\n\n<|endoftext|>\n\n')
+
+
+def apply_env_overrides(name: str, cfg: dict) -> dict:
+  if name in ('exp10', 'exp11_ma'):
+    n = os.environ.get('MA_AUG_SUBSAMPLE')
+    if n:
+      subs = [dict(item) for item in cfg.get('subsampled_sources', [])]
+      if subs:
+        subs[0]['n'] = int(n)
+      cfg = {**cfg, 'subsampled_sources': subs}
+  return cfg
 
 
 def build_experiment(name: str, cfg: dict, seed: int):
@@ -164,9 +203,16 @@ def main():
       continue
     if name == 'exp7':
       print('exp7: uses data/experiments/exp7_gsm8k_ma_sub_ent_train.txt (arith curriculum at train time)\n')
+    if name == 'exp10':
+      print('exp10: uses data/experiments/exp10_gsm8k_ma_aug_sub_ent_train.txt (arith curriculum at train time)\n')
+    if name == 'exp11_ma':
+      print('exp11_ma: MA aug subsample only -> data/experiments/exp11_ma_aug_sub_train.txt\n')
     if name not in EXPERIMENTS:
-      raise ValueError(f'Unknown experiment {name!r}; choose from {list(EXPERIMENTS)} + exp4 + exp7')
-    build_experiment(name, EXPERIMENTS[name], args.seed)
+      raise ValueError(
+          f'Unknown experiment {name!r}; choose from {list(EXPERIMENTS)} + exp4 + exp7 + exp10'
+      )
+    cfg = apply_env_overrides(name, EXPERIMENTS[name])
+    build_experiment(name, cfg, args.seed)
 
 
 if __name__ == '__main__':

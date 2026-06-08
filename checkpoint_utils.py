@@ -84,16 +84,34 @@ def cleanup_incomplete_checkpoints(args):
     print(f"removed incomplete checkpoint {path}")
 
 
-def save_model(model, optimizer, args, filepath):
+def _free_bytes(path='.'):
+  st = os.statvfs(path)
+  return st.f_bavail * st.f_frsize
+
+
+def save_model(model, optimizer, args, filepath, min_free_gb=1.0):
   save_info = {
       'model': model.state_dict(),
       'args': args,
   }
   temp_path = f'{filepath}.tmp'
+  free_gb = _free_bytes(os.path.dirname(os.path.abspath(filepath)) or '.') / (1024 ** 3)
+  if free_gb < min_free_gb:
+    raise RuntimeError(
+        f'Not enough disk space to save {filepath}: {free_gb:.2f} GB free '
+        f'(need ~{min_free_gb:.1f} GB). Delete old checkpoints or free disk space.'
+    )
   try:
     torch.save(save_info, temp_path)
     os.replace(temp_path, filepath)
     print(f"save the model to {filepath}")
+  except OSError as exc:
+    if os.path.exists(temp_path):
+      os.remove(temp_path)
+    raise RuntimeError(
+        f'Failed to write checkpoint {filepath} ({free_gb:.2f} GB free on disk). '
+        'Delete old .pt files or free disk space, then resume training.'
+    ) from exc
   except Exception:
     if os.path.exists(temp_path):
       os.remove(temp_path)

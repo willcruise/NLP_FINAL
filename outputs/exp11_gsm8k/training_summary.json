@@ -1,0 +1,89 @@
+{
+  "checkpoint_tag": "exp11_gsm8k",
+  "train_path": "data/gsm8k_sft_train.txt",
+  "init_checkpoint": "7_exp11_ma.pt",
+  "best_epoch": 0,
+  "best_exact_accuracy": 0.02,
+  "best_checkpoint": "best_exp11_gsm8k.pt",
+  "history": [
+    {
+      "n": 500,
+      "exact_accuracy": 0.02,
+      "no_answer_rate": 0.014,
+      "format_valid_rate": 0.472,
+      "repetition_rate": 0.43,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 0,
+      "train_loss": 2.242179170290629,
+      "checkpoint_tag": "exp11_gsm8k"
+    },
+    {
+      "n": 500,
+      "exact_accuracy": 0.012,
+      "no_answer_rate": 0.014,
+      "format_valid_rate": 0.754,
+      "repetition_rate": 0.242,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 4,
+      "train_loss": 1.4187751441001892,
+      "checkpoint_tag": "exp11_gsm8k"
+    },
+    {
+      "n": 500,
+      "exact_accuracy": 0.014,
+      "no_answer_rate": 0.012,
+      "format_valid_rate": 0.888,
+      "repetition_rate": 0.114,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 8,
+      "train_loss": 1.2445105851491292,
+      "checkpoint_tag": "exp11_gsm8k"
+    },
+    {
+      "n": 500,
+      "exact_accuracy": 0.014,
+      "no_answer_rate": 0.002,
+      "format_valid_rate": 0.904,
+      "repetition_rate": 0.096,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 12,
+      "train_loss": 1.1313131872812907,
+      "checkpoint_tag": "exp11_gsm8k"
+    },
+    {
+      "n": 500,
+      "exact_accuracy": 0.012,
+      "no_answer_rate": 0.004,
+      "format_valid_rate": 0.932,
+      "repetition_rate": 0.068,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 16,
+      "train_loss": 1.0506604647636413,
+      "checkpoint_tag": "exp11_gsm8k"
+    },
+    {
+      "n": 500,
+      "exact_accuracy": 0.014,
+      "no_answer_rate": 0.0,
+      "format_valid_rate": 0.944,
+      "repetition_rate": 0.04,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 20,
+      "train_loss": 0.9862314936319987,
+      "checkpoint_tag": "exp11_gsm8k"
+    }
+  ],
+  "finished_epoch": 20
+}

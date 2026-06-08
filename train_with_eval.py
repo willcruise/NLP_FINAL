@@ -8,6 +8,10 @@ Experiments (see prepare_experiment_data.py + scripts/run_overnight_experiments.
   exp5       GSM8K + MultiArith aug + entity
   exp6       exp3 mix + subsampled PEMDAS arithmetic
   exp7       arithmetic curriculum → GSM8K + entity + subsampled MA (best on GSM8K dev)
+  exp10      exp4 curriculum → GSM8K + entity + subsampled MA aug (best on GSM8K dev)
+  exp11      sequential: arith → entity → MA aug → GSM8K (best on GSM8K dev)
+  exp12      sequential: arith → MA aug → GSM8K (MA ablation, no entity)
+  exp13      sequential: arith → entity → GSM8K (entity ablation, no MA)
 
 Each run:
   - starts from pretrained GPT-2 (no resume unless --resume)
@@ -107,6 +111,42 @@ EXPERIMENT_CONFIGS = {
     'exp7': {
         'train_path': 'data/experiments/exp7_gsm8k_ma_sub_ent_train.txt',
         'checkpoint_tag': 'exp7_gsm8k_ma_sub_ent',
+        'dev_path': GSM8K_DEV_JSONL,
+        'epochs': 32,
+        'eval_every': 4,
+        'patience': 5,
+        'lr': 5e-6,
+    },
+    'exp10': {
+        'train_path': 'data/experiments/exp10_gsm8k_ma_aug_sub_ent_train.txt',
+        'checkpoint_tag': 'exp10_gsm8k_ma_aug_sub_ent',
+        'dev_path': GSM8K_DEV_JSONL,
+        'epochs': 32,
+        'eval_every': 4,
+        'patience': 5,
+        'lr': 5e-6,
+    },
+    'exp11': {
+        'train_path': 'data/gsm8k_sft_train.txt',
+        'checkpoint_tag': 'exp11_gsm8k',
+        'dev_path': GSM8K_DEV_JSONL,
+        'epochs': 32,
+        'eval_every': 4,
+        'patience': 5,
+        'lr': 5e-6,
+    },
+    'exp12': {
+        'train_path': 'data/gsm8k_sft_train.txt',
+        'checkpoint_tag': 'exp12_ma_gsm8k',
+        'dev_path': GSM8K_DEV_JSONL,
+        'epochs': 32,
+        'eval_every': 4,
+        'patience': 5,
+        'lr': 5e-6,
+    },
+    'exp13': {
+        'train_path': 'data/gsm8k_sft_train.txt',
+        'checkpoint_tag': 'exp13_ent_gsm8k',
         'dev_path': GSM8K_DEV_JSONL,
         'epochs': 32,
         'eval_every': 4,
@@ -370,7 +410,7 @@ def get_args():
       '--experiment',
       choices=list(EXPERIMENT_CONFIGS.keys()),
       default=None,
-      help='Preset: exp1–exp7 (see EXPERIMENT_CONFIGS).',
+      help='Preset: exp1–exp7, exp10–exp13 (see EXPERIMENT_CONFIGS).',
   )
   parser.add_argument('--train_path', type=str, default=None)
   parser.add_argument('--dev_path', type=str, default=DEV_JSONL)
