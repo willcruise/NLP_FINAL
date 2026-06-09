@@ -20,6 +20,7 @@ Outputs:
     data/gsm8k_dev_prompts.txt   prompt-only blocks for inference (held-out format)
 """
 
+import argparse
 import json
 import os
 import random
@@ -88,10 +89,33 @@ def write_prompts(examples, path):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        '--n_sft',
+        type=int,
+        default=N_SFT,
+        help=f'Number of SFT examples (default {N_SFT}).',
+    )
+    parser.add_argument(
+        '--sft_out',
+        type=str,
+        default='gsm8k_sft_train.txt',
+        help='SFT output filename under data/ (default gsm8k_sft_train.txt).',
+    )
+    parser.add_argument(
+        '--sft_only',
+        action='store_true',
+        help='Only write the SFT file; leave DPO/dev outputs unchanged.',
+    )
+    args = parser.parse_args()
+
     examples = parse_source(SRC)
     print(f"Parsed {len(examples)} scoreable examples from {os.path.basename(SRC)}")
 
-    total_needed = N_SFT + N_DPO + N_DEV
+    n_sft = args.n_sft
+    n_dpo = N_DPO
+    n_dev = N_DEV
+    total_needed = n_sft + (0 if args.sft_only else n_dpo + n_dev)
     if len(examples) < total_needed:
         raise SystemExit(
             f"Not enough examples: have {len(examples)}, need {total_needed}."
@@ -102,9 +126,16 @@ def main():
     indices = list(range(len(examples)))
     rng.shuffle(indices)
 
-    sft_idx = indices[:N_SFT]
-    dpo_idx = indices[N_SFT:N_SFT + N_DPO]
-    dev_idx = indices[N_SFT + N_DPO:N_SFT + N_DPO + N_DEV]
+    sft_idx = indices[:n_sft]
+    if args.sft_only:
+        sft = [examples[i] for i in sft_idx]
+        sft_path = os.path.join(DATA_DIR, args.sft_out)
+        write_sft(sft, sft_path)
+        print(f"SFT : {len(sft)} -> data/{args.sft_out} (sft_only; dev/DPO unchanged)")
+        return
+
+    dpo_idx = indices[n_sft:n_sft + n_dpo]
+    dev_idx = indices[n_sft + n_dpo:n_sft + n_dpo + n_dev]
 
     # Sanity: no overlap.
     assert len(set(sft_idx) & set(dpo_idx)) == 0
@@ -115,12 +146,12 @@ def main():
     dpo = [examples[i] for i in dpo_idx]
     dev = [examples[i] for i in dev_idx]
 
-    write_sft(sft, os.path.join(DATA_DIR, "gsm8k_sft_train.txt"))
+    write_sft(sft, os.path.join(DATA_DIR, args.sft_out))
     write_jsonl(dpo, os.path.join(DATA_DIR, "gsm8k_dpo_source.jsonl"), include_reasoning=True)
     write_jsonl(dev, os.path.join(DATA_DIR, "gsm8k_dev.jsonl"), include_reasoning=False)
     write_prompts(dev, os.path.join(DATA_DIR, "gsm8k_dev_prompts.txt"))
 
-    print(f"SFT : {len(sft)} -> data/gsm8k_sft_train.txt")
+    print(f"SFT : {len(sft)} -> data/{args.sft_out}")
     print(f"DPO : {len(dpo)} -> data/gsm8k_dpo_source.jsonl")
     print(f"dev : {len(dev)} -> data/gsm8k_dev.jsonl + data/gsm8k_dev_prompts.txt")
     print("All splits disjoint; gold answers present for every dev example.")

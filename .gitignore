@@ -63,9 +63,9 @@ outputs/exp10_gsm8k_ma_aug_sub_ent/*
 !outputs/exp11_gsm8k/
 outputs/exp11_gsm8k/*
 !outputs/exp11_gsm8k/*.json
-!outputs/exp12_ma_gsm8k/
-outputs/exp12_ma_gsm8k/*
-!outputs/exp12_ma_gsm8k/*.json
-!outputs/exp13_ent_gsm8k/
-outputs/exp13_ent_gsm8k/*
-!outputs/exp13_ent_gsm8k/*.json
+!outputs/exp14_gsm8k4500_ent1_ma/
+outputs/exp14_gsm8k4500_ent1_ma/*
+!outputs/exp14_gsm8k4500_ent1_ma/*.json
+!outputs/exp15_gsm8k_ma_ent_planning/
+outputs/exp15_gsm8k_ma_ent_planning/*
+!outputs/exp15_gsm8k_ma_ent_planning/*.json

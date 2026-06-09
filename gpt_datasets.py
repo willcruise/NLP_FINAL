@@ -172,7 +172,16 @@ ENTITIES_DELIMITER = "Entities:\n"
 #   reasoning          — after Reasoning:\\n (default GSM8K CoT)
 #   entities           — after Entities:\\n (stage-1 entity binding)
 #   entities_reasoning — after Entities:\\n (entities + reasoning + ####)
-MASK_TARGETS = ('reasoning', 'entities', 'entities_reasoning')
+MASK_TARGETS = ('reasoning', 'entities', 'entities_reasoning', 'auto')
+
+
+def infer_mask_target(text):
+  """Per-example mask for mixed files (GSM8K/MA vs entity stage-1)."""
+  if REASONING_DELIMITER in text:
+    return 'reasoning'
+  if ENTITIES_DELIMITER in text:
+    return 'entities'
+  return 'reasoning'
 
 
 def _prefix_through_delimiter(text, delimiter):
@@ -512,9 +521,14 @@ class ReasoningDataset(Dataset):
         max_length=max_length
     )
 
-    target = self.mask_target or 'reasoning'
+    default_target = self.mask_target or 'reasoning'
     loss_starts = torch.LongTensor([
-        get_loss_token_start(text, self.tokenizer, mask_target=target, max_length=max_length)
+        get_loss_token_start(
+            text,
+            self.tokenizer,
+            mask_target=infer_mask_target(text) if default_target == 'auto' else default_target,
+            max_length=max_length,
+        )
         for text in texts
     ])
 

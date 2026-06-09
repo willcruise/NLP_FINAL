@@ -13,6 +13,8 @@ Experiments:
   exp10 exp4-style arith curriculum → GSM8K + entity + subsampled MA aug (best on GSM8K dev)
   exp11_ma  aug MA subsample only (for sequential exp11 MA stage)
   exp11     sequential curriculum: arith → entity → MA → GSM8K (see scripts/run_exp11.sh)
+  exp14     exp10-style mix with GSM8K 4500 + entity stage-1 (no Reasoning) + MA aug 600
+  exp15     exp4 mix with planning entity (5-7 step LLM) + GSM8K dev best checkpoint
 
 Outputs under data/experiments/
 
@@ -101,6 +103,28 @@ EXPERIMENTS = {
             },
         ],
     },
+    'exp14': {
+        'out': 'exp14_gsm8k4500_ent1_ma_aug_train.txt',
+        'sources': [
+            'data/gsm8k_sft_train_4500.txt',
+            'data/entity_stage1_train.txt',
+        ],
+        'subsampled_sources': [
+            {
+                'path': 'data/multiarith_sft_train_aug.txt',
+                'n': 600,
+                'seed_offset': 3,
+            },
+        ],
+    },
+    'exp15': {
+        'out': 'exp15_gsm8k_ma_ent_planning_train.txt',
+        'sources': [
+            'data/gsm8k_sft_train.txt',
+            'data/multiarith_sft_train.txt',
+            'data/entity_planning_stage2_train.txt',
+        ],
+    },
 }
 
 
@@ -135,7 +159,7 @@ def write_blocks(blocks, out_path: str, shuffle_seed=None):
 
 
 def apply_env_overrides(name: str, cfg: dict) -> dict:
-  if name in ('exp10', 'exp11_ma'):
+  if name in ('exp10', 'exp11_ma', 'exp14'):
     n = os.environ.get('MA_AUG_SUBSAMPLE')
     if n:
       subs = [dict(item) for item in cfg.get('subsampled_sources', [])]
@@ -207,9 +231,19 @@ def main():
       print('exp10: uses data/experiments/exp10_gsm8k_ma_aug_sub_ent_train.txt (arith curriculum at train time)\n')
     if name == 'exp11_ma':
       print('exp11_ma: MA aug subsample only -> data/experiments/exp11_ma_aug_sub_train.txt\n')
+    if name == 'exp14':
+      print(
+          'exp14: GSM8K 4500 + entity stage-1 (no Reasoning) + MA aug subsample '
+          '-> data/experiments/exp14_gsm8k4500_ent1_ma_aug_train.txt\n'
+      )
+    if name == 'exp15':
+      print(
+          'exp15: GSM8K 3k + MA clean + planning entity stage2 (5-7 step) '
+          '-> data/experiments/exp15_gsm8k_ma_ent_planning_train.txt\n'
+      )
     if name not in EXPERIMENTS:
       raise ValueError(
-          f'Unknown experiment {name!r}; choose from {list(EXPERIMENTS)} + exp4 + exp7 + exp10'
+          f'Unknown experiment {name!r}; choose from {list(EXPERIMENTS)} + exp4 + exp7 + exp10 + exp14 + exp15'
       )
     cfg = apply_env_overrides(name, EXPERIMENTS[name])
     build_experiment(name, cfg, args.seed)

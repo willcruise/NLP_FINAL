@@ -10,8 +10,8 @@ Experiments (see prepare_experiment_data.py + scripts/run_overnight_experiments.
   exp7       arithmetic curriculum → GSM8K + entity + subsampled MA (best on GSM8K dev)
   exp10      exp4 curriculum → GSM8K + entity + subsampled MA aug (best on GSM8K dev)
   exp11      sequential: arith → entity → MA aug → GSM8K (best on GSM8K dev)
-  exp12      sequential: arith → MA aug → GSM8K (MA ablation, no entity)
-  exp13      sequential: arith → entity → GSM8K (entity ablation, no MA)
+  exp14      exp10-style mix with GSM8K 4500 + entity stage-1 (mask_target auto)
+  exp15      exp4 mix + planning entity (5-7 step LLM), best on GSM8K dev
 
 Each run:
   - starts from pretrained GPT-2 (no resume unless --resume)
@@ -135,18 +135,19 @@ EXPERIMENT_CONFIGS = {
         'patience': 5,
         'lr': 5e-6,
     },
-    'exp12': {
-        'train_path': 'data/gsm8k_sft_train.txt',
-        'checkpoint_tag': 'exp12_ma_gsm8k',
+    'exp14': {
+        'train_path': 'data/experiments/exp14_gsm8k4500_ent1_ma_aug_train.txt',
+        'checkpoint_tag': 'exp14_gsm8k4500_ent1_ma',
         'dev_path': GSM8K_DEV_JSONL,
         'epochs': 32,
         'eval_every': 4,
         'patience': 5,
         'lr': 5e-6,
+        'mask_target': 'auto',
     },
-    'exp13': {
-        'train_path': 'data/gsm8k_sft_train.txt',
-        'checkpoint_tag': 'exp13_ent_gsm8k',
+    'exp15': {
+        'train_path': 'data/experiments/exp15_gsm8k_ma_ent_planning_train.txt',
+        'checkpoint_tag': 'exp15_gsm8k_ma_ent_planning',
         'dev_path': GSM8K_DEV_JSONL,
         'epochs': 32,
         'eval_every': 4,
@@ -401,6 +402,8 @@ def apply_experiment_preset(args):
   args.lr = cfg['lr']
   if cfg.get('dev_path'):
     args.dev_path = cfg['dev_path']
+  if cfg.get('mask_target'):
+    args.mask_target = cfg['mask_target']
   return args
 
 
@@ -410,7 +413,7 @@ def get_args():
       '--experiment',
       choices=list(EXPERIMENT_CONFIGS.keys()),
       default=None,
-      help='Preset: exp1–exp7, exp10–exp13 (see EXPERIMENT_CONFIGS).',
+      help='Preset: exp1–exp7, exp10–exp11, exp14–exp15 (see EXPERIMENT_CONFIGS).',
   )
   parser.add_argument('--train_path', type=str, default=None)
   parser.add_argument('--dev_path', type=str, default=DEV_JSONL)
@@ -424,7 +427,7 @@ def get_args():
   parser.add_argument('--mask_prompt', action='store_true', default=True)
   parser.add_argument('--no_mask_prompt', action='store_true')
   parser.add_argument('--mask_target', type=str, default='reasoning',
-                      choices=['reasoning', 'entities', 'entities_reasoning'])
+                      choices=['reasoning', 'entities', 'entities_reasoning', 'auto'])
   parser.add_argument('--fresh', action='store_true', default=True)
   parser.add_argument('--no_fresh', action='store_true')
   parser.add_argument('--resume', action='store_true')

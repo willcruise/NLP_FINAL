@@ -50,9 +50,14 @@ def _epoch_from_path(path):
   return int(os.path.basename(path).split('_', 1)[0])
 
 
+def _is_epoch_checkpoint(path):
+  """True only for per-epoch files like '12_tag.pt' (excludes best_/legacy)."""
+  return os.path.basename(path).split('_', 1)[0].isdigit()
+
+
 def find_latest_checkpoint(args):
   """Latest checkpoint for unified args.filepath, or (None, -1)."""
-  paths = glob.glob(f'*_{args.filepath}')
+  paths = [p for p in glob.glob(f'*_{args.filepath}') if _is_epoch_checkpoint(p)]
   if not paths:
     return None, -1
   latest_path = max(paths, key=_epoch_from_path)
@@ -66,7 +71,7 @@ def find_latest_checkpoint_any(args):
   paths = list(glob.glob(f'*_{args.filepath}'))
   for pattern in LEGACY_CHECKPOINT_GLOBS:
     paths.extend(glob.glob(pattern))
-  paths = list(set(paths))
+  paths = [p for p in set(paths) if _is_epoch_checkpoint(p)]
   if not paths:
     return None, -1
   latest_path = max(paths, key=_epoch_from_path)

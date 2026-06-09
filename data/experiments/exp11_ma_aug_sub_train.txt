@@ -1,0 +1,7807 @@
+0
+
+13_aug4
+
+Question: Katie picked 12 tulips and 6 roses to make flower bouquets. If she only used 17 of the flowers though, how many extra flowers did Katie pick?
+
+Reasoning:
+12 plus 6 = <<12+6=18>>18
+18 minus 17 = <<18-17=1>>1
+#### 1
+
+<|endoftext|>
+
+1
+
+551_aug1
+
+Question: Oliver made 23 dollars mowing lawns over the summer. If he spent 5 dollars buying new mower blades, how many 1 dollar games could he buy with the money he had left?
+
+Reasoning:
+23 minus 5 = <<23-5=18>>18
+18 divided by 1 = <<18/1=18>>18
+#### 18
+
+<|endoftext|>
+
+2
+
+154_aug1
+
+Question: Emily had 10 coloring books. If she gave away 4 of them, but then bought 7 more, how many would she have total?
+
+Reasoning:
+10 plus 7 = <<10+7=17>>17
+17 minus 4 = <<17-4=13>>13
+#### 13
+
+<|endoftext|>
+
+3
+
+274_aug0
+
+Question: A pet store has 5 bird cages. If each cage has 12 parrots and 9 parakeets in it, how many birds does the pet store have total?
+
+Reasoning:
+12 plus 9 = <<12+9=21>>21
+5 times 21 = <<5*21=105>>105
+#### 105
+
+<|endoftext|>
+
+4
+
+410_aug1
+
+Question: Kaleb bought 18 boxes of chocolate candy and gave 11 to his little brother. If each box has 10 pieces inside it, how many pieces did Kaleb still have?
+
+Reasoning:
+18 minus 11 = <<18-11=7>>7
+10 times 7 = <<10*7=70>>70
+#### 70
+
+<|endoftext|>
+
+5
+
+8_aug4
+
+Question: Rachel bought two coloring books. One had 44 pictures and the other had 51. After one week she had already colored 51 of the pictures. How many pictures does she still have to color?
+
+Reasoning:
+44 plus 51 = <<44+51=95>>95
+95 minus 51 = <<95-51=44>>44
+#### 44
+
+<|endoftext|>
+
+6
+
+408_aug0
+
+Question: Wendy earned 1 points for each bag of cans she recycled. If she had 18 bags, but didn't recycle 5 of them, how many points would she have earned?
+
+Reasoning:
+18 minus 5 = <<18-5=13>>13
+1 times 13 = <<1*13=13>>13
+#### 13
+
+<|endoftext|>
+
+7
+
+480
+
+Question: A new building needed 11 windows. The builder had already installed 4 of them. If it takes 8 hours to install each window, how long will it take him to install the rest?
+
+Reasoning:
+Subtract the installed windows from the total to find how many remain: 11 - 4 = <<11-4=7>>7
+Multiply the remaining windows by the time required per window: 7 * 8 = <<7*8=56>>56
+#### 56
+
+<|endoftext|>
+
+8
+
+517_aug4
+
+Question: Isabel picked 102 flowers for her friend’s wedding. She was making bouquets with 3 flowers in each one. If 18 of the flowers wilted before the wedding, how many bouquets could she still make?
+
+Reasoning:
+102 minus 18 = <<102-18=84>>84
+84 divided by 3 = <<84/3=28>>28
+#### 28
+
+<|endoftext|>
+
+9
+
+579_aug0
+
+Question: Nancy uploaded 96 pictures to Facebook. She put 13 pics into one album and put the rest into 1 different albums. How many pictures were in each album?
+
+Reasoning:
+96 minus 13 = <<96-13=83>>83
+83 divided by 1 = <<83/1=83>>83
+#### 83
+
+<|endoftext|>
+
+10
+
+218
+
+Question: Victor and his friend were buying trick decks from the magic shop for 8 dollars each. How much did they spend if Victor bought 6 decks and his friend bought 2 decks?
+
+Reasoning:
+Calculate the total number of decks bought by adding Victor's 6 decks and his friend's 2 decks: 6 + 2 = <<6+2=8>>8
+Multiply the total number of decks by the price of 8 dollars per deck: 8 * 8 = <<8*8=64>>64
+#### 64
+
+<|endoftext|>
+
+11
+
+391_aug4
+
+Question: Zoe and her friends were recycling paper for their class. For every 2 pounds they recycled they earned one point. If Zoe recycled 30 pounds and her friends recycled 42 pounds, how many points did they earn?
+
+Reasoning:
+30 plus 42 = <<30+42=72>>72
+72 divided by 2 = <<72/2=36>>36
+#### 36
+
+<|endoftext|>
+
+12
+
+415_aug0
+
+Question: A new building needed 13 windows. The builder had already installed 10 of them. If it takes 12 hours to install each window, how long will it take him to install the rest?
+
+Reasoning:
+13 minus 10 = <<13-10=3>>3
+12 times 3 = <<12*3=36>>36
+#### 36
+
+<|endoftext|>
+
+13
+
+470_aug3
+
+Question: A chef needs to cook 21 potatoes. He has already cooked 2. If each potato takes 8 minutes to cook, how long will it take him to cook the rest?
+
+Reasoning:
+21 minus 2 = <<21-2=19>>19
+8 times 19 = <<8*19=152>>152
+#### 152
+
+<|endoftext|>
+
+14
+
+318_aug1
+
+Question: Debby's class is going on a field trip to the zoo. If each van can hold 2 people and there are 8 students and 4 adults going, how many vans will they need?
+
+Reasoning:
+8 plus 4 = <<8+4=12>>12
+12 divided by 2 = <<12/2=6>>6
+#### 6
+
+<|endoftext|>
+
+15
+
+3
+
+Question: The school cafeteria ordered 42 red apples and 7 green apples for students lunches. But, if only 9 students wanted fruit, how many extra did the cafeteria end up with?
+
+Reasoning:
+Calculate the total number of apples by adding the red and green apples: 42 + 7 = <<42+7=49>>49
+Subtract the number of students who wanted fruit from the total number of apples: 49 - 9 = <<49-9=40>>40
+#### 40
+
+<|endoftext|>
+
+16
+
+595_aug0
+
+Question: Roger had 125 dollars. If he spent 29 bucks on a new game, how many 3 dollar toys could he buy with the money he had left?
+
+Reasoning:
+125 minus 29 = <<125-29=96>>96
+96 divided by 3 = <<96/3=32>>32
+#### 32
+
+<|endoftext|>
+
+17
+
+371_aug4
+
+Question: Robin's class is going on a field trip to the zoo. If each van can hold 4 people and there are 2 students and 10 adults going, how many vans will they need?
+
+Reasoning:
+2 plus 10 = <<2+10=12>>12
+12 divided by 4 = <<12/4=3>>3
+#### 3
+
+<|endoftext|>
+
+18
+
+305_aug2
+
+Question: There school's baseball team had 75 new players and 5 returning players. If the coach put them into groups with 1 players in each group, how many groups would there be?
+
+Reasoning:
+75 plus 5 = <<75+5=80>>80
+80 divided by 1 = <<80/1=80>>80
+#### 80
+
+<|endoftext|>
+
+19
+
+563_aug2
+
+Question: Haley uploaded 119 pictures to Facebook. She put 3 pics into one album and put the rest into 4 different albums. How many pictures were in each album?
+
+Reasoning:
+119 minus 3 = <<119-3=116>>116
+116 divided by 4 = <<116/4=29>>29
+#### 29
+
+<|endoftext|>
+
+20
+
+500_aug1
+
+Question: Will had 109 dollars. If he spent 8 bucks on a new game, how many 1 dollar toys could he buy with the money he had left?
+
+Reasoning:
+109 minus 8 = <<109-8=101>>101
+101 divided by 1 = <<101/1=101>>101
+#### 101
+
+<|endoftext|>
+
+21
+
+500_aug4
+
+Question: Will had 66 dollars. If he spent 38 bucks on a new game, how many 2 dollar toys could he buy with the money he had left?
+
+Reasoning:
+66 minus 38 = <<66-38=28>>28
+28 divided by 2 = <<28/2=14>>14
+#### 14
+
+<|endoftext|>
+
+22
+
+598_aug1
+
+Question: Sarah baked 51 cupcakes for her school's bake sale. If her brother, Todd, ate 23 of them how many packages could she make if she put 14 cupcake in each package?
+
+Reasoning:
+51 minus 23 = <<51-23=28>>28
+28 divided by 14 = <<28/14=2>>2
+#### 2
+
+<|endoftext|>
+
+23
+
+356_aug4
+
+Question: Haley and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Haley recycled 16 pounds and her friends recycled 8 pounds, how many points did they earn?
+
+Reasoning:
+16 plus 8 = <<16+8=24>>24
+24 divided by 3 = <<24/3=8>>8
+#### 8
+
+<|endoftext|>
+
+24
+
+544_aug2
+
+Question: The cafeteria had 64 apples. For lunch they handed out 37 to students and decided to use the rest to make pies. If each pie takes 3 apples, how many pies could they make?
+
+Reasoning:
+64 minus 37 = <<64-37=27>>27
+27 divided by 3 = <<27/3=9>>9
+#### 9
+
+<|endoftext|>
+
+25
+
+229_aug0
+
+Question: Edward and his friend were buying trick decks from the magic shop for 11 dollars each. How much did they spend if Edward bought 8 decks and his friend bought 8 decks?
+
+Reasoning:
+8 plus 8 = <<8+8=16>>16
+11 times 16 = <<11*16=176>>176
+#### 176
+
+<|endoftext|>
+
+26
+
+271_aug1
+
+Question: Will was working as a sacker at a grocery store where he made 14 dollars an hour. On Monday he worked 12 hours and on Tuesday he worked 9 hours. How much money did Will make in those two days?
+
+Reasoning:
+12 plus 9 = <<12+9=21>>21
+14 times 21 = <<14*21=294>>294
+#### 294
+
+<|endoftext|>
+
+27
+
+449_aug2
+
+Question: At lunch a waiter had 10 customers and 2 of them didn't leave a tip. If he got $12 each from the ones who did tip, how much money did he earn?
+
+Reasoning:
+10 minus 2 = <<10-2=8>>8
+12 times 8 = <<12*8=96>>96
+#### 96
+
+<|endoftext|>
+
+28
+
+137_aug4
+
+Question: George had 46 socks. If he threw away 3 old ones that didn't fit and bought 39 new ones, how many socks would he have?
+
+Reasoning:
+46 plus 39 = <<46+39=85>>85
+85 minus 3 = <<85-3=82>>82
+#### 82
+
+<|endoftext|>
+
+29
+
+481_aug1
+
+Question: Tom bought 9 boxes of chocolate candy and gave 8 to his little brother. If each box has 4 pieces inside it, how many pieces did Tom still have?
+
+Reasoning:
+9 minus 8 = <<9-8=1>>1
+4 times 1 = <<4*1=4>>4
+#### 4
+
+<|endoftext|>
+
+30
+
+415_aug4
+
+Question: A new building needed 14 windows. The builder had already installed 8 of them. If it takes 4 hours to install each window, how long will it take him to install the rest?
+
+Reasoning:
+14 minus 8 = <<14-8=6>>6
+4 times 6 = <<4*6=24>>24
+#### 24
+
+<|endoftext|>
+
+31
+
+5_aug0
+
+Question: Carol and her mom were picking carrots from their garden. Carol picked 32 and her mother picked 27. If only 6 of the carrots were good, how many bad carrots did they have?
+
+Reasoning:
+32 plus 27 = <<32+27=59>>59
+59 minus 6 = <<59-6=53>>53
+#### 53
+
+<|endoftext|>
+
+32
+
+26_aug4
+
+Question: A pet store had 23 siamese cats and 28 house cats. During a sale they sold 33 cats. How many cats do they have left?
+
+Reasoning:
+23 plus 28 = <<23+28=51>>51
+51 minus 33 = <<51-33=18>>18
+#### 18
+
+<|endoftext|>
+
+33
+
+305_aug1
+
+Question: There school's baseball team had 63 new players and 6 returning players. If the coach put them into groups with 1 players in each group, how many groups would there be?
+
+Reasoning:
+63 plus 6 = <<63+6=69>>69
+69 divided by 1 = <<69/1=69>>69
+#### 69
+
+<|endoftext|>
+
+34
+
+318_aug2
+
+Question: Debby's class is going on a field trip to the zoo. If each van can hold 2 people and there are 2 students and 10 adults going, how many vans will they need?
+
+Reasoning:
+2 plus 10 = <<2+10=12>>12
+12 divided by 2 = <<12/2=6>>6
+#### 6
+
+<|endoftext|>
+
+35
+
+96
+
+Question: For the school bake sale Wendy made pastries. She baked 41 cupcakes and 31 cookies. After the sale she had 32 to take back home. How many pastries did she sell?
+
+Reasoning:
+First, calculate the total number of pastries Wendy baked by adding the cupcakes and cookies: 41 + 31 = <<41+31=72>>72.
+Next, subtract the number of pastries she took home from the total number she baked to find how many were sold: 72 - 32 = <<72-32=40>>40.
+#### 40
+
+<|endoftext|>
+
+36
+
+304_aug4
+
+Question: Luke made 13 dollars mowing lawns and 8 dollars weed eating. If he only spent 1 dollar a week, how long would the money last him?
+
+Reasoning:
+13 plus 8 = <<13+8=21>>21
+21 divided by 1 = <<21/1=21>>21
+#### 21
+
+<|endoftext|>
+
+37
+
+55_aug2
+
+Question: The school cafeteria ordered 51 red apples and 34 green apples for students lunches. But, if only 30 students wanted fruit, how many extra did the cafeteria end up with?
+
+Reasoning:
+51 plus 34 = <<51+34=85>>85
+85 minus 30 = <<85-30=55>>55
+#### 55
+
+<|endoftext|>
+
+38
+
+7_aug3
+
+Question: While on vacation, Megan took 8 pictures at the zoo and 10 at the museum. If she later deleted 6 of the pictures, how many pictures from her vacation did she still have?
+
+Reasoning:
+8 plus 10 = <<8+10=18>>18
+18 minus 6 = <<18-6=12>>12
+#### 12
+
+<|endoftext|>
+
+39
+
+279
+
+Question: While shopping for music online, Nancy bought 3 country albums and 5 pop albums. Each album came with a lyric sheet and had 8 songs. How many songs did Nancy buy total?
+
+Reasoning:
+First, calculate the total number of albums Nancy bought by adding the country and pop albums: 3 + 5 = <<3+5=8>>8
+Next, multiply the total number of albums by the number of songs per album: 8 * 8 = <<8*8=64>>64
+#### 64
+
+<|endoftext|>
+
+40
+
+110_aug0
+
+Question: A teacher had 6 worksheets to grade. If she graded 7, but then another 13 were turned in, how many worksheets would she have to grade?
+
+Reasoning:
+6 plus 13 = <<6+13=19>>19
+19 minus 7 = <<19-7=12>>12
+#### 12
+
+<|endoftext|>
+
+41
+
+100_aug3
+
+Question: For the school bake sale Carol made 3 cupcakes. If she sold 4 of them and then made 2 more, how many cupcakes would she have?
+
+Reasoning:
+3 plus 2 = <<3+2=5>>5
+5 minus 4 = <<5-4=1>>1
+#### 1
+
+<|endoftext|>
+
+42
+
+390
+
+Question: A toy store had 17 giant stuffed bears in stock when they got another shipment with 10 bears in it. The put the bears onto shelves with 9 on each shelf. How many shelves did they use?
+
+Reasoning:
+First, calculate the total number of bears by adding the initial stock to the new shipment: 17 + 10 = <<17+10=27>>27
+Next, divide the total number of bears by the number of bears placed on each shelf: 27 / 9 = <<27/9=3>>3
+#### 3
+
+<|endoftext|>
+
+43
+
+521_aug0
+
+Question: The cafeteria had 73 apples. For lunch they handed out 1 to students and decided to use the rest to make pies. If each pie takes 6 apples, how many pies could they make?
+
+Reasoning:
+73 minus 1 = <<73-1=72>>72
+72 divided by 6 = <<72/6=12>>12
+#### 12
+
+<|endoftext|>
+
+44
+
+297_aug0
+
+Question: A waiter had 14 tables he was waiting on, with 3 women and 12 men at each table. How many customers total did the waiter have?
+
+Reasoning:
+3 plus 12 = <<3+12=15>>15
+14 times 15 = <<14*15=210>>210
+#### 210
+
+<|endoftext|>
+
+45
+
+362_aug0
+
+Question: Sam had saved up 5 dollars. If he received another 7 dollars for his allowance, how many 3 dollar toys could he buy?
+
+Reasoning:
+5 plus 7 = <<5+7=12>>12
+12 divided by 3 = <<12/3=4>>4
+#### 4
+
+<|endoftext|>
+
+46
+
+295_aug2
+
+Question: Edward and his friend were buying trick decks from the magic shop for 4 dollars each. How much did they spend if Edward bought 3 decks and his friend bought 10 decks?
+
+Reasoning:
+4 plus 3 = <<4+3=7>>7
+10 times 7 = <<10*7=70>>70
+#### 70
+
+<|endoftext|>
+
+47
+
+311
+
+Question: A group of 4 friends went into a restaurant. The chef already had 9 chicken wings cooked but cooked 7 more for the group. If they each got the same amount how many would each person get?
+
+Reasoning:
+Calculate the total number of chicken wings by adding the initial wings to the newly cooked ones: 9 + 7 = <<9+7=16>>16
+Divide the total number of wings by the number of friends to find the amount per person: 16 / 4 = <<16/4=4>>4
+#### 4
+
+<|endoftext|>
+
+48
+
+245_aug4
+
+Question: Chloe was organizing her book case making sure each of the shelves had exactly 9 books on it. If she had 3 shelves of mystery books and 4 shelves of picture books, how many books did she have total?
+
+Reasoning:
+3 plus 4 = <<3+4=7>>7
+9 times 7 = <<9*7=63>>63
+#### 63
+
+<|endoftext|>
+
+49
+
+287_aug3
+
+Question: Nancy was organizing her book case making sure each of the shelves had exactly 9 books on it. If she had 1 shelves of mystery books and 4 shelves of picture books, how many books did she have total?
+
+Reasoning:
+9 plus 1 = <<9+1=10>>10
+4 times 10 = <<4*10=40>>40
+#### 40
+
+<|endoftext|>
+
+50
+
+92
+
+Question: Rachel bought two coloring books. One had 24 pictures and the other had 39. After one week she had already colored 4 of the pictures. How many pictures does she still have to color?
+
+Reasoning:
+First, find the total number of pictures by adding the two books together: 24 + 39 = <<24+39=63>>63.
+Next, subtract the number of pictures she has already colored from the total: 63 - 4 = <<63-4=59>>59.
+#### 59
+
+<|endoftext|>
+
+51
+
+384
+
+Question: Luke was helping the cafeteria workers pick up lunch trays, but he could only carry 4 trays at a time. If he had to pick up 20 trays from one table and 16 trays from another, how many trips will he make?
+
+Reasoning:
+Calculate the total number of trays by adding 20 and 16 together: <<20+16=36>>36
+Divide the total number of trays by the 4 trays Luke can carry per trip: <<36/4=9>>9
+#### 9
+
+<|endoftext|>
+
+52
+
+72_aug3
+
+Question: The school cafeteria ordered 5 red apples and 14 green apples for students lunches. But, if only 1 students wanted fruit, how many extra did the cafeteria end up with?
+
+Reasoning:
+5 plus 14 = <<5+14=19>>19
+19 minus 1 = <<19-1=18>>18
+#### 18
+
+<|endoftext|>
+
+53
+
+381
+
+Question: Paul had saved up 3 dollars. If he received another 7 dollars for his allowance, how many 5 dollar toys could he buy?
+
+Reasoning:
+First, calculate the total amount of money Paul has by adding his savings and his allowance: 3 + 7 = <<3+7=10>>10.
+Next, divide the total amount of money by the cost of one toy to find how many he can buy: 10 / 5 = <<10/5=2>>2.
+#### 2
+
+<|endoftext|>
+
+54
+
+97_aug3
+
+Question: The school cafeteria ordered 46 red apples and 4 green apples for students lunches. But, if only 9 students wanted fruit, how many extra did the cafeteria end up with?
+
+Reasoning:
+46 plus 4 = <<46+4=50>>50
+50 minus 9 = <<50-9=41>>41
+#### 41
+
+<|endoftext|>
+
+55
+
+132_aug2
+
+Question: At the arcade Jerry won 11 tickets. If he spent 1 tickets on a beanie and later won 4 more tickets, how many would he have?
+
+Reasoning:
+11 plus 4 = <<11+4=15>>15
+15 minus 1 = <<15-1=14>>14
+#### 14
+
+<|endoftext|>
+
+56
+
+170_aug0
+
+Question: Bianca picked 23 carrots from her garden. If she threw out 10 of them and then picked 43 more the next day, how many carrots would she have total?
+
+Reasoning:
+23 plus 43 = <<23+43=66>>66
+66 minus 10 = <<66-10=56>>56
+#### 56
+
+<|endoftext|>
+
+57
+
+576_aug1
+
+Question: Wendy had 147 files on her computer. She deleted 5 of them and put the rest into folders with 1 files in each one. How many folders did Wendy end up with?
+
+Reasoning:
+147 minus 5 = <<147-5=142>>142
+142 divided by 1 = <<142/1=142>>142
+#### 142
+
+<|endoftext|>
+
+58
+
+315_aug1
+
+Question: A toy store had 4 giant stuffed bears in stock when they got another shipment with 14 bears in it. The put the bears onto shelves with 1 on each shelf. How many shelves did they use?
+
+Reasoning:
+4 plus 14 = <<4+14=18>>18
+18 divided by 1 = <<18/1=18>>18
+#### 18
+
+<|endoftext|>
+
+59
+
+100_aug0
+
+Question: For the school bake sale Carol made 37 cupcakes. If she sold 7 of them and then made 20 more, how many cupcakes would she have?
+
+Reasoning:
+37 plus 20 = <<37+20=57>>57
+57 minus 7 = <<57-7=50>>50
+#### 50
+
+<|endoftext|>
+
+60
+
+6_aug3
+
+Question: Roger had 25 dollars. For his birthday he got 43 more dollars but spent 23 on a new game. How much money does he have now?
+
+Reasoning:
+25 plus 43 = <<25+43=68>>68
+68 minus 23 = <<68-23=45>>45
+#### 45
+
+<|endoftext|>
+
+61
+
+472
+
+Question: Each chocolate bar in a box cost $2. If a box had 13 bars total and Rachel sold all but 4 bars, how much money would she have made?
+
+Reasoning:
+Calculate the number of bars Rachel sold by subtracting the remaining bars from the total: 13 - 4 = <<13-4=9>>9
+Multiply the number of bars sold by the cost per bar to find the total money made: 9 * 2 = <<9*2=18>>18
+#### 18
+
+<|endoftext|>
+
+62
+
+46_aug2
+
+Question: Dave had to wash 15 short sleeve shirts and 26 long sleeve shirts before school. If he had only washed 20 of them by the time school started, how many did he not wash?
+
+Reasoning:
+15 plus 26 = <<15+26=41>>41
+41 minus 20 = <<41-20=21>>21
+#### 21
+
+<|endoftext|>
+
+63
+
+68_aug3
+
+Question: There were 2 girls and 34 boys trying out for the schools basketball team. If only 10 of them got called back, how many students didn't make the cut?
+
+Reasoning:
+2 plus 34 = <<2+34=36>>36
+36 minus 10 = <<36-10=26>>26
+#### 26
+
+<|endoftext|>
+
+64
+
+124
+
+Question: A teacher had 38 worksheets to grade. If she graded 4, but then another 15 were turned in, how many worksheets would she have to grade?
+
+Reasoning:
+Subtract the 4 graded worksheets from the initial 38 to find the remaining amount: 38 - 4 = <<38-4=34>>34
+Add the 15 newly turned in worksheets to the remaining amount: 34 + 15 = <<34+15=49>>49
+#### 49
+
+<|endoftext|>
+
+65
+
+309_aug4
+
+Question: Will was organizing his baseball cards in a binder with 5 on each page. If he had 6 new cards and 9 old cards to put in the binder, how many pages would he use?
+
+Reasoning:
+6 plus 9 = <<6+9=15>>15
+15 divided by 5 = <<15/5=3>>3
+#### 3
+
+<|endoftext|>
+
+66
+
+404_aug1
+
+Question: Henry earned 1 dollars for each lawn he mowed. If he had 23 lawns to mow, but forgot to mow 2 of them, how much money did he actually earn?
+
+Reasoning:
+23 minus 2 = <<23-2=21>>21
+1 times 21 = <<1*21=21>>21
+#### 21
+
+<|endoftext|>
+
+67
+
+158_aug2
+
+Question: Janet was playing a video game and had 26 lives. In a hard part of the game she lost 25 lives. If she got 24 more lives in the next level, how many lives would she have?
+
+Reasoning:
+26 plus 24 = <<26+24=50>>50
+50 minus 25 = <<50-25=25>>25
+#### 25
+
+<|endoftext|>
+
+68
+
+591_aug4
+
+Question: For Halloween Bianca received 35 pieces of candy. She ate 11 pieces then placed the rest into piles with 6 in each pile. How many piles could she make?
+
+Reasoning:
+35 minus 11 = <<35-11=24>>24
+24 divided by 6 = <<24/6=4>>4
+#### 4
+
+<|endoftext|>
+
+69
+
+573_aug1
+
+Question: Haley baked 40 cupcakes for her school's bake sale. If her brother, Todd, ate 19 of them how many packages could she make if she put 3 cupcake in each package?
+
+Reasoning:
+40 minus 19 = <<40-19=21>>21
+21 divided by 3 = <<21/3=7>>7
+#### 7
+
+<|endoftext|>
+
+70
+
+266_aug3
+
+Question: While shopping for music online, Zoe bought 12 country albums and 3 pop albums. Each album came with a lyric sheet and had 6 songs. How many songs did Zoe buy total?
+
+Reasoning:
+12 plus 3 = <<12+3=15>>15
+6 times 15 = <<6*15=90>>90
+#### 90
+
+<|endoftext|>
+
+71
+
+29_aug1
+
+Question: There were 42 girls and 2 boys trying out for the schools basketball team. If only 18 of them got called back, how many students didn't make the cut?
+
+Reasoning:
+42 plus 2 = <<42+2=44>>44
+44 minus 18 = <<44-18=26>>26
+#### 26
+
+<|endoftext|>
+
+72
+
+527_aug0
+
+Question: Kaleb had 78 pieces of clothing to wash. He put 29 of them in one load, but decided to split the rest into 7 equal loads. How many pieces of clothing could go in each of the small loads?
+
+Reasoning:
+78 minus 29 = <<78-29=49>>49
+49 divided by 7 = <<49/7=7>>7
+#### 7
+
+<|endoftext|>
+
+73
+
+166_aug0
+
+Question: John had 62 socks. If he threw away 10 old ones that didn't fit and bought 4 new ones, how many socks would he have?
+
+Reasoning:
+62 plus 4 = <<62+4=66>>66
+66 minus 10 = <<66-10=56>>56
+#### 56
+
+<|endoftext|>
+
+74
+
+80
+
+Question: The school cafeteria ordered 6 red apples and 15 green apples for students lunches. But, if only 5 students wanted fruit, how many extra did the cafeteria end up with?
+
+Reasoning:
+Calculate the total number of apples ordered by adding the red and green apples: 6 + 15 = <<6+15=21>>21
+Subtract the number of students who wanted fruit from the total number of apples: 21 - 5 = <<21-5=16>>16
+#### 16
+
+<|endoftext|>
+
+75
+
+474_aug4
+
+Question: A worksheet had 7 problems on it. If a teacher had 9 worksheets to grade and had already graded 8 of them, how many more problems does she have to grade?
+
+Reasoning:
+9 minus 8 = <<9-8=1>>1
+7 times 1 = <<7*1=7>>7
+#### 7
+
+<|endoftext|>
+
+76
+
+506_aug0
+
+Question: Wendy uploaded 121 pictures to Facebook. She put 16 pics into one album and put the rest into 1 different albums. How many pictures were in each album?
+
+Reasoning:
+121 minus 16 = <<121-16=105>>105
+105 divided by 1 = <<105/1=105>>105
+#### 105
+
+<|endoftext|>
+
+77
+
+491_aug3
+
+Question: A worksheet had 10 problems on it. If a teacher had 32 worksheets to grade and had already graded 9 of them, how many more problems does she have to grade?
+
+Reasoning:
+32 minus 9 = <<32-9=23>>23
+10 times 23 = <<10*23=230>>230
+#### 230
+
+<|endoftext|>
+
+78
+
+204_aug0
+
+Question: Isabel had 1 pages of math homework and 4 pages of reading homework. If each page had 1 problems on it, how many problems did she have to complete total?
+
+Reasoning:
+1 plus 4 = <<1+4=5>>5
+1 times 5 = <<1*5=5>>5
+#### 5
+
+<|endoftext|>
+
+79
+
+284
+
+Question: Sam was collecting cans for recycling. On Saturday he filled 3 bags up and on Sunday he filled 4 more bags. If each bag had 9 cans in it, how many cans did he pick up total?
+
+Reasoning:
+First, calculate the total number of bags Sam filled by adding the bags from Saturday and Sunday: 3 + 4 = <<3+4=7>>7
+Next, multiply the total number of bags by the number of cans in each bag: 7 * 9 = <<7*9=63>>63
+#### 63
+
+<|endoftext|>
+
+80
+
+521_aug4
+
+Question: The cafeteria had 153 apples. For lunch they handed out 81 to students and decided to use the rest to make pies. If each pie takes 8 apples, how many pies could they make?
+
+Reasoning:
+153 minus 81 = <<153-81=72>>72
+72 divided by 8 = <<72/8=9>>9
+#### 9
+
+<|endoftext|>
+
+81
+
+169_aug3
+
+Question: In fourth grade there were 7 students at the start of the year. During the year 4 students left and 10 new students came to school. How many students were in fourth grade at the end?
+
+Reasoning:
+7 plus 10 = <<7+10=17>>17
+17 minus 4 = <<17-4=13>>13
+#### 13
+
+<|endoftext|>
+
+82
+
+160_aug4
+
+Question: Roger had 71 dollars in January. By March he had spent 4 dollars. If he got another 4 dollars from his mom, how much money would he have?
+
+Reasoning:
+71 plus 4 = <<71+4=75>>75
+75 minus 4 = <<75-4=71>>71
+#### 71
+
+<|endoftext|>
+
+83
+
+181_aug4
+
+Question: Emily was playing a video game and had 15 lives. In a hard part of the game she lost 23 lives. If she got 20 more lives in the next level, how many lives would she have?
+
+Reasoning:
+15 plus 20 = <<15+20=35>>35
+35 minus 23 = <<35-23=12>>12
+#### 12
+
+<|endoftext|>
+
+84
+
+151_aug1
+
+Question: Maria had 9 bottles of water in her fridge. If she drank 14 of them and then bought 35 more, how many bottles would she have?
+
+Reasoning:
+9 plus 35 = <<9+35=44>>44
+44 minus 14 = <<44-14=30>>30
+#### 30
+
+<|endoftext|>
+
+85
+
+97_aug2
+
+Question: The school cafeteria ordered 8 red apples and 22 green apples for students lunches. But, if only 9 students wanted fruit, how many extra did the cafeteria end up with?
+
+Reasoning:
+8 plus 22 = <<8+22=30>>30
+30 minus 9 = <<30-9=21>>21
+#### 21
+
+<|endoftext|>
+
+86
+
+227_aug3
+
+Question: George was working as a sacker at a grocery store where he made 3 dollars an hour. On Monday he worked 10 hours and on Tuesday he worked 8 hours. How much money did George make in those two days?
+
+Reasoning:
+10 plus 8 = <<10+8=18>>18
+3 times 18 = <<3*18=54>>54
+#### 54
+
+<|endoftext|>
+
+87
+
+529_aug4
+
+Question: Mike is at the library helping put away books. There are 71 book to put away total but a librarian takes 17 of them and leaves Mike with the rest. If he can fit 3 books on a shelf, how many shelves will he need?
+
+Reasoning:
+71 minus 17 = <<71-17=54>>54
+54 divided by 3 = <<54/3=18>>18
+#### 18
+
+<|endoftext|>
+
+88
+
+350_aug0
+
+Question: Luke was organizing his baseball cards in a binder with 3 on each page. If he had 4 new cards and 5 old cards to put in the binder, how many pages would he use?
+
+Reasoning:
+4 plus 5 = <<4+5=9>>9
+9 divided by 3 = <<9/3=3>>3
+#### 3
+
+<|endoftext|>
+
+89
+
+46_aug0
+
+Question: Dave had to wash 17 short sleeve shirts and 18 long sleeve shirts before school. If he had only washed 8 of them by the time school started, how many did he not wash?
+
+Reasoning:
+17 plus 18 = <<17+18=35>>35
+35 minus 8 = <<35-8=27>>27
+#### 27
+
+<|endoftext|>
+
+90
+
+574_aug3
+
+Question: A pet store had 24 puppies. In one day they sold 14 of them and put the rest into cages with 5 in each cage. How many cages did they use?
+
+Reasoning:
+24 minus 14 = <<24-14=10>>10
+10 divided by 5 = <<10/5=2>>2
+#### 2
+
+<|endoftext|>
+
+91
+
+472_aug4
+
+Question: Each chocolate bar in a box cost $6. If a box had 5 bars total and Rachel sold all but 2 bars, how much money would she have made?
+
+Reasoning:
+5 minus 2 = <<5-2=3>>3
+6 times 3 = <<6*3=18>>18
+#### 18
+
+<|endoftext|>
+
+92
+
+138_aug4
+
+Question: For Halloween Robin scored 20 pieces of candy. She ate 1 pieces the first night and then her sister gave her 7 more pieces. How many pieces of candy does Robin have now?
+
+Reasoning:
+20 plus 7 = <<20+7=27>>27
+27 minus 1 = <<27-1=26>>26
+#### 26
+
+<|endoftext|>
+
+93
+
+286
+
+Question: Dave was working as a sacker at a grocery store where he made 6 dollars an hour. On Monday he worked 6 hours and on Tuesday he worked 2 hours. How much money did Dave make in those two days?
+
+Reasoning:
+Calculate the total number of hours Dave worked by adding Monday's hours and Tuesday's hours: 6 + 2 = <<6+2=8>>8
+Multiply the total hours worked by his hourly wage to find his total earnings: 8 * 6 = <<8*6=48>>48
+#### 48
+
+<|endoftext|>
+
+94
+
+557_aug1
+
+Question: A store had 163 coloring books in stock. They ended up putting them on sale and getting rid of 27 of them. The put the ones they still had onto shelves with 4 on each shelf. How many shelves did they use?
+
+Reasoning:
+163 minus 27 = <<163-27=136>>136
+136 divided by 4 = <<136/4=34>>34
+#### 34
+
+<|endoftext|>
+
+95
+
+82_aug4
+
+Question: While on vacation, Nancy took 80 pictures at the zoo and 13 at the museum. If she later deleted 26 of the pictures, how many pictures from her vacation did she still have?
+
+Reasoning:
+80 plus 13 = <<80+13=93>>93
+93 minus 26 = <<93-26=67>>67
+#### 67
+
+<|endoftext|>
+
+96
+
+389_aug2
+
+Question: Wendy uploaded 29 pictures from her phone and 3 from her camera to facebook. If she sorted the pics into 4 different albums with the same amount of pics in each album, how many pictures were in each of the albums?
+
+Reasoning:
+29 plus 3 = <<29+3=32>>32
+32 divided by 4 = <<32/4=8>>8
+#### 8
+
+<|endoftext|>
+
+97
+
+111_aug4
+
+Question: Paige had 15 songs on her mp3 player. If she deleted 9 old songs from it and then added 43 new songs, how many songs does she have on her mp3 player?
+
+Reasoning:
+15 plus 43 = <<15+43=58>>58
+58 minus 9 = <<58-9=49>>49
+#### 49
+
+<|endoftext|>
+
+98
+
+314_aug4
+
+Question: Roger was helping the cafeteria workers pick up lunch trays, but he could only carry 7 trays at a time. If he had to pick up 19 trays from one table and 2 trays from another, how many trips will he make?
+
+Reasoning:
+19 plus 2 = <<19+2=21>>21
+21 divided by 7 = <<21/7=3>>3
+#### 3
+
+<|endoftext|>
+
+99
+
+99_aug0
+
+Question: Cody had 42 dollars. For his birthday he got 7 more dollars but spent 25 on a new game. How much money does he have now?
+
+Reasoning:
+42 plus 7 = <<42+7=49>>49
+49 minus 25 = <<49-25=24>>24
+#### 24
+
+<|endoftext|>
+
+100
+
+68_aug1
+
+Question: There were 9 girls and 70 boys trying out for the schools basketball team. If only 6 of them got called back, how many students didn't make the cut?
+
+Reasoning:
+9 plus 70 = <<9+70=79>>79
+79 minus 6 = <<79-6=73>>73
+#### 73
+
+<|endoftext|>
+
+101
+
+299
+
+Question: While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total?
+
+Reasoning:
+First, calculate the total number of albums Janet bought by adding the country and pop albums: 6 + 2 = <<6+2=8>>8
+Next, multiply the total number of albums by the number of songs per album: 8 * 9 = <<8*9=72>>72
+#### 72
+
+<|endoftext|>
+
+102
+
+495_aug4
+
+Question: At a restaurant each adult meal costs $5 and kids eat free. If a group of 14 people came in and 11 were kids, how much would it cost for the group to eat?
+
+Reasoning:
+14 minus 11 = <<14-11=3>>3
+5 times 3 = <<5*3=15>>15
+#### 15
+
+<|endoftext|>
+
+103
+
+303_aug4
+
+Question: Olivia was making baggies of cookies with 2 cookies in each bag. If she had 2 chocolate chip cookies and 18 oatmeal cookies, how many baggies could she make?
+
+Reasoning:
+2 plus 18 = <<2+18=20>>20
+20 divided by 2 = <<20/2=10>>10
+#### 10
+
+<|endoftext|>
+
+104
+
+49_aug1
+
+Question: A pet store had 55 siamese cats and 49 house cats. During a sale they sold 9 cats. How many cats do they have left?
+
+Reasoning:
+55 plus 49 = <<55+49=104>>104
+104 minus 9 = <<104-9=95>>95
+#### 95
+
+<|endoftext|>
+
+105
+
+433_aug4
+
+Question: John had 8 action figures, but needed 10 total for a complete collection. If each one costs $7, how much money would he need to finish his collection?
+
+Reasoning:
+10 minus 7 = <<10-7=3>>3
+8 times 3 = <<8*3=24>>24
+#### 24
+
+<|endoftext|>
+
+106
+
+362_aug3
+
+Question: Sam had saved up 14 dollars. If he received another 4 dollars for his allowance, how many 2 dollar toys could he buy?
+
+Reasoning:
+14 plus 4 = <<14+4=18>>18
+18 divided by 2 = <<18/2=9>>9
+#### 9
+
+<|endoftext|>
+
+107
+
+428_aug4
+
+Question: A magician was selling magic card decks for 7 dollars each. If he started with 9 decks and by the end of the day he had 6 left, how much money did he earn?
+
+Reasoning:
+9 minus 6 = <<9-6=3>>3
+7 times 3 = <<7*3=21>>21
+#### 21
+
+<|endoftext|>
+
+108
+
+71_aug4
+
+Question: While on vacation, Haley took 32 pictures at the zoo and 8 at the museum. If she later deleted 20 of the pictures, how many pictures from her vacation did she still have?
+
+Reasoning:
+32 plus 8 = <<32+8=40>>40
+40 minus 20 = <<40-20=20>>20
+#### 20
+
+<|endoftext|>
+
+109
+
+590_aug0
+
+Question: Will made 185 dollars mowing lawns over the summer. If he spent 72 dollars buying new mower blades, how many 1 dollar games could he buy with the money he had left?
+
+Reasoning:
+185 minus 72 = <<185-72=113>>113
+113 divided by 1 = <<113/1=113>>113
+#### 113
+
+<|endoftext|>
+
+110
+
+178_aug3
+
+Question: Frank had 6 dollars. At the store he spent $6 on a new game. If he got another 3 dollars for his allowance, how much money does he have now?
+
+Reasoning:
+6 plus 3 = <<6+3=9>>9
+9 minus 6 = <<9-6=3>>3
+#### 3
+
+<|endoftext|>
+
+111
+
+476_aug0
+
+Question: April's discount flowers was having a sale where each rose was 4 dollars. If April started with 16 roses and had 3 roses left, how much money did she earn?
+
+Reasoning:
+16 minus 3 = <<16-3=13>>13
+4 times 13 = <<4*13=52>>52
+#### 52
+
+<|endoftext|>
+
+112
+
+511_aug2
+
+Question: Oliver is at the library helping put away books. There are 91 book to put away total but a librarian takes 12 of them and leaves Oliver with the rest. If he can fit 1 books on a shelf, how many shelves will he need?
+
+Reasoning:
+91 minus 12 = <<91-12=79>>79
+79 divided by 1 = <<79/1=79>>79
+#### 79
+
+<|endoftext|>
+
+113
+
+379_aug0
+
+Question: A group of 4 friends went into a restaurant. The chef already had 6 chicken wings cooked but cooked 6 more for the group. If they each got the same amount how many would each person get?
+
+Reasoning:
+6 plus 6 = <<6+6=12>>12
+12 divided by 4 = <<12/4=3>>3
+#### 3
+
+<|endoftext|>
+
+114
+
+420
+
+Question: There were 8 friends playing a video game online when 5 players quit. If each player left had 5 lives, how many lives did they have total?
+
+Reasoning:
+Subtract the number of players who quit from the total number of friends to find how many players remained: 8 - 5 = <<8-5=3>>3
+Multiply the number of remaining players by the number of lives each player has: 3 * 5 = <<3*5=15>>15
+#### 15
+
+<|endoftext|>
+
+115
+
+59_aug2
+
+Question: A pet store had 38 siamese cats and 48 house cats. During a sale they sold 28 cats. How many cats do they have left?
+
+Reasoning:
+38 plus 48 = <<38+48=86>>86
+86 minus 28 = <<86-28=58>>58
+#### 58
+
+<|endoftext|>
+
+116
+
+359_aug3
+
+Question: Frank had saved up 9 dollars. If he received another 3 dollars for his allowance, how many 1 dollar toys could he buy?
+
+Reasoning:
+9 plus 3 = <<9+3=12>>12
+12 divided by 1 = <<12/1=12>>12
+#### 12
+
+<|endoftext|>
+
+117
+
+453_aug3
+
+Question: Henry had 6 action figures, but needed 15 total for a complete collection. If each one costs $1, how much money would he need to finish his collection?
+
+Reasoning:
+15 minus 6 = <<15-6=9>>9
+1 times 9 = <<1*9=9>>9
+#### 9
+
+<|endoftext|>
+
+118
+
+329_aug4
+
+Question: Dave was helping the cafeteria workers pick up lunch trays, but he could only carry 8 trays at a time. If he had to pick up 1 trays from one table and 23 trays from another, how many trips will he make?
+
+Reasoning:
+1 plus 23 = <<1+23=24>>24
+24 divided by 8 = <<24/8=3>>3
+#### 3
+
+<|endoftext|>
+
+119
+
+148_aug2
+
+Question: At the arcade Victor won 73 tickets. If he spent 19 tickets on a beanie and later won 43 more tickets, how many would he have?
+
+Reasoning:
+73 plus 43 = <<73+43=116>>116
+116 minus 19 = <<116-19=97>>97
+#### 97
+
+<|endoftext|>
+
+120
+
+389_aug0
+
+Question: Wendy uploaded 29 pictures from her phone and 10 from her camera to facebook. If she sorted the pics into 3 different albums with the same amount of pics in each album, how many pictures were in each of the albums?
+
+Reasoning:
+29 plus 10 = <<29+10=39>>39
+39 divided by 3 = <<39/3=13>>13
+#### 13
+
+<|endoftext|>
+
+121
+
+359
+
+Question: Frank had saved up 3 dollars. If he received another 37 dollars for his allowance, how many 8 dollar toys could he buy?
+
+Reasoning:
+First, calculate the total amount of money Frank has by adding his savings to his allowance: 3 + 37 = <<3+37=40>>40.
+Next, divide the total amount of money by the cost of one toy to find how many he can buy: 40 / 8 = <<40/8=5>>5.
+#### 5
+
+<|endoftext|>
+
+122
+
+143
+
+Question: Edward had 43 books. If he sold 19 of them and used the money he earned to buy 14 new books, how many books would Edward have?
+
+Reasoning:
+Subtract the number of books sold from the initial amount to find the remaining books: 43 - 19 = <<43-19=24>>24
+Add the number of new books purchased to the remaining books to find the total: 24 + 14 = <<24+14=38>>38
+#### 38
+
+<|endoftext|>
+
+123
+
+90
+
+Question: A pet store had 19 siamese cats and 45 house cats. During a sale they sold 56 cats. How many cats do they have left?
+
+Reasoning:
+First, calculate the total number of cats by adding the 19 siamese cats and 45 house cats: 19 + 45 = <<19+45=64>>64
+Next, subtract the 56 cats sold from the total number of cats: 64 - 56 = <<64-56=8>>8
+#### 8
+
+<|endoftext|>
+
+124
+
+373_aug3
+
+Question: There school's baseball team had 4 new players and 3 returning players. If the coach put them into groups with 1 players in each group, how many groups would there be?
+
+Reasoning:
+4 plus 3 = <<4+3=7>>7
+7 divided by 1 = <<7/1=7>>7
+#### 7
+
+<|endoftext|>
+
+125
+
+330
+
+Question: For a birthday party George bought 10 regular sodas and 22 diet sodas. If his fridge would only hold 4 on each shelf, how many shelves would he fill up?
+
+Reasoning:
+First, calculate the total number of sodas by adding the regular and diet sodas: 10 + 22 = <<10+22=32>>32.
+Next, divide the total number of sodas by the number of sodas that fit on each shelf: 32 / 4 = <<32/4=8>>8.
+#### 8
+
+<|endoftext|>
+
+126
+
+206_aug3
+
+Question: There were 3 friends playing a video game online when 3 more players joined the game. If each player had 2 lives, how many lives did they have total?
+
+Reasoning:
+3 plus 3 = <<3+3=6>>6
+2 times 6 = <<2*6=12>>12
+#### 12
+
+<|endoftext|>
+
+127
+
+384_aug0
+
+Question: Luke was helping the cafeteria workers pick up lunch trays, but he could only carry 2 trays at a time. If he had to pick up 23 trays from one table and 25 trays from another, how many trips will he make?
+
+Reasoning:
+23 plus 25 = <<23+25=48>>48
+48 divided by 2 = <<48/2=24>>24
+#### 24
+
+<|endoftext|>
+
+128
+
+501_aug1
+
+Question: A pet store had 21 puppies. In one day they sold 9 of them and put the rest into cages with 4 in each cage. How many cages did they use?
+
+Reasoning:
+21 minus 9 = <<21-9=12>>12
+12 divided by 4 = <<12/4=3>>3
+#### 3
+
+<|endoftext|>
+
+129
+
+234_aug0
+
+Question: Maria bought 4 new chairs and 8 new tables for her house. If she spent 2 minutes on each piece furniture putting it together, how many minutes did it take her to finish?
+
+Reasoning:
+4 plus 8 = <<4+8=12>>12
+2 times 12 = <<2*12=24>>24
+#### 24
+
+<|endoftext|>
+
+130
+
+312_aug0
+
+Question: A vase can hold 1 flowers. If you had 2 carnations and 37 roses, how many vases would you need to hold the flowers?
+
+Reasoning:
+2 plus 37 = <<2+37=39>>39
+39 divided by 1 = <<39/1=39>>39
+#### 39
+
+<|endoftext|>
+
+131
+
+302_aug2
+
+Question: Kaleb had saved up 29 dollars. If he received another 7 dollars for his allowance, how many 4 dollar toys could he buy?
+
+Reasoning:
+29 plus 7 = <<29+7=36>>36
+36 divided by 4 = <<36/4=9>>9
+#### 9
+
+<|endoftext|>
+
+132
+
+394_aug2
+
+Question: Victor was helping the cafeteria workers pick up lunch trays, but he could only carry 2 trays at a time. If he had to pick up 29 trays from one table and 11 trays from another, how many trips will he make?
+
+Reasoning:
+29 plus 11 = <<29+11=40>>40
+40 divided by 2 = <<40/2=20>>20
+#### 20
+
+<|endoftext|>
+
+133
+
+475_aug2
+
+Question: At lunch a waiter had 12 customers and 1 of them didn't leave a tip. If he got $2 each from the ones who did tip, how much money did he earn?
+
+Reasoning:
+12 minus 1 = <<12-1=11>>11
+2 times 11 = <<2*11=22>>22
+#### 22
+
+<|endoftext|>
+
+134
+
+553_aug1
+
+Question: There are 20 students trying out for the school's trivia teams. If 8 of them didn't get picked for the team and the rest were put into 1 groups, how many students would be in each group?
+
+Reasoning:
+20 minus 8 = <<20-8=12>>12
+12 divided by 1 = <<12/1=12>>12
+#### 12
+
+<|endoftext|>
+
+135
+
+327_aug0
+
+Question: A pet shelter had 3 puppies when another 31 were brought in. If 1 puppies a day are adopted, how long would it take for all of them to be adopted?
+
+Reasoning:
+3 plus 31 = <<3+31=34>>34
+34 divided by 1 = <<34/1=34>>34
+#### 34
+
+<|endoftext|>
+
+136
+
+471_aug0
+
+Question: A trivia team had 17 members total, but during a game 9 members didn't show up. If each member that did show up scored 3 points, how many points were scored total?
+
+Reasoning:
+17 minus 9 = <<17-9=8>>8
+3 times 8 = <<3*8=24>>24
+#### 24
+
+<|endoftext|>
+
+137
+
+568_aug4
+
+Question: Sarah had 104 homework problems. She finished 3 of them but still had 1 pages of problems to do. If each page has the same number of problems on it, how many problems are on each page?
+
+Reasoning:
+104 minus 3 = <<104-3=101>>101
+101 divided by 1 = <<101/1=101>>101
+#### 101
+
+<|endoftext|>
+
+138
+
+89_aug2
+
+Question: A waiter at 'The Greasy Spoon' restaurant had 65 customers to wait on. During the lunch rush he added another 8 customers. If 41 of the customers didn't leave him a tip, how many customers did leave a tip?
+
+Reasoning:
+65 plus 8 = <<65+8=73>>73
+73 minus 41 = <<73-41=32>>32
+#### 32
+
+<|endoftext|>
+
+139
+
+558_aug3
+
+Question: The cafeteria had 46 apples. For lunch they handed out 6 to students and decided to use the rest to make pies. If each pie takes 5 apples, how many pies could they make?
+
+Reasoning:
+46 minus 6 = <<46-6=40>>40
+40 divided by 5 = <<40/5=8>>8
+#### 8
+
+<|endoftext|>
+
+140
+
+85_aug4
+
+Question: A pet store had 5 siamese cats and 46 house cats. During a sale they sold 28 cats. How many cats do they have left?
+
+Reasoning:
+5 plus 46 = <<5+46=51>>51
+51 minus 28 = <<51-28=23>>23
+#### 23
+
+<|endoftext|>
+
+141
+
+285_aug0
+
+Question: April's discount flowers was having a sale where each flower was 12 dollars. If Maria bought 1 roses and 1 daisies, how much did she spend?
+
+Reasoning:
+1 plus 1 = <<1+1=2>>2
+12 times 2 = <<12*2=24>>24
+#### 24
+
+<|endoftext|>
+
+142
+
+94
+
+Question: For Halloween Katie and her sister combined the candy they received. Katie had 8 pieces of candy while her sister had 23. If they ate 8 pieces the first night, how many pieces do they have left?
+
+Reasoning:
+Calculate the total amount of candy by adding Katie's 8 pieces and her sister's 23 pieces: 8 + 23 = <<8+23=31>>31
+Subtract the 8 pieces they ate from the total amount: 31 - 8 = <<31-8=23>>23
+#### 23
+
+<|endoftext|>
+
+143
+
+565_aug0
+
+Question: Roger had 143 pieces of clothing to wash. He put 55 of them in one load, but decided to split the rest into 8 equal loads. How many pieces of clothing could go in each of the small loads?
+
+Reasoning:
+143 minus 55 = <<143-55=88>>88
+88 divided by 8 = <<88/8=11>>11
+#### 11
+
+<|endoftext|>
+
+144
+
+440_aug3
+
+Question: A chef needs to cook 5 potatoes. He has already cooked 3. If each potato takes 11 minutes to cook, how long will it take him to cook the rest?
+
+Reasoning:
+5 minus 3 = <<5-3=2>>2
+11 times 2 = <<11*2=22>>22
+#### 22
+
+<|endoftext|>
+
+145
+
+454_aug4
+
+Question: John earned 16 dollars for each lawn he mowed. If he had 5 lawns to mow, but forgot to mow 4 of them, how much money did he actually earn?
+
+Reasoning:
+5 minus 4 = <<5-4=1>>1
+16 times 1 = <<16*1=16>>16
+#### 16
+
+<|endoftext|>
+
+146
+
+476_aug1
+
+Question: April's discount flowers was having a sale where each rose was 6 dollars. If April started with 16 roses and had 3 roses left, how much money did she earn?
+
+Reasoning:
+16 minus 3 = <<16-3=13>>13
+6 times 13 = <<6*13=78>>78
+#### 78
+
+<|endoftext|>
+
+147
+
+593
+
+Question: A pet store had 88 puppies. In one day they sold 34 of them and put the rest into cages with 6 in each cage. How many cages did they use?
+
+Reasoning:
+The pet store had 88 puppies and sold 34, leaving 88 - 34 = <<88-34=54>>54 puppies.
+With 6 puppies per cage, they used 54 / 6 = <<54/6=9>>9 cages.
+#### 9
+
+<|endoftext|>
+
+148
+
+492_aug1
+
+Question: A trivia team had 17 members total, but during a game 12 members didn't show up. If each member that did show up scored 9 points, how many points were scored total?
+
+Reasoning:
+17 minus 12 = <<17-12=5>>5
+9 times 5 = <<9*5=45>>45
+#### 45
+
+<|endoftext|>
+
+149
+
+193
+
+Question: In fourth grade there were 4 students at the start of the year. During the year 3 students left and 42 new students came to school. How many students were in fourth grade at the end?
+
+Reasoning:
+Subtract the students who left from the starting number: 4 - 3 = <<4-3=1>>1
+Add the new students to the remaining number: 1 + 42 = <<1+42=43>>43
+#### 43
+
+<|endoftext|>
+
+150
+
+491_aug4
+
+Question: A worksheet had 5 problems on it. If a teacher had 14 worksheets to grade and had already graded 7 of them, how many more problems does she have to grade?
+
+Reasoning:
+14 minus 7 = <<14-7=7>>7
+5 times 7 = <<5*7=35>>35
+#### 35
+
+<|endoftext|>
+
+151
+
+538_aug0
+
+Question: Jerry is at the library helping put away books. There are 49 book to put away total but a librarian takes 10 of them and leaves Jerry with the rest. If he can fit 3 books on a shelf, how many shelves will he need?
+
+Reasoning:
+49 minus 10 = <<49-10=39>>39
+39 divided by 3 = <<39/3=13>>13
+#### 13
+
+<|endoftext|>
+
+152
+
+212_aug3
+
+Question: Cody bought 4 boxes of chocolate candy and 8 boxes of caramel candy. If each box has 7 pieces inside it, how much candy did he have total?
+
+Reasoning:
+4 plus 8 = <<4+8=12>>12
+7 times 12 = <<7*12=84>>84
+#### 84
+
+<|endoftext|>
+
+153
+
+384_aug1
+
+Question: Luke was helping the cafeteria workers pick up lunch trays, but he could only carry 1 trays at a time. If he had to pick up 21 trays from one table and 31 trays from another, how many trips will he make?
+
+Reasoning:
+21 plus 31 = <<21+31=52>>52
+52 divided by 1 = <<52/1=52>>52
+#### 52
+
+<|endoftext|>
+
+154
+
+539_aug1
+
+Question: Nancy was planting vegetables in her garden. She started with 104 seeds and planted 41 of them in the big garden and in each of her small gardens put 3 seeds each. How many small gardens did Nancy have?
+
+Reasoning:
+104 minus 41 = <<104-41=63>>63
+63 divided by 3 = <<63/3=21>>21
+#### 21
+
+<|endoftext|>
+
+155
+
+469_aug2
+
+Question: A trivia team had 25 members total, but during a game 13 members didn't show up. If each member that did show up scored 6 points, how many points were scored total?
+
+Reasoning:
+25 minus 13 = <<25-13=12>>12
+6 times 12 = <<6*12=72>>72
+#### 72
+
+<|endoftext|>
+
+156
+
+472_aug0
+
+Question: Each chocolate bar in a box cost $11. If a box had 24 bars total and Rachel sold all but 8 bars, how much money would she have made?
+
+Reasoning:
+24 minus 8 = <<24-8=16>>16
+11 times 16 = <<11*16=176>>176
+#### 176
+
+<|endoftext|>
+
+157
+
+22_aug4
+
+Question: John was trying to expand his game collection. He bought 36 games from a friend and bought 2 more at a garage sale. If 16 of the games didn't work, how many good games did he end up with?
+
+Reasoning:
+36 plus 2 = <<36+2=38>>38
+38 minus 16 = <<38-16=22>>22
+#### 22
+
+<|endoftext|>
+
+158
+
+498_aug0
+
+Question: Sam invited 12 friends to a birthday party, but 9 couldn't come. If he wanted to buy enough cupcakes so each person could have exactly 10, how many should he buy?
+
+Reasoning:
+12 minus 9 = <<12-9=3>>3
+10 times 3 = <<10*3=30>>30
+#### 30
+
+<|endoftext|>
+
+159
+
+266_aug1
+
+Question: While shopping for music online, Zoe bought 10 country albums and 1 pop albums. Each album came with a lyric sheet and had 3 songs. How many songs did Zoe buy total?
+
+Reasoning:
+10 plus 1 = <<10+1=11>>11
+3 times 11 = <<3*11=33>>33
+#### 33
+
+<|endoftext|>
+
+160
+
+20
+
+Question: For the school bake sale Katie made pastries. She baked 7 cupcakes and 5 cookies. After the sale she had 8 to take back home. How many pastries did she sell?
+
+Reasoning:
+Calculate the total number of pastries Katie baked by adding the cupcakes and cookies: 7 + 5 = <<7+5=12>>12
+Subtract the number of pastries she took home from the total number she baked to find how many were sold: 12 - 8 = <<12-8=4>>4
+#### 4
+
+<|endoftext|>
+
+161
+
+269
+
+Question: Frank was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 3 more bags. If each bag had 5 cans in it, how many cans did he pick up total?
+
+Reasoning:
+First, calculate the total number of bags Frank filled by adding the bags from Saturday and Sunday: 5 + 3 = <<5+3=8>>8
+Next, multiply the total number of bags by the number of cans in each bag: 8 * 5 = <<8*5=40>>40
+#### 40
+
+<|endoftext|>
+
+162
+
+386_aug3
+
+Question: A pet shelter had 5 puppies when another 68 were brought in. If 1 puppies a day are adopted, how long would it take for all of them to be adopted?
+
+Reasoning:
+5 plus 68 = <<5+68=73>>73
+73 divided by 1 = <<73/1=73>>73
+#### 73
+
+<|endoftext|>
+
+163
+
+190_aug2
+
+Question: Oliver had 14 socks. If he threw away 1 old ones that didn't fit and bought 7 new ones, how many socks would he have?
+
+Reasoning:
+14 plus 7 = <<14+7=21>>21
+21 minus 1 = <<21-1=20>>20
+#### 20
+
+<|endoftext|>
+
+164
+
+326
+
+Question: There school's baseball team had 4 new players and 6 returning players. If the coach put them into groups with 5 players in each group, how many groups would there be?
+
+Reasoning:
+First, calculate the total number of players by adding the new players and the returning players: 4 + 6 = <<4+6=10>>10.
+Next, divide the total number of players by the number of players in each group: 10 / 5 = <<10/5=2>>2.
+#### 2
+
+<|endoftext|>
+
+165
+
+261
+
+Question: A pet store has 9 bird cages. If each cage has 2 parrots and 6 parakeets in it, how many birds does the pet store have total?
+
+Reasoning:
+Calculate the total number of birds in one cage by adding the parrots and parakeets: 2 + 6 = <<2+6=8>>8
+Multiply the number of birds in one cage by the total number of cages: 8 * 9 = <<8*9=72>>72
+#### 72
+
+<|endoftext|>
+
+166
+
+373_aug4
+
+Question: There school's baseball team had 6 new players and 5 returning players. If the coach put them into groups with 11 players in each group, how many groups would there be?
+
+Reasoning:
+6 plus 5 = <<6+5=11>>11
+11 divided by 11 = <<11/11=1>>1
+#### 1
+
+<|endoftext|>
+
+167
+
+579_aug1
+
+Question: Nancy uploaded 76 pictures to Facebook. She put 12 pics into one album and put the rest into 1 different albums. How many pictures were in each album?
+
+Reasoning:
+76 minus 12 = <<76-12=64>>64
+64 divided by 1 = <<64/1=64>>64
+#### 64
+
+<|endoftext|>
+
+168
+
+526
+
+Question: Wendy picked 103 flowers for her friend’s wedding. She was making bouquets with 8 flowers in each one. If 47 of the flowers wilted before the wedding, how many bouquets could she still make?
+
+Reasoning:
+Wendy picked 103 flowers but 47 wilted, leaving 103 - 47 = <<103-47=56>>56 flowers.
+Each bouquet has 8 flowers, so she could make 56 / 8 = <<56/8=7>>7 bouquets.
+#### 7
+
+<|endoftext|>
+
+169
+
+296_aug1
+
+Question: Emily bought 3 new chairs and 11 new tables for her house. If she spent 6 minutes on each piece furniture putting it together, how many minutes did it take her to finish?
+
+Reasoning:
+3 plus 11 = <<3+11=14>>14
+6 times 14 = <<6*14=84>>84
+#### 84
+
+<|endoftext|>
+
+170
+
+127
+
+Question: A book store had 4 books in the bargin bin. If they sold 3 books, but then put 10 more in the bin, how many books would be in the bin?
+
+Reasoning:
+Subtract the 3 sold books from the 4 original books to find the remaining amount: 4 - 3 = <<4-3=1>>1
+Add the 10 new books to the 1 remaining book to find the total: 1 + 10 = <<1+10=11>>11
+#### 11
+
+<|endoftext|>
+
+171
+
+378_aug0
+
+Question: While playing at the arcade, Luke won 1 tickets playing 'whack a mole' and 19 tickets playing 'skee ball'. If he was trying to buy candy that cost 2 tickets a piece, how many could he buy?
+
+Reasoning:
+1 plus 19 = <<1+19=20>>20
+20 divided by 2 = <<20/2=10>>10
+#### 10
+
+<|endoftext|>
+
+172
+
+504_aug2
+
+Question: Katie baked 23 cupcakes for her school's bake sale. If her brother, Todd, ate 14 of them how many packages could she make if she put 9 cupcake in each package?
+
+Reasoning:
+23 minus 14 = <<23-14=9>>9
+9 divided by 9 = <<9/9=1>>1
+#### 1
+
+<|endoftext|>
+
+173
+
+535_aug0
+
+Question: A store had 65 coloring books in stock. They ended up putting them on sale and getting rid of 27 of them. The put the ones they still had onto shelves with 1 on each shelf. How many shelves did they use?
+
+Reasoning:
+65 minus 27 = <<65-27=38>>38
+38 divided by 1 = <<38/1=38>>38
+#### 38
+
+<|endoftext|>
+
+174
+
+347_aug0
+
+Question: A pet shelter had 22 puppies when another 50 were brought in. If 6 puppies a day are adopted, how long would it take for all of them to be adopted?
+
+Reasoning:
+22 plus 50 = <<22+50=72>>72
+72 divided by 6 = <<72/6=12>>12
+#### 12
+
+<|endoftext|>
+
+175
+
+558_aug0
+
+Question: The cafeteria had 31 apples. For lunch they handed out 1 to students and decided to use the rest to make pies. If each pie takes 10 apples, how many pies could they make?
+
+Reasoning:
+31 minus 1 = <<31-1=30>>30
+30 divided by 10 = <<30/10=3>>3
+#### 3
+
+<|endoftext|>
+
+176
+
+3_aug2
+
+Question: The school cafeteria ordered 9 red apples and 10 green apples for students lunches. But, if only 2 students wanted fruit, how many extra did the cafeteria end up with?
+
+Reasoning:
+9 plus 10 = <<9+10=19>>19
+19 minus 2 = <<19-2=17>>17
+#### 17
+
+<|endoftext|>
+
+177
+
+599_aug0
+
+Question: Nancy uploaded 66 pictures to Facebook. She put 40 pics into one album and put the rest into 2 different albums. How many pictures were in each album?
+
+Reasoning:
+66 minus 40 = <<66-40=26>>26
+26 divided by 2 = <<26/2=13>>13
+#### 13
+
+<|endoftext|>
+
+178
+
+222_aug4
+
+Question: There were 8 friends playing a video game online when 6 more players joined the game. If each player had 7 lives, how many lives did they have total?
+
+Reasoning:
+8 plus 6 = <<8+6=14>>14
+7 times 14 = <<7*14=98>>98
+#### 98
+
+<|endoftext|>
+
+179
+
+77
+
+Question: Tom had to wash 10 short sleeve shirts and 25 long sleeve shirts before school. If he had only washed 5 of them by the time school started, how many did he not wash?
+
+Reasoning:
+Calculate the total number of shirts Tom had to wash by adding the short sleeve and long sleeve shirts: 10 + 25 = <<10+25=35>>35.
+Subtract the number of shirts he already washed from the total number of shirts: 35 - 5 = <<35-5=30>>30.
+#### 30
+
+<|endoftext|>
+
+180
+
+80_aug4
+
+Question: The school cafeteria ordered 3 red apples and 14 green apples for students lunches. But, if only 2 students wanted fruit, how many extra did the cafeteria end up with?
+
+Reasoning:
+3 plus 14 = <<3+14=17>>17
+17 minus 2 = <<17-2=15>>15
+#### 15
+
+<|endoftext|>
+
+181
+
+478_aug4
+
+Question: At a restaurant each adult meal costs $9 and kids eat free. If a group of 25 people came in and 1 were kids, how much would it cost for the group to eat?
+
+Reasoning:
+25 minus 1 = <<25-1=24>>24
+9 times 24 = <<9*24=216>>216
+#### 216
+
+<|endoftext|>
+
+182
+
+334_aug4
+
+Question: Henry was helping the cafeteria workers pick up lunch trays, but he could only carry 1 trays at a time. If he had to pick up 52 trays from one table and 32 trays from another, how many trips will he make?
+
+Reasoning:
+52 plus 32 = <<52+32=84>>84
+84 divided by 1 = <<84/1=84>>84
+#### 84
+
+<|endoftext|>
+
+183
+
+527_aug1
+
+Question: Kaleb had 59 pieces of clothing to wash. He put 24 of them in one load, but decided to split the rest into 1 equal loads. How many pieces of clothing could go in each of the small loads?
+
+Reasoning:
+59 minus 24 = <<59-24=35>>35
+35 divided by 1 = <<35/1=35>>35
+#### 35
+
+<|endoftext|>
+
+184
+
+303_aug3
+
+Question: Olivia was making baggies of cookies with 8 cookies in each bag. If she had 2 chocolate chip cookies and 54 oatmeal cookies, how many baggies could she make?
+
+Reasoning:
+2 plus 54 = <<2+54=56>>56
+56 divided by 8 = <<56/8=7>>7
+#### 7
+
+<|endoftext|>
+
+185
+
+369_aug3
+
+Question: At a company picnic 7 managers and 7 employees decided to start a game of volleyball. If they split into 2 teams how many people would be on each team?
+
+Reasoning:
+7 plus 7 = <<7+7=14>>14
+14 divided by 2 = <<14/2=7>>7
+#### 7
+
+<|endoftext|>
+
+186
+
+161_aug0
+
+Question: The school cafeteria had 17 apples. If they used 12 to make lunch for the students and then bought 33 more, how many apples would they have?
+
+Reasoning:
+17 plus 33 = <<17+33=50>>50
+50 minus 12 = <<50-12=38>>38
+#### 38
+
+<|endoftext|>
+
+187
+
+410_aug2
+
+Question: Kaleb bought 21 boxes of chocolate candy and gave 10 to his little brother. If each box has 4 pieces inside it, how many pieces did Kaleb still have?
+
+Reasoning:
+21 minus 10 = <<21-10=11>>11
+4 times 11 = <<4*11=44>>44
+#### 44
+
+<|endoftext|>
+
+188
+
+197_aug0
+
+Question: Wendy was playing a video game and had 18 lives. In a hard part of the game she lost 3 lives. If she got 74 more lives in the next level, how many lives would she have?
+
+Reasoning:
+18 plus 74 = <<18+74=92>>92
+92 minus 3 = <<92-3=89>>89
+#### 89
+
+<|endoftext|>
+
+189
+
+174_aug3
+
+Question: Adam had 92 books. If he sold 3 of them and used the money he earned to buy 23 new books, how many books would Adam have?
+
+Reasoning:
+92 plus 23 = <<92+23=115>>115
+115 minus 3 = <<115-3=112>>112
+#### 112
+
+<|endoftext|>
+
+190
+
+411_aug1
+
+Question: At a restaurant each adult meal costs $7 and kids eat free. If a group of 9 people came in and 4 were kids, how much would it cost for the group to eat?
+
+Reasoning:
+9 minus 4 = <<9-4=5>>5
+7 times 5 = <<7*5=35>>35
+#### 35
+
+<|endoftext|>
+
+191
+
+550
+
+Question: Will had 59 pieces of clothing to wash. He put 32 of them in one load, but decided to split the rest into 9 equal loads. How many pieces of clothing could go in each of the small loads?
+
+Reasoning:
+First, find how many pieces of clothing were left after the first load: 59 - 32 = <<59-32=27>>27
+Then, divide the remaining clothing by the number of small loads: 27 / 9 = <<27/9=3>>3
+#### 3
+
+<|endoftext|>
+
+192
+
+203_aug2
+
+Question: April's discount flowers was having a sale where each flower was 11 dollars. If Emily bought 2 roses and 10 daisies, how much did she spend?
+
+Reasoning:
+2 plus 10 = <<2+10=12>>12
+11 times 12 = <<11*12=132>>132
+#### 132
+
+<|endoftext|>
+
+193
+
+573_aug0
+
+Question: Haley baked 36 cupcakes for her school's bake sale. If her brother, Todd, ate 6 of them how many packages could she make if she put 5 cupcake in each package?
+
+Reasoning:
+36 minus 6 = <<36-6=30>>30
+30 divided by 5 = <<30/5=6>>6
+#### 6
+
+<|endoftext|>
+
+194
+
+97_aug0
+
+Question: The school cafeteria ordered 12 red apples and 15 green apples for students lunches. But, if only 4 students wanted fruit, how many extra did the cafeteria end up with?
+
+Reasoning:
+12 plus 15 = <<12+15=27>>27
+27 minus 4 = <<27-4=23>>23
+#### 23
+
+<|endoftext|>
+
+195
+
+541_aug1
+
+Question: Bianca was planting vegetables in her garden. She started with 76 seeds and planted 1 of them in the big garden and in each of her small gardens put 3 seeds each. How many small gardens did Bianca have?
+
+Reasoning:
+76 minus 1 = <<76-1=75>>75
+75 divided by 3 = <<75/3=25>>25
+#### 25
+
+<|endoftext|>
+
+196
+
+563_aug4
+
+Question: Haley uploaded 129 pictures to Facebook. She put 10 pics into one album and put the rest into 7 different albums. How many pictures were in each album?
+
+Reasoning:
+129 minus 10 = <<129-10=119>>119
+119 divided by 7 = <<119/7=17>>17
+#### 17
+
+<|endoftext|>
+
+197
+
+163_aug0
+
+Question: Nancy picked 23 carrots from her garden. If she threw out 1 of them and then picked 13 more the next day, how many carrots would she have total?
+
+Reasoning:
+23 plus 13 = <<23+13=36>>36
+36 minus 1 = <<36-1=35>>35
+#### 35
+
+<|endoftext|>
+
+198
+
+49_aug3
+
+Question: A pet store had 7 siamese cats and 54 house cats. During a sale they sold 22 cats. How many cats do they have left?
+
+Reasoning:
+7 plus 54 = <<7+54=61>>61
+61 minus 22 = <<61-22=39>>39
+#### 39
+
+<|endoftext|>
+
+199
+
+117_aug4
+
+Question: Adam had 7 dollars. At the store he spent $8 on a new game. If he got another 8 dollars for his allowance, how much money does he have now?
+
+Reasoning:
+7 plus 8 = <<7+8=15>>15
+15 minus 8 = <<15-8=7>>7
+#### 7
+
+<|endoftext|>
+
+200
+
+443_aug1
+
+Question: A painter needed to paint 19 rooms in a building. Each room takes 2 hours to paint. If he already painted 9 rooms, how much longer will he take to paint the rest?
+
+Reasoning:
+19 minus 9 = <<19-9=10>>10
+2 times 10 = <<2*10=20>>20
+#### 20
+
+<|endoftext|>
+
+201
+
+138_aug3
+
+Question: For Halloween Robin scored 37 pieces of candy. She ate 7 pieces the first night and then her sister gave her 4 more pieces. How many pieces of candy does Robin have now?
+
+Reasoning:
+37 plus 4 = <<37+4=41>>41
+41 minus 7 = <<41-7=34>>34
+#### 34
+
+<|endoftext|>
+
+202
+
+598_aug2
+
+Question: Sarah baked 43 cupcakes for her school's bake sale. If her brother, Todd, ate 3 of them how many packages could she make if she put 10 cupcake in each package?
+
+Reasoning:
+43 minus 3 = <<43-3=40>>40
+40 divided by 10 = <<40/10=4>>4
+#### 4
+
+<|endoftext|>
+
+203
+
+503_aug3
+
+Question: Edward bought 135 tickets at the state fair. He spent 23 tickets at the 'dunk a clown' booth and decided to use the rest on rides. If each ride cost 7 tickets, how many rides could he go on?
+
+Reasoning:
+135 minus 23 = <<135-23=112>>112
+112 divided by 7 = <<112/7=16>>16
+#### 16
+
+<|endoftext|>
+
+204
+
+385_aug2
+
+Question: Vanessa and her friends were recycling paper for their class. For every 2 pounds they recycled they earned one point. If Vanessa recycled 16 pounds and her friends recycled 16 pounds, how many points did they earn?
+
+Reasoning:
+16 plus 16 = <<16+16=32>>32
+32 divided by 2 = <<32/2=16>>16
+#### 16
+
+<|endoftext|>
+
+205
+
+520_aug0
+
+Question: There are 45 students trying out for the school's trivia teams. If 13 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group?
+
+Reasoning:
+45 minus 13 = <<45-13=32>>32
+32 divided by 8 = <<32/8=4>>4
+#### 4
+
+<|endoftext|>
+
+206
+
+378
+
+Question: While playing at the arcade, Luke won 2 tickets playing 'whack a mole' and 13 tickets playing 'skee ball'. If he was trying to buy candy that cost 3 tickets a piece, how many could he buy?
+
+Reasoning:
+Calculate the total number of tickets Luke won by adding 2 and 13.
+2 + 13 = <<2+13=15>>15
+Divide the total number of tickets by the cost of one piece of candy, which is 3.
+15 / 3 = <<15/3=5>>5
+#### 5
+
+<|endoftext|>
+
+207
+
+294_aug4
+
+Question: Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 10 cans in it, how many cans did he pick up total?
+
+Reasoning:
+5 plus 5 = <<5+5=10>>10
+10 times 10 = <<10*10=100>>100
+#### 100
+
+<|endoftext|>
+
+208
+
+574_aug0
+
+Question: A pet store had 15 puppies. In one day they sold 14 of them and put the rest into cages with 1 in each cage. How many cages did they use?
+
+Reasoning:
+15 minus 14 = <<15-14=1>>1
+1 divided by 1 = <<1/1=1>>1
+#### 1
+
+<|endoftext|>
+
+209
+
+61_aug4
+
+Question: Vanessa had 24 music files and 8 video files on her flash drive. If she deleted 3 of the files, how many files were still on her flash drive?
+
+Reasoning:
+24 plus 8 = <<24+8=32>>32
+32 minus 3 = <<32-3=29>>29
+#### 29
+
+<|endoftext|>
+
+210
+
+132_aug1
+
+Question: At the arcade Jerry won 11 tickets. If he spent 11 tickets on a beanie and later won 47 more tickets, how many would he have?
+
+Reasoning:
+11 plus 47 = <<11+47=58>>58
+58 minus 11 = <<58-11=47>>47
+#### 47
+
+<|endoftext|>
+
+211
+
+115_aug4
+
+Question: In fourth grade there were 33 students at the start of the year. During the year 26 students left and 20 new students came to school. How many students were in fourth grade at the end?
+
+Reasoning:
+33 plus 20 = <<33+20=53>>53
+53 minus 26 = <<53-26=27>>27
+#### 27
+
+<|endoftext|>
+
+212
+
+12
+
+Question: While on vacation, Debby took 24 pictures at the zoo and 12 at the museum. If she later deleted 14 of the pictures, how many pictures from her vacation did she still have?
+
+Reasoning:
+First, calculate the total number of pictures Debby took by adding the zoo and museum photos: 24 + 12 = <<24+12=36>>36
+Next, subtract the number of deleted pictures from the total: 36 - 14 = <<36-14=22>>22
+#### 22
+
+<|endoftext|>
+
+213
+
+290_aug2
+
+Question: While playing a trivia game, George answered 4 questions correct in the first half and 4 questions correct in the second half. If each question was worth 7 points, what was his final score?
+
+Reasoning:
+4 plus 4 = <<4+4=8>>8
+7 times 8 = <<7*8=56>>56
+#### 56
+
+<|endoftext|>
+
+214
+
+262_aug0
+
+Question: Roger was putting his spare change into piles. He had 5 piles of quarters and 12 piles of dimes. If each pile had 5 coins in it, how many coins did he have total?
+
+Reasoning:
+5 plus 12 = <<5+12=17>>17
+5 times 17 = <<5*17=85>>85
+#### 85
+
+<|endoftext|>
+
+215
+
+315_aug0
+
+Question: A toy store had 3 giant stuffed bears in stock when they got another shipment with 10 bears in it. The put the bears onto shelves with 13 on each shelf. How many shelves did they use?
+
+Reasoning:
+3 plus 10 = <<3+10=13>>13
+13 divided by 13 = <<13/13=1>>1
+#### 1
+
+<|endoftext|>
+
+216
+
+204_aug4
+
+Question: Isabel had 3 pages of math homework and 10 pages of reading homework. If each page had 1 problems on it, how many problems did she have to complete total?
+
+Reasoning:
+3 plus 10 = <<3+10=13>>13
+1 times 13 = <<1*13=13>>13
+#### 13
+
+<|endoftext|>
+
+217
+
+355_aug4
+
+Question: A vase can hold 7 flowers. If you had 6 carnations and 15 roses, how many vases would you need to hold the flowers?
+
+Reasoning:
+6 plus 15 = <<6+15=21>>21
+21 divided by 7 = <<21/7=3>>3
+#### 3
+
+<|endoftext|>
+
+218
+
+320_aug2
+
+Question: While playing at the arcade, Frank won 21 tickets playing 'whack a mole' and 15 tickets playing 'skee ball'. If he was trying to buy candy that cost 3 tickets a piece, how many could he buy?
+
+Reasoning:
+21 plus 15 = <<21+15=36>>36
+36 divided by 3 = <<36/3=12>>12
+#### 12
+
+<|endoftext|>
+
+219
+
+561_aug2
+
+Question: For Halloween Bianca received 155 pieces of candy. She ate 43 pieces then placed the rest into piles with 16 in each pile. How many piles could she make?
+
+Reasoning:
+155 minus 43 = <<155-43=112>>112
+112 divided by 16 = <<112/16=7>>7
+#### 7
+
+<|endoftext|>
+
+220
+
+520_aug4
+
+Question: There are 14 students trying out for the school's trivia teams. If 8 of them didn't get picked for the team and the rest were put into 1 groups, how many students would be in each group?
+
+Reasoning:
+14 minus 8 = <<14-8=6>>6
+6 divided by 1 = <<6/1=6>>6
+#### 6
+
+<|endoftext|>
+
+221
+
+93_aug0
+
+Question: While shopping, Emily bought 10 green towels and 42 white towels. If she gave her mother 3 of them, how many towels did Emily end up with?
+
+Reasoning:
+10 plus 42 = <<10+42=52>>52
+52 minus 3 = <<52-3=49>>49
+#### 49
+
+<|endoftext|>
+
+222
+
+39_aug2
+
+Question: Edward was trying to expand his game collection. He bought 81 games from a friend and bought 1 more at a garage sale. If 41 of the games didn't work, how many good games did he end up with?
+
+Reasoning:
+81 plus 1 = <<81+1=82>>82
+82 minus 41 = <<82-41=41>>41
+#### 41
+
+<|endoftext|>
+
+223
+
+344_aug3
+
+Question: Jerry was helping the cafeteria workers pick up lunch trays, but he could only carry 1 trays at a time. If he had to pick up 15 trays from one table and 9 trays from another, how many trips will he make?
+
+Reasoning:
+15 plus 9 = <<15+9=24>>24
+24 divided by 1 = <<24/1=24>>24
+#### 24
+
+<|endoftext|>
+
+224
+
+538_aug1
+
+Question: Jerry is at the library helping put away books. There are 12 book to put away total but a librarian takes 6 of them and leaves Jerry with the rest. If he can fit 2 books on a shelf, how many shelves will he need?
+
+Reasoning:
+12 minus 6 = <<12-6=6>>6
+6 divided by 2 = <<6/2=3>>3
+#### 3
+
+<|endoftext|>
+
+225
+
+217_aug3
+
+Question: Luke was putting his spare change into piles. He had 5 piles of quarters and 3 piles of dimes. If each pile had 3 coins in it, how many coins did he have total?
+
+Reasoning:
+5 plus 3 = <<5+3=8>>8
+3 times 8 = <<3*8=24>>24
+#### 24
+
+<|endoftext|>
+
+226
+
+337_aug3
+
+Question: Paul made 63 dollars mowing lawns and 21 dollars weed eating. If he only spent 2 dollar a week, how long would the money last him?
+
+Reasoning:
+63 plus 21 = <<63+21=84>>84
+84 divided by 2 = <<84/2=42>>42
+#### 42
+
+<|endoftext|>
+
+227
+
+223
+
+Question: Wendy bought 4 new chairs and 4 new tables for her house. If she spent 6 minutes on each piece furniture putting it together, how many minutes did it take her to finish?
+
+Reasoning:
+Calculate the total number of furniture pieces by adding the chairs and tables: 4 + 4 = <<4+4=8>>8
+Multiply the total number of pieces by the time spent on each piece: 8 * 6 = <<8*6=48>>48
+#### 48
+
+<|endoftext|>
+
+228
+
+139_aug0
+
+Question: Rachel was playing a video game and had 2 lives. In a hard part of the game she lost 8 lives. If she got 13 more lives in the next level, how many lives would she have?
+
+Reasoning:
+2 plus 13 = <<2+13=15>>15
+15 minus 8 = <<15-8=7>>7
+#### 7
+
+<|endoftext|>
+
+229
+
+541_aug0
+
+Question: Bianca was planting vegetables in her garden. She started with 83 seeds and planted 4 of them in the big garden and in each of her small gardens put 1 seeds each. How many small gardens did Bianca have?
+
+Reasoning:
+83 minus 4 = <<83-4=79>>79
+79 divided by 1 = <<79/1=79>>79
+#### 79
+
+<|endoftext|>
+
+230
+
+373_aug2
+
+Question: There school's baseball team had 8 new players and 1 returning players. If the coach put them into groups with 1 players in each group, how many groups would there be?
+
+Reasoning:
+8 plus 1 = <<8+1=9>>9
+9 divided by 1 = <<9/1=9>>9
+#### 9
+
+<|endoftext|>
+
+231
+
+233_aug3
+
+Question: A pet store has 1 bird cages. If each cage has 2 parrots and 10 parakeets in it, how many birds does the pet store have total?
+
+Reasoning:
+2 plus 10 = <<2+10=12>>12
+1 times 12 = <<1*12=12>>12
+#### 12
+
+<|endoftext|>
+
+232
+
+503
+
+Question: Edward bought 79 tickets at the state fair. He spent 23 tickets at the 'dunk a clown' booth and decided to use the rest on rides. If each ride cost 7 tickets, how many rides could he go on?
+
+Reasoning:
+Edward started with 79 tickets and spent 23 at the booth, leaving 79 - 23 = <<79-23=56>>56 tickets.
+Each ride costs 7 tickets, so he could go on 56 / 7 = <<56/7=8>>8 rides.
+#### 8
+
+<|endoftext|>
+
+233
+
+195
+
+Question: Roger had 25 books. If he sold 21 of them and used the money he earned to buy 30 new books, how many books would Roger have?
+
+Reasoning:
+Subtract the number of books sold from the initial amount to find how many remained: 25 - 21 = <<25-21=4>>4
+Add the number of new books purchased to the remaining books: 4 + 30 = <<4+30=34>>34
+#### 34
+
+<|endoftext|>
+
+234
+
+495_aug1
+
+Question: At a restaurant each adult meal costs $1 and kids eat free. If a group of 11 people came in and 5 were kids, how much would it cost for the group to eat?
+
+Reasoning:
+11 minus 5 = <<11-5=6>>6
+1 times 6 = <<1*6=6>>6
+#### 6
+
+<|endoftext|>
+
+235
+
+400_aug4
+
+Question: A new building needed 25 windows. The builder had already installed 2 of them. If it takes 2 hours to install each window, how long will it take him to install the rest?
+
+Reasoning:
+25 minus 2 = <<25-2=23>>23
+2 times 23 = <<2*23=46>>46
+#### 46
+
+<|endoftext|>
+
+236
+
+555_aug3
+
+Question: Megan baked 31 cupcakes for her school's bake sale. If her brother, Todd, ate 7 of them how many packages could she make if she put 8 cupcake in each package?
+
+Reasoning:
+31 minus 7 = <<31-7=24>>24
+24 divided by 8 = <<24/8=3>>3
+#### 3
+
+<|endoftext|>
+
+237
+
+512
+
+Question: Emily was planting vegetables in her garden. She started with 41 seeds and planted 29 of them in the big garden and in each of her small gardens put 4 seeds each. How many small gardens did Emily have?
+
+Reasoning:
+Emily started with 41 seeds and planted 29 in the big garden, leaving 41 - 29 = <<41-29=12>>12 seeds.
+She puts 4 seeds in each small garden, so she has 12 / 4 = <<12/4=3>>3 small gardens.
+#### 3
+
+<|endoftext|>
+
+238
+
+488_aug0
+
+Question: There were 15 friends playing a video game online when 5 players quit. If each player left had 6 lives, how many lives did they have total?
+
+Reasoning:
+15 minus 5 = <<15-5=10>>10
+6 times 10 = <<6*10=60>>60
+#### 60
+
+<|endoftext|>
+
+239
+
+483_aug2
+
+Question: At a restaurant each adult meal costs $4 and kids eat free. If a group of 3 people came in and 1 were kids, how much would it cost for the group to eat?
+
+Reasoning:
+3 minus 1 = <<3-1=2>>2
+4 times 2 = <<4*2=8>>8
+#### 8
+
+<|endoftext|>
+
+240
+
+116_aug1
+
+Question: For the school bake sale Katie made 48 cupcakes. If she sold 15 of them and then made 27 more, how many cupcakes would she have?
+
+Reasoning:
+48 plus 27 = <<48+27=75>>75
+75 minus 15 = <<75-15=60>>60
+#### 60
+
+<|endoftext|>
+
+241
+
+67_aug1
+
+Question: George had 39 dollars. For his birthday he got 16 more dollars but spent 42 on a new game. How much money does he have now?
+
+Reasoning:
+39 plus 16 = <<39+16=55>>55
+55 minus 42 = <<55-42=13>>13
+#### 13
+
+<|endoftext|>
+
+242
+
+251
+
+Question: There were 2 friends playing a video game online when 2 more players joined the game. If each player had 3 lives, how many lives did they have total?
+
+Reasoning:
+First, calculate the total number of players by adding the 2 original friends and the 2 new players: 2 + 2 = <<2+2=4>>4
+Next, multiply the total number of players by the 3 lives each player has: 4 * 3 = <<4*3=12>>12
+#### 12
+
+<|endoftext|>
+
+243
+
+372_aug1
+
+Question: Ned was helping the cafeteria workers pick up lunch trays, but he could only carry 6 trays at a time. If he had to pick up 10 trays from one table and 1 trays from another, how many trips will he make?
+
+Reasoning:
+6 plus 10 = <<6+10=16>>16
+16 divided by 1 = <<16/1=16>>16
+#### 16
+
+<|endoftext|>
+
+244
+
+20_aug1
+
+Question: For the school bake sale Katie made pastries. She baked 9 cupcakes and 12 cookies. After the sale she had 5 to take back home. How many pastries did she sell?
+
+Reasoning:
+9 plus 12 = <<9+12=21>>21
+21 minus 5 = <<21-5=16>>16
+#### 16
+
+<|endoftext|>
+
+245
+
+308_aug2
+
+Question: For homework Nancy had 30 math problems and 18 spelling problems. If she can finish 8 problems in an hour how long will it take her to finish all the problems?
+
+Reasoning:
+30 plus 18 = <<30+18=48>>48
+48 divided by 8 = <<48/8=6>>6
+#### 6
+
+<|endoftext|>
+
+246
+
+589_aug4
+
+Question: Mike made 109 dollars mowing lawns over the summer. If he spent 46 dollars buying new mower blades, how many 7 dollar games could he buy with the money he had left?
+
+Reasoning:
+109 minus 46 = <<109-46=63>>63
+63 divided by 7 = <<63/7=9>>9
+#### 9
+
+<|endoftext|>
+
+247
+
+31_aug3
+
+Question: For the school bake sale Paige made pastries. She baked 3 cupcakes and 9 cookies. After the sale she had 1 to take back home. How many pastries did she sell?
+
+Reasoning:
+3 plus 9 = <<3+9=12>>12
+12 minus 1 = <<12-1=11>>11
+#### 11
+
+<|endoftext|>
+
+248
+
+482_aug3
+
+Question: John had 10 action figures, but needed 14 total for a complete collection. If each one costs $3, how much money would he need to finish his collection?
+
+Reasoning:
+14 minus 3 = <<14-3=11>>11
+10 times 11 = <<10*11=110>>110
+#### 110
+
+<|endoftext|>
+
+249
+
+191_aug3
+
+Question: A store had 58 oranges in a bin. If they threw away 19 of the old ones and put 30 new ones in the bin how many would be in the bin?
+
+Reasoning:
+58 plus 30 = <<58+30=88>>88
+88 minus 19 = <<88-19=69>>69
+#### 69
+
+<|endoftext|>
+
+250
+
+540_aug2
+
+Question: Will had 142 dollars. If he spent 23 bucks on a new game, how many 7 dollar toys could he buy with the money he had left?
+
+Reasoning:
+142 minus 23 = <<142-23=119>>119
+119 divided by 7 = <<119/7=17>>17
+#### 17
+
+<|endoftext|>
+
+251
+
+17_aug3
+
+Question: Chloe was playing a trivia game. In the first round she scored 62 points and in the second round she scored 84 points. In the last round she lost 6 points. How many points did she have at the end of the game?
+
+Reasoning:
+62 plus 84 = <<62+84=146>>146
+146 minus 6 = <<146-6=140>>140
+#### 140
+
+<|endoftext|>
+
+252
+
+392_aug2
+
+Question: Billy was organizing his baseball cards in a binder with 1 on each page. If he had 7 new cards and 6 old cards to put in the binder, how many pages would he use?
+
+Reasoning:
+7 plus 6 = <<7+6=13>>13
+13 divided by 1 = <<13/1=13>>13
+#### 13
+
+<|endoftext|>
+
+253
+
+578
+
+Question: Sarah was planting vegetables in her garden. She started with 21 seeds and planted 12 of them in the big garden and in each of her small gardens put 3 seeds each. How many small gardens did Sarah have?
+
+Reasoning:
+Sarah started with 21 seeds and planted 12 in the big garden, leaving 21 - 12 = <<21-12=9>>9 seeds.
+With 3 seeds in each small garden, she had 9 / 3 = <<9/3=3>>3 small gardens.
+#### 3
+
+<|endoftext|>
+
+254
+
+218_aug3
+
+Question: Victor and his friend were buying trick decks from the magic shop for 6 dollars each. How much did they spend if Victor bought 5 decks and his friend bought 2 decks?
+
+Reasoning:
+5 plus 2 = <<5+2=7>>7
+6 times 7 = <<6*7=42>>42
+#### 42
+
+<|endoftext|>
+
+255
+
+247_aug0
+
+Question: At Oliver's Restaurant a group with 12 adults and 3 children came in to eat. If each meal cost 2 dollars, how much was the bill?
+
+Reasoning:
+12 plus 3 = <<12+3=15>>15
+2 times 15 = <<2*15=30>>30
+#### 30
+
+<|endoftext|>
+
+256
+
+382_aug2
+
+Question: Jerry made 14 dollars mowing lawns and 49 dollars weed eating. If he only spent 1 dollar a week, how long would the money last him?
+
+Reasoning:
+14 plus 49 = <<14+49=63>>63
+63 divided by 1 = <<63/1=63>>63
+#### 63
+
+<|endoftext|>
+
+257
+
+401_aug1
+
+Question: A chef needs to cook 8 potatoes. He has already cooked 5. If each potato takes 2 minutes to cook, how long will it take him to cook the rest?
+
+Reasoning:
+8 minus 5 = <<8-5=3>>3
+2 times 3 = <<2*3=6>>6
+#### 6
+
+<|endoftext|>
+
+258
+
+572_aug3
+
+Question: Luke was selling his old games. He started out with 66 but sold 8 of them. He packed the rest up putting 2 games into each box. How many boxes did he have to use?
+
+Reasoning:
+66 minus 8 = <<66-8=58>>58
+58 divided by 2 = <<58/2=29>>29
+#### 29
+
+<|endoftext|>
+
+259
+
+170_aug3
+
+Question: Bianca picked 9 carrots from her garden. If she threw out 9 of them and then picked 86 more the next day, how many carrots would she have total?
+
+Reasoning:
+9 plus 86 = <<9+86=95>>95
+95 minus 9 = <<95-9=86>>86
+#### 86
+
+<|endoftext|>
+
+260
+
+76_aug4
+
+Question: A waiter at 'The Greasy Spoon' restaurant had 53 customers to wait on. During the lunch rush he added another 21 customers. If 53 of the customers didn't leave him a tip, how many customers did leave a tip?
+
+Reasoning:
+53 plus 21 = <<53+21=74>>74
+74 minus 53 = <<74-53=21>>21
+#### 21
+
+<|endoftext|>
+
+261
+
+544_aug4
+
+Question: The cafeteria had 56 apples. For lunch they handed out 44 to students and decided to use the rest to make pies. If each pie takes 3 apples, how many pies could they make?
+
+Reasoning:
+56 minus 44 = <<56-44=12>>12
+12 divided by 3 = <<12/3=4>>4
+#### 4
+
+<|endoftext|>
+
+262
+
+407_aug2
+
+Question: In a video game, each enemy defeated gives you 4 points. If a level has 12 enemies total and you destroy all but 11 of them, how many points would you earn?
+
+Reasoning:
+12 minus 11 = <<12-11=1>>1
+4 times 1 = <<4*1=4>>4
+#### 4
+
+<|endoftext|>
+
+263
+
+222_aug2
+
+Question: There were 4 friends playing a video game online when 5 more players joined the game. If each player had 10 lives, how many lives did they have total?
+
+Reasoning:
+4 plus 5 = <<4+5=9>>9
+10 times 9 = <<10*9=90>>90
+#### 90
+
+<|endoftext|>
+
+264
+
+437_aug0
+
+Question: A worksheet had 5 problems on it. If a teacher had 16 worksheets to grade and had already graded 8 of them, how many more problems does she have to grade?
+
+Reasoning:
+16 minus 8 = <<16-8=8>>8
+5 times 8 = <<5*8=40>>40
+#### 40
+
+<|endoftext|>
+
+265
+
+455_aug2
+
+Question: There were 14 friends playing a video game online when 12 players quit. If each player left had 15 lives, how many lives did they have total?
+
+Reasoning:
+14 minus 12 = <<14-12=2>>2
+15 times 2 = <<15*2=30>>30
+#### 30
+
+<|endoftext|>
+
+266
+
+548_aug3
+
+Question: Sarah had 34 homework problems. She finished 23 of them but still had 1 pages of problems to do. If each page has the same number of problems on it, how many problems are on each page?
+
+Reasoning:
+34 minus 23 = <<34-23=11>>11
+11 divided by 1 = <<11/1=11>>11
+#### 11
+
+<|endoftext|>
+
+267
+
+565
+
+Question: Roger had 120 pieces of clothing to wash. He put 48 of them in one load, but decided to split the rest into 9 equal loads. How many pieces of clothing could go in each of the small loads?
+
+Reasoning:
+First, find how many pieces of clothing were left after the first load: 120 - 48 = <<120-48=72>>72
+Then, divide the remaining clothing by the number of small loads: 72 / 9 = <<72/9=8>>8
+#### 8
+
+<|endoftext|>
+
+268
+
+585_aug2
+
+Question: Roger is at the library helping put away books. There are 28 book to put away total but a librarian takes 8 of them and leaves Roger with the rest. If he can fit 10 books on a shelf, how many shelves will he need?
+
+Reasoning:
+28 minus 8 = <<28-8=20>>20
+20 divided by 10 = <<20/10=2>>2
+#### 2
+
+<|endoftext|>
+
+269
+
+303_aug1
+
+Question: Olivia was making baggies of cookies with 15 cookies in each bag. If she had 17 chocolate chip cookies and 13 oatmeal cookies, how many baggies could she make?
+
+Reasoning:
+17 plus 13 = <<17+13=30>>30
+30 divided by 15 = <<30/15=2>>2
+#### 2
+
+<|endoftext|>
+
+270
+
+252_aug4
+
+Question: Adam bought 9 boxes of chocolate candy and 8 boxes of caramel candy. If each box has 8 pieces inside it, how much candy did he have total?
+
+Reasoning:
+9 plus 8 = <<9+8=17>>17
+8 times 17 = <<8*17=136>>136
+#### 136
+
+<|endoftext|>
+
+271
+
+226_aug3
+
+Question: Sam was collecting cans for recycling. On Saturday he filled 3 bags up and on Sunday he filled 12 more bags. If each bag had 5 cans in it, how many cans did he pick up total?
+
+Reasoning:
+3 plus 12 = <<3+12=15>>15
+5 times 15 = <<5*15=75>>75
+#### 75
+
+<|endoftext|>
+
+272
+
+468
+
+Question: A chef needs to cook 15 potatoes. He has already cooked 8. If each potato takes 9 minutes to cook, how long will it take him to cook the rest?
+
+Reasoning:
+Subtract the number of potatoes already cooked from the total number of potatoes to find how many are left: 15 - 8 = <<15-8=7>>7
+Multiply the number of remaining potatoes by the time it takes to cook each one: 7 * 9 = <<7*9=63>>63
+#### 63
+
+<|endoftext|>
+
+273
+
+227_aug0
+
+Question: George was working as a sacker at a grocery store where he made 4 dollars an hour. On Monday he worked 6 hours and on Tuesday he worked 11 hours. How much money did George make in those two days?
+
+Reasoning:
+6 plus 11 = <<6+11=17>>17
+4 times 17 = <<4*17=68>>68
+#### 68
+
+<|endoftext|>
+
+274
+
+462_aug0
+
+Question: At a restaurant each adult meal costs $5 and kids eat free. If a group of 28 people came in and 14 were kids, how much would it cost for the group to eat?
+
+Reasoning:
+28 minus 14 = <<28-14=14>>14
+5 times 14 = <<5*14=70>>70
+#### 70
+
+<|endoftext|>
+
+275
+
+105_aug0
+
+Question: A florist had 27 roses. If she sold 21 of them and then later picked 19 more, how many roses would she have?
+
+Reasoning:
+27 plus 19 = <<27+19=46>>46
+46 minus 21 = <<46-21=25>>25
+#### 25
+
+<|endoftext|>
+
+276
+
+66_aug0
+
+Question: Olivia and her mom were picking carrots from their garden. Olivia picked 1 and her mother picked 24. If only 5 of the carrots were good, how many bad carrots did they have?
+
+Reasoning:
+1 plus 24 = <<1+24=25>>25
+25 minus 5 = <<25-5=20>>20
+#### 20
+
+<|endoftext|>
+
+277
+
+368_aug3
+
+Question: The schools debate team had 9 boys and 25 girls on it. If they were split into groups of 17 how many groups could they make?
+
+Reasoning:
+9 plus 25 = <<9+25=34>>34
+34 divided by 17 = <<34/17=2>>2
+#### 2
+
+<|endoftext|>
+
+278
+
+56_aug4
+
+Question: Dave had to wash 4 short sleeve shirts and 7 long sleeve shirts before school. If he had only washed 5 of them by the time school started, how many did he not wash?
+
+Reasoning:
+4 plus 7 = <<4+7=11>>11
+11 minus 5 = <<11-5=6>>6
+#### 6
+
+<|endoftext|>
+
+279
+
+584_aug2
+
+Question: A store had 43 coloring books in stock. They ended up putting them on sale and getting rid of 31 of them. The put the ones they still had onto shelves with 1 on each shelf. How many shelves did they use?
+
+Reasoning:
+43 minus 31 = <<43-31=12>>12
+12 divided by 1 = <<12/1=12>>12
+#### 12
+
+<|endoftext|>
+
+280
+
+138
+
+Question: For Halloween Robin scored 23 pieces of candy. She ate 7 pieces the first night and then her sister gave her 21 more pieces. How many pieces of candy does Robin have now?
+
+Reasoning:
+Subtract the pieces Robin ate from her initial total: 23 - 7 = <<23-7=16>>16
+Add the pieces her sister gave her to the remaining amount: 16 + 21 = <<16+21=37>>37
+#### 37
+
+<|endoftext|>
+
+281
+
+6_aug2
+
+Question: Roger had 29 dollars. For his birthday he got 19 more dollars but spent 46 on a new game. How much money does he have now?
+
+Reasoning:
+29 plus 19 = <<29+19=48>>48
+48 minus 46 = <<48-46=2>>2
+#### 2
+
+<|endoftext|>
+
+282
+
+247_aug2
+
+Question: At Oliver's Restaurant a group with 10 adults and 2 children came in to eat. If each meal cost 4 dollars, how much was the bill?
+
+Reasoning:
+10 plus 2 = <<10+2=12>>12
+4 times 12 = <<4*12=48>>48
+#### 48
+
+<|endoftext|>
+
+283
+
+229_aug1
+
+Question: Edward and his friend were buying trick decks from the magic shop for 12 dollars each. How much did they spend if Edward bought 5 decks and his friend bought 3 decks?
+
+Reasoning:
+5 plus 3 = <<5+3=8>>8
+12 times 8 = <<12*8=96>>96
+#### 96
+
+<|endoftext|>
+
+284
+
+132_aug0
+
+Question: At the arcade Jerry won 11 tickets. If he spent 3 tickets on a beanie and later won 10 more tickets, how many would he have?
+
+Reasoning:
+11 plus 10 = <<11+10=21>>21
+21 minus 3 = <<21-3=18>>18
+#### 18
+
+<|endoftext|>
+
+285
+
+441_aug3
+
+Question: A magician was selling magic card decks for 3 dollars each. If he started with 15 decks and by the end of the day he had 12 left, how much money did he earn?
+
+Reasoning:
+15 minus 12 = <<15-12=3>>3
+3 times 3 = <<3*3=9>>9
+#### 9
+
+<|endoftext|>
+
+286
+
+368_aug2
+
+Question: The schools debate team had 4 boys and 11 girls on it. If they were split into groups of 3 how many groups could they make?
+
+Reasoning:
+4 plus 11 = <<4+11=15>>15
+15 divided by 3 = <<15/3=5>>5
+#### 5
+
+<|endoftext|>
+
+287
+
+26_aug3
+
+Question: A pet store had 22 siamese cats and 15 house cats. During a sale they sold 11 cats. How many cats do they have left?
+
+Reasoning:
+22 plus 15 = <<22+15=37>>37
+37 minus 11 = <<37-11=26>>26
+#### 26
+
+<|endoftext|>
+
+288
+
+471_aug4
+
+Question: A trivia team had 16 members total, but during a game 6 members didn't show up. If each member that did show up scored 14 points, how many points were scored total?
+
+Reasoning:
+16 minus 6 = <<16-6=10>>10
+14 times 10 = <<14*10=140>>140
+#### 140
+
+<|endoftext|>
+
+289
+
+564_aug1
+
+Question: A pet store had 132 puppies. In one day they sold 5 of them and put the rest into cages with 1 in each cage. How many cages did they use?
+
+Reasoning:
+132 minus 5 = <<132-5=127>>127
+127 divided by 1 = <<127/1=127>>127
+#### 127
+
+<|endoftext|>
+
+290
+
+559_aug3
+
+Question: Nancy had 83 homework problems. She finished 39 of them but still had 2 pages of problems to do. If each page has the same number of problems on it, how many problems are on each page?
+
+Reasoning:
+83 minus 39 = <<83-39=44>>44
+44 divided by 2 = <<44/2=22>>22
+#### 22
+
+<|endoftext|>
+
+291
+
+31_aug0
+
+Question: For the school bake sale Paige made pastries. She baked 68 cupcakes and 7 cookies. After the sale she had 5 to take back home. How many pastries did she sell?
+
+Reasoning:
+68 plus 7 = <<68+7=75>>75
+75 minus 5 = <<75-5=70>>70
+#### 70
+
+<|endoftext|>
+
+292
+
+126
+
+Question: Wendy was playing a video game and had 43 lives. In a hard part of the game she lost 8 lives. If she got 39 more lives in the next level, how many lives would she have?
+
+Reasoning:
+Subtract the lives Wendy lost from her initial total: 43 - 8 = <<43-8=35>>35
+Add the new lives she earned to her current total: 35 + 39 = <<35+39=74>>74
+#### 74
+
+<|endoftext|>
+
+293
+
+180_aug0
+
+Question: Luke had 86 dollars in January. By March he had spent 8 dollars. If he got another 2 dollars from his mom, how much money would he have?
+
+Reasoning:
+86 plus 2 = <<86+2=88>>88
+88 minus 8 = <<88-8=80>>80
+#### 80
+
+<|endoftext|>
+
+294
+
+576_aug0
+
+Question: Wendy had 77 files on her computer. She deleted 66 of them and put the rest into folders with 1 files in each one. How many folders did Wendy end up with?
+
+Reasoning:
+77 minus 66 = <<77-66=11>>11
+11 divided by 1 = <<11/1=11>>11
+#### 11
+
+<|endoftext|>
+
+295
+
+175_aug3
+
+Question: In fourth grade there were 57 students at the start of the year. During the year 9 students left and 5 new students came to school. How many students were in fourth grade at the end?
+
+Reasoning:
+57 plus 5 = <<57+5=62>>62
+62 minus 9 = <<62-9=53>>53
+#### 53
+
+<|endoftext|>
+
+296
+
+79_aug2
+
+Question: Kaleb started his own lawn mowing business. In the spring he made 3 dollars mowing lawns and in the summer he made 51 dollars. If he had to spend 12 dollars buying supplies, how much money did he end up with?
+
+Reasoning:
+3 plus 51 = <<3+51=54>>54
+54 minus 12 = <<54-12=42>>42
+#### 42
+
+<|endoftext|>
+
+297
+
+352_aug4
+
+Question: Olivia uploaded 1 pictures from her phone and 23 from her camera to facebook. If she sorted the pics into 2 different albums with the same amount of pics in each album, how many pictures were in each of the albums?
+
+Reasoning:
+1 plus 23 = <<1+23=24>>24
+24 divided by 2 = <<24/2=12>>12
+#### 12
+
+<|endoftext|>
+
+298
+
+143_aug1
+
+Question: Edward had 77 books. If he sold 10 of them and used the money he earned to buy 19 new books, how many books would Edward have?
+
+Reasoning:
+77 plus 19 = <<77+19=96>>96
+96 minus 10 = <<96-10=86>>86
+#### 86
+
+<|endoftext|>
+
+299
+
+429
+
+Question: A chef needs to cook 12 potatoes. He has already cooked 6. If each potato takes 6 minutes to cook, how long will it take him to cook the rest?
+
+Reasoning:
+Subtract the number of potatoes already cooked from the total number of potatoes to find how many remain: 12 - 6 = <<12-6=6>>6
+Multiply the number of remaining potatoes by the time it takes to cook each one: 6 * 6 = <<6*6=36>>36
+#### 36
+
+<|endoftext|>
+
+300
+
+54_aug3
+
+Question: Paige had 58 math problems and 14 science problems for homework. If she finished 40 of the problems at school, how many problems did she have to do for homework?
+
+Reasoning:
+58 plus 14 = <<58+14=72>>72
+72 minus 40 = <<72-40=32>>32
+#### 32
+
+<|endoftext|>
+
+301
+
+572_aug0
+
+Question: Luke was selling his old games. He started out with 58 but sold 37 of them. He packed the rest up putting 7 games into each box. How many boxes did he have to use?
+
+Reasoning:
+58 minus 37 = <<58-37=21>>21
+21 divided by 7 = <<21/7=3>>3
+#### 3
+
+<|endoftext|>
+
+302
+
+362
+
+Question: Sam had saved up 8 dollars. If he received another 7 dollars for his allowance, how many 3 dollar toys could he buy?
+
+Reasoning:
+First, calculate the total amount of money Sam has by adding his savings and his allowance: 8 + 7 = <<8+7=15>>15.
+Next, divide the total amount of money by the cost of each toy to find how many he can buy: 15 / 3 = <<15/3=5>>5.
+#### 5
+
+<|endoftext|>
+
+303
+
+439_aug2
+
+Question: A magician was selling magic card decks for 13 dollars each. If he started with 20 decks and by the end of the day he had 2 left, how much money did he earn?
+
+Reasoning:
+20 minus 2 = <<20-2=18>>18
+13 times 18 = <<13*18=234>>234
+#### 234
+
+<|endoftext|>
+
+304
+
+536_aug0
+
+Question: There are 68 students trying out for the school's trivia teams. If 24 of them didn't get picked for the team and the rest were put into 1 groups, how many students would be in each group?
+
+Reasoning:
+68 minus 24 = <<68-24=44>>44
+44 divided by 1 = <<44/1=44>>44
+#### 44
+
+<|endoftext|>
+
+305
+
+414_aug4
+
+Question: There were 22 friends playing a video game online when 6 players quit. If each player left had 14 lives, how many lives did they have total?
+
+Reasoning:
+22 minus 6 = <<22-6=16>>16
+14 times 16 = <<14*16=224>>224
+#### 224
+
+<|endoftext|>
+
+306
+
+427
+
+Question: Roger earned 9 dollars for each lawn he mowed. If he had 14 lawns to mow, but forgot to mow 8 of them, how much money did he actually earn?
+
+Reasoning:
+Calculate the number of lawns Roger actually mowed by subtracting the forgotten lawns from the total: 14 - 8 = <<14-8=6>>6
+Multiply the number of lawns mowed by the earnings per lawn to find the total amount earned: 6 * 9 = <<6*9=54>>54
+#### 54
+
+<|endoftext|>
+
+307
+
+583_aug2
+
+Question: Haley was planting vegetables in her garden. She started with 98 seeds and planted 68 of them in the big garden and in each of her small gardens put 6 seeds each. How many small gardens did Haley have?
+
+Reasoning:
+98 minus 68 = <<98-68=30>>30
+30 divided by 6 = <<30/6=5>>5
+#### 5
+
+<|endoftext|>
+
+308
+
+402_aug1
+
+Question: Ned bought 25 boxes of chocolate candy and gave 11 to his little brother. If each box has 9 pieces inside it, how many pieces did Ned still have?
+
+Reasoning:
+25 minus 11 = <<25-11=14>>14
+9 times 14 = <<9*14=126>>126
+#### 126
+
+<|endoftext|>
+
+309
+
+301_aug4
+
+Question: Robin uploaded 26 pictures from her phone and 3 from her camera to facebook. If she sorted the pics into 1 different albums with the same amount of pics in each album, how many pictures were in each of the albums?
+
+Reasoning:
+26 plus 3 = <<26+3=29>>29
+29 divided by 1 = <<29/1=29>>29
+#### 29
+
+<|endoftext|>
+
+310
+
+319
+
+Question: Isabel uploaded 2 pictures from her phone and 4 from her camera to facebook. If she sorted the pics into 3 different albums with the same amount of pics in each album, how many pictures were in each of the albums?
+
+Reasoning:
+First, calculate the total number of pictures by adding the 2 pictures from the phone and the 4 pictures from the camera: 2 + 4 = <<2+4=6>>6
+Next, divide the total number of pictures by the 3 albums to find the number of pictures per album: 6 / 3 = <<6/3=2>>2
+#### 2
+
+<|endoftext|>
+
+311
+
+386_aug2
+
+Question: A pet shelter had 2 puppies when another 25 were brought in. If 9 puppies a day are adopted, how long would it take for all of them to be adopted?
+
+Reasoning:
+2 plus 25 = <<2+25=27>>27
+27 divided by 9 = <<27/9=3>>3
+#### 3
+
+<|endoftext|>
+
+312
+
+559_aug2
+
+Question: Nancy had 126 homework problems. She finished 76 of them but still had 10 pages of problems to do. If each page has the same number of problems on it, how many problems are on each page?
+
+Reasoning:
+126 minus 76 = <<126-76=50>>50
+50 divided by 10 = <<50/10=5>>5
+#### 5
+
+<|endoftext|>
+
+313
+
+437_aug4
+
+Question: A worksheet had 1 problems on it. If a teacher had 11 worksheets to grade and had already graded 6 of them, how many more problems does she have to grade?
+
+Reasoning:
+11 minus 6 = <<11-6=5>>5
+1 times 5 = <<1*5=5>>5
+#### 5
+
+<|endoftext|>
+
+314
+
+128_aug3
+
+Question: At the arcade Cody won 95 tickets. If he spent 43 tickets on a beanie and later won 8 more tickets, how many would he have?
+
+Reasoning:
+95 plus 8 = <<95+8=103>>103
+103 minus 43 = <<103-43=60>>60
+#### 60
+
+<|endoftext|>
+
+315
+
+515_aug3
+
+Question: There are 55 students trying out for the school's trivia teams. If 28 of them didn't get picked for the team and the rest were put into 1 groups, how many students would be in each group?
+
+Reasoning:
+55 minus 28 = <<55-28=27>>27
+27 divided by 1 = <<27/1=27>>27
+#### 27
+
+<|endoftext|>
+
+316
+
+159
+
+Question: Megan picked 19 carrots from her garden. If she threw out 4 of them and then picked 46 more the next day, how many carrots would she have total?
+
+Reasoning:
+Subtract the carrots Megan threw out from the initial amount: 19 - 4 = <<19-4=15>>15
+Add the carrots she picked the next day to the remaining amount: 15 + 46 = <<15+46=61>>61
+#### 61
+
+<|endoftext|>
+
+317
+
+481_aug2
+
+Question: Tom bought 23 boxes of chocolate candy and gave 2 to his little brother. If each box has 5 pieces inside it, how many pieces did Tom still have?
+
+Reasoning:
+23 minus 2 = <<23-2=21>>21
+5 times 21 = <<5*21=105>>105
+#### 105
+
+<|endoftext|>
+
+318
+
+254_aug0
+
+Question: Lana's favorite band was holding a concert where tickets were 9 dollars each. Lana bought 7 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend?
+
+Reasoning:
+7 plus 5 = <<7+5=12>>12
+9 times 12 = <<9*12=108>>108
+#### 108
+
+<|endoftext|>
+
+319
+
+565_aug2
+
+Question: Roger had 123 pieces of clothing to wash. He put 33 of them in one load, but decided to split the rest into 1 equal loads. How many pieces of clothing could go in each of the small loads?
+
+Reasoning:
+123 minus 33 = <<123-33=90>>90
+90 divided by 1 = <<90/1=90>>90
+#### 90
+
+<|endoftext|>
+
+320
+
+39_aug1
+
+Question: Edward was trying to expand his game collection. He bought 58 games from a friend and bought 18 more at a garage sale. If 4 of the games didn't work, how many good games did he end up with?
+
+Reasoning:
+58 plus 18 = <<58+18=76>>76
+76 minus 4 = <<76-4=72>>72
+#### 72
+
+<|endoftext|>
+
+321
+
+516_aug2
+
+Question: Tom had 90 dollars. If he spent 84 bucks on a new game, how many 2 dollar toys could he buy with the money he had left?
+
+Reasoning:
+90 minus 84 = <<90-84=6>>6
+6 divided by 2 = <<6/2=3>>3
+#### 3
+
+<|endoftext|>
+
+322
+
+137_aug1
+
+Question: George had 18 socks. If he threw away 6 old ones that didn't fit and bought 65 new ones, how many socks would he have?
+
+Reasoning:
+18 plus 65 = <<18+65=83>>83
+83 minus 6 = <<83-6=77>>77
+#### 77
+
+<|endoftext|>
+
+323
+
+353_aug1
+
+Question: A toy store had 2 giant stuffed bears in stock when they got another shipment with 8 bears in it. The put the bears onto shelves with 5 on each shelf. How many shelves did they use?
+
+Reasoning:
+2 plus 8 = <<2+8=10>>10
+10 divided by 5 = <<10/5=2>>2
+#### 2
+
+<|endoftext|>
+
+324
+
+108
+
+Question: A waiter had 19 customers to wait on. If 14 customers left and he got another 36 customers, how many customers would he have?
+
+Reasoning:
+Subtract the customers who left from the initial number of customers: 19 - 14 = <<19-14=5>>5
+Add the new customers to the remaining number of customers: 5 + 36 = <<5+36=41>>41
+#### 41
+
+<|endoftext|>
+
+325
+
+217_aug1
+
+Question: Luke was putting his spare change into piles. He had 6 piles of quarters and 7 piles of dimes. If each pile had 5 coins in it, how many coins did he have total?
+
+Reasoning:
+6 plus 7 = <<6+7=13>>13
+5 times 13 = <<5*13=65>>65
+#### 65
+
+<|endoftext|>
+
+326
+
+505_aug1
+
+Question: Megan had 50 files on her computer. She deleted 18 of them and put the rest into folders with 16 files in each one. How many folders did Megan end up with?
+
+Reasoning:
+50 minus 18 = <<50-18=32>>32
+32 divided by 16 = <<32/16=2>>2
+#### 2
+
+<|endoftext|>
+
+327
+
+109_aug2
+
+Question: At the fair there were 4 people in line for the bumper cars. If 2 of them got tired of waiting and left and 11 more got in line, how many people would be in line?
+
+Reasoning:
+4 plus 11 = <<4+11=15>>15
+15 minus 2 = <<15-2=13>>13
+#### 13
+
+<|endoftext|>
+
+328
+
+63_aug2
+
+Question: The school cafeteria ordered 10 red apples and 56 green apples for students lunches. But, if only 12 students wanted fruit, how many extra did the cafeteria end up with?
+
+Reasoning:
+10 plus 56 = <<10+56=66>>66
+66 minus 12 = <<66-12=54>>54
+#### 54
+
+<|endoftext|>
+
+329
+
+148_aug4
+
+Question: At the arcade Victor won 84 tickets. If he spent 22 tickets on a beanie and later won 77 more tickets, how many would he have?
+
+Reasoning:
+84 plus 77 = <<84+77=161>>161
+161 minus 22 = <<161-22=139>>139
+#### 139
+
+<|endoftext|>
+
+330
+
+534_aug0
+
+Question: A waiter had 79 customers in his section. If 19 of them left and the rest of his tables had 2 people at each table, how many tables did he have?
+
+Reasoning:
+79 minus 19 = <<79-19=60>>60
+60 divided by 2 = <<60/2=30>>30
+#### 30
+
+<|endoftext|>
+
+331
+
+489_aug1
+
+Question: At lunch a waiter had 9 customers and 1 of them didn't leave a tip. If he got $4 each from the ones who did tip, how much money did he earn?
+
+Reasoning:
+9 minus 1 = <<9-1=8>>8
+4 times 8 = <<4*8=32>>32
+#### 32
+
+<|endoftext|>
+
+332
+
+486_aug3
+
+Question: In a video game, each enemy defeated gives you 12 points. If a level has 11 enemies total and you destroy all but 2 of them, how many points would you earn?
+
+Reasoning:
+11 minus 2 = <<11-2=9>>9
+12 times 9 = <<12*9=108>>108
+#### 108
+
+<|endoftext|>
+
+333
+
+506_aug3
+
+Question: Wendy uploaded 92 pictures to Facebook. She put 44 pics into one album and put the rest into 1 different albums. How many pictures were in each album?
+
+Reasoning:
+92 minus 44 = <<92-44=48>>48
+48 divided by 1 = <<48/1=48>>48
+#### 48
+
+<|endoftext|>
+
+334
+
+315
+
+Question: A toy store had 4 giant stuffed bears in stock when they got another shipment with 10 bears in it. The put the bears onto shelves with 7 on each shelf. How many shelves did they use?
+
+Reasoning:
+First, calculate the total number of bears by adding the initial stock to the new shipment: 4 + 10 = <<4+10=14>>14.
+Next, divide the total number of bears by the number of bears placed on each shelf: 14 / 7 = <<14/7=2>>2.
+#### 2
+
+<|endoftext|>
+
+335
+
+129_aug4
+
+Question: For the school bake sale Bianca made 16 cupcakes. If she sold 8 of them and then made 16 more, how many cupcakes would she have?
+
+Reasoning:
+16 plus 16 = <<16+16=32>>32
+32 minus 8 = <<32-8=24>>24
+#### 24
+
+<|endoftext|>
+
+336
+
+383
+
+Question: While playing at the arcade, Ned won 26 tickets playing 'whack a mole' and 19 tickets playing 'skee ball'. If he was trying to buy candy that cost 9 tickets a piece, how many could he buy?
+
+Reasoning:
+First, calculate the total number of tickets Ned won by adding 26 and 19.
+26 + 19 = <<26+19=45>>45
+Next, divide the total number of tickets by the cost of one piece of candy, which is 9.
+45 / 9 = <<45/9=5>>5
+#### 5
+
+<|endoftext|>
+
+337
+
+396
+
+Question: Katie uploaded 30 pictures from her phone and 51 from her camera to facebook. If she sorted the pics into 9 different albums with the same amount of pics in each album, how many pictures were in each of the albums?
+
+Reasoning:
+First, find the total number of pictures by adding the 30 pictures from her phone and the 51 pictures from her camera: 30 + 51 = <<30+51=81>>81
+Next, divide the total number of pictures by the 9 albums to find the number of pictures per album: 81 / 9 = <<81/9=9>>9
+#### 9
+
+<|endoftext|>
+
+338
+
+503_aug2
+
+Question: Edward bought 87 tickets at the state fair. He spent 17 tickets at the 'dunk a clown' booth and decided to use the rest on rides. If each ride cost 7 tickets, how many rides could he go on?
+
+Reasoning:
+87 minus 17 = <<87-17=70>>70
+70 divided by 7 = <<70/7=10>>10
+#### 10
+
+<|endoftext|>
+
+339
+
+213_aug2
+
+Question: At Billy's Restaurant a group with 10 adults and 9 children came in to eat. If each meal cost 7 dollars, how much was the bill?
+
+Reasoning:
+10 plus 9 = <<10+9=19>>19
+7 times 19 = <<7*19=133>>133
+#### 133
+
+<|endoftext|>
+
+340
+
+578_aug2
+
+Question: Sarah was planting vegetables in her garden. She started with 29 seeds and planted 9 of them in the big garden and in each of her small gardens put 10 seeds each. How many small gardens did Sarah have?
+
+Reasoning:
+29 minus 9 = <<29-9=20>>20
+20 divided by 10 = <<20/10=2>>2
+#### 2
+
+<|endoftext|>
+
+341
+
+243_aug2
+
+Question: Amy was playing a video game where she scores 4 points for each treasure she finds. If she found 5 treasures on the first level and 11 on the second, what would her score be?
+
+Reasoning:
+5 plus 11 = <<5+11=16>>16
+4 times 16 = <<4*16=64>>64
+#### 64
+
+<|endoftext|>
+
+342
+
+448_aug2
+
+Question: April's discount flowers was having a sale where each rose was 8 dollars. If April started with 3 roses and had 1 roses left, how much money did she earn?
+
+Reasoning:
+3 minus 1 = <<3-1=2>>2
+8 times 2 = <<8*2=16>>16
+#### 16
+
+<|endoftext|>
+
+343
+
+112
+
+Question: Maria picked 48 carrots from her garden. If she threw out 11 of them and then picked 15 more the next day, how many carrots would she have total?
+
+Reasoning:
+Subtract the carrots Maria threw out from the initial amount: 48 - 11 = <<48-11=37>>37
+Add the carrots she picked the next day to the remaining amount: 37 + 15 = <<37+15=52>>52
+#### 52
+
+<|endoftext|>
+
+344
+
+511_aug3
+
+Question: Oliver is at the library helping put away books. There are 88 book to put away total but a librarian takes 13 of them and leaves Oliver with the rest. If he can fit 1 books on a shelf, how many shelves will he need?
+
+Reasoning:
+88 minus 13 = <<88-13=75>>75
+75 divided by 1 = <<75/1=75>>75
+#### 75
+
+<|endoftext|>
+
+345
+
+374_aug2
+
+Question: For homework Amy had 22 math problems and 1 spelling problems. If she can finish 1 problems in an hour how long will it take her to finish all the problems?
+
+Reasoning:
+22 plus 1 = <<22+1=23>>23
+23 divided by 1 = <<23/1=23>>23
+#### 23
+
+<|endoftext|>
+
+346
+
+453
+
+Question: Henry had 3 action figures, but needed 8 total for a complete collection. If each one costs $6, how much money would he need to finish his collection?
+
+Reasoning:
+Subtract the number of action figures Henry already has from the total needed to find how many more he must buy: 8 - 3 = <<8-3=5>>5
+Multiply the number of action figures needed by the cost of each one to find the total amount required: 5 * 6 = <<5*6=30>>30
+#### 30
+
+<|endoftext|>
+
+347
+
+567_aug0
+
+Question: Isabel baked 62 cupcakes for her school's bake sale. If her brother, Todd, ate 8 of them how many packages could she make if she put 9 cupcake in each package?
+
+Reasoning:
+62 minus 8 = <<62-8=54>>54
+54 divided by 9 = <<54/9=6>>6
+#### 6
+
+<|endoftext|>
+
+348
+
+325_aug1
+
+Question: Maria was making baggies of cookies with 1 cookies in each bag. If she had 49 chocolate chip cookies and 2 oatmeal cookies, how many baggies could she make?
+
+Reasoning:
+49 plus 2 = <<49+2=51>>51
+51 divided by 1 = <<51/1=51>>51
+#### 51
+
+<|endoftext|>
+
+349
+
+95_aug1
+
+Question: Ned was trying to expand his game collection. He bought 31 games from a friend and bought 11 more at a garage sale. If 15 of the games didn't work, how many good games did he end up with?
+
+Reasoning:
+31 plus 11 = <<31+11=42>>42
+42 minus 15 = <<42-15=27>>27
+#### 27
+
+<|endoftext|>
+
+350
+
+468_aug3
+
+Question: A chef needs to cook 27 potatoes. He has already cooked 15. If each potato takes 16 minutes to cook, how long will it take him to cook the rest?
+
+Reasoning:
+27 minus 15 = <<27-15=12>>12
+16 times 12 = <<16*12=192>>192
+#### 192
+
+<|endoftext|>
+
+351
+
+579_aug4
+
+Question: Nancy uploaded 84 pictures to Facebook. She put 8 pics into one album and put the rest into 2 different albums. How many pictures were in each album?
+
+Reasoning:
+84 minus 8 = <<84-8=76>>76
+76 divided by 2 = <<76/2=38>>38
+#### 38
+
+<|endoftext|>
+
+352
+
+301_aug1
+
+Question: Robin uploaded 25 pictures from her phone and 9 from her camera to facebook. If she sorted the pics into 1 different albums with the same amount of pics in each album, how many pictures were in each of the albums?
+
+Reasoning:
+25 plus 9 = <<25+9=34>>34
+34 divided by 1 = <<34/1=34>>34
+#### 34
+
+<|endoftext|>
+
+353
+
+390_aug4
+
+Question: A toy store had 24 giant stuffed bears in stock when they got another shipment with 3 bears in it. The put the bears onto shelves with 1 on each shelf. How many shelves did they use?
+
+Reasoning:
+24 plus 3 = <<24+3=27>>27
+27 divided by 1 = <<27/1=27>>27
+#### 27
+
+<|endoftext|>
+
+354
+
+178_aug0
+
+Question: Frank had 12 dollars. At the store he spent $7 on a new game. If he got another 8 dollars for his allowance, how much money does he have now?
+
+Reasoning:
+12 plus 8 = <<12+8=20>>20
+20 minus 7 = <<20-7=13>>13
+#### 13
+
+<|endoftext|>
+
+355
+
+522_aug2
+
+Question: A pet store had 30 puppies. In one day they sold 9 of them and put the rest into cages with 1 in each cage. How many cages did they use?
+
+Reasoning:
+30 minus 9 = <<30-9=21>>21
+21 divided by 1 = <<21/1=21>>21
+#### 21
+
+<|endoftext|>
+
+356
+
+508_aug0
+
+Question: The cafeteria had 114 apples. For lunch they handed out 15 to students and decided to use the rest to make pies. If each pie takes 1 apples, how many pies could they make?
+
+Reasoning:
+114 minus 15 = <<114-15=99>>99
+99 divided by 1 = <<99/1=99>>99
+#### 99
+
+<|endoftext|>
+
+357
+
+172_aug3
+
+Question: Katie had 17 songs on her mp3 player. If she deleted 3 old songs from it and then added 35 new songs, how many songs does she have on her mp3 player?
+
+Reasoning:
+17 plus 35 = <<17+35=52>>52
+52 minus 3 = <<52-3=49>>49
+#### 49
+
+<|endoftext|>
+
+358
+
+208_aug0
+
+Question: A pet store has 6 bird cages. If each cage has 9 parrots and 4 parakeets in it, how many birds does the pet store have total?
+
+Reasoning:
+9 plus 4 = <<9+4=13>>13
+6 times 13 = <<6*13=78>>78
+#### 78
+
+<|endoftext|>
+
+359
+
+495_aug0
+
+Question: At a restaurant each adult meal costs $12 and kids eat free. If a group of 14 people came in and 4 were kids, how much would it cost for the group to eat?
+
+Reasoning:
+14 minus 4 = <<14-4=10>>10
+12 times 10 = <<12*10=120>>120
+#### 120
+
+<|endoftext|>
+
+360
+
+13_aug1
+
+Question: Katie picked 8 tulips and 15 roses to make flower bouquets. If she only used 16 of the flowers though, how many extra flowers did Katie pick?
+
+Reasoning:
+8 plus 15 = <<8+15=23>>23
+23 minus 16 = <<23-16=7>>7
+#### 7
+
+<|endoftext|>
+
+361
+
+523_aug0
+
+Question: Edward was selling his old games. He started out with 30 but sold 14 of them. He packed the rest up putting 1 games into each box. How many boxes did he have to use?
+
+Reasoning:
+30 minus 14 = <<30-14=16>>16
+16 divided by 1 = <<16/1=16>>16
+#### 16
+
+<|endoftext|>
+
+362
+
+243_aug4
+
+Question: Amy was playing a video game where she scores 11 points for each treasure she finds. If she found 5 treasures on the first level and 12 on the second, what would her score be?
+
+Reasoning:
+5 plus 12 = <<5+12=17>>17
+11 times 17 = <<11*17=187>>187
+#### 187
+
+<|endoftext|>
+
+363
+
+524
+
+Question: Frank made 19 dollars mowing lawns over the summer. If he spent 11 dollars buying new mower blades, how many 2 dollar games could he buy with the money he had left?
+
+Reasoning:
+Frank made 19 dollars and spent 11 on mower blades, leaving 19 - 11 = <<19-11=8>>8 dollars.
+Each game costs 2 dollars, so he could buy 8 / 2 = <<8/2=4>>4 games.
+#### 4
+
+<|endoftext|>
+
+364
+
+430
+
+Question: A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest?
+
+Reasoning:
+Subtract the number of installed windows from the total number of windows to find how many are left: 9 - 6 = <<9-6=3>>3
+Multiply the number of remaining windows by the time it takes to install each one: 3 * 6 = <<3*6=18>>18
+#### 18
+
+<|endoftext|>
+
+365
+
+410_aug3
+
+Question: Kaleb bought 26 boxes of chocolate candy and gave 7 to his little brother. If each box has 10 pieces inside it, how many pieces did Kaleb still have?
+
+Reasoning:
+26 minus 7 = <<26-7=19>>19
+10 times 19 = <<10*19=190>>190
+#### 190
+
+<|endoftext|>
+
+366
+
+458_aug3
+
+Question: Dave had 18 video games but 8 of them weren't working. If he wanted to sell the working games for $11 each, how much money could he earn?
+
+Reasoning:
+18 minus 8 = <<18-8=10>>10
+11 times 10 = <<11*10=110>>110
+#### 110
+
+<|endoftext|>
+
+367
+
+197
+
+Question: Wendy was playing a video game and had 10 lives. In a hard part of the game she lost 6 lives. If she got 37 more lives in the next level, how many lives would she have?
+
+Reasoning:
+Subtract the lives Wendy lost from her initial total to find how many she had left: 10 - 6 = <<10-6=4>>4
+Add the new lives she earned in the next level to her remaining total: 4 + 37 = <<4+37=41>>41
+#### 41
+
+<|endoftext|>
+
+368
+
+292
+
+Question: At the town carnival Oliver rode the ferris wheel 7 times and the bumper cars 3 times. If each ride cost 3 tickets, how many tickets did he use?
+
+Reasoning:
+Calculate the total number of rides by adding the ferris wheel rides and the bumper car rides: 7 + 3 = <<7+3=10>>10
+Multiply the total number of rides by the cost per ride to find the total tickets used: 10 * 3 = <<10*3=30>>30
+#### 30
+
+<|endoftext|>
+
+369
+
+206_aug4
+
+Question: There were 7 friends playing a video game online when 3 more players joined the game. If each player had 6 lives, how many lives did they have total?
+
+Reasoning:
+7 plus 3 = <<7+3=10>>10
+6 times 10 = <<6*10=60>>60
+#### 60
+
+<|endoftext|>
+
+370
+
+497_aug1
+
+Question: There were 10 friends playing a video game online when 6 players quit. If each player left had 1 lives, how many lives did they have total?
+
+Reasoning:
+10 minus 6 = <<10-6=4>>4
+1 times 4 = <<1*4=4>>4
+#### 4
+
+<|endoftext|>
+
+371
+
+183_aug0
+
+Question: The school cafeteria had 10 apples. If they used 10 to make lunch for the students and then bought 27 more, how many apples would they have?
+
+Reasoning:
+10 plus 27 = <<10+27=37>>37
+37 minus 10 = <<37-10=27>>27
+#### 27
+
+<|endoftext|>
+
+372
+
+332_aug2
+
+Question: Maria was making baggies of cookies with 3 cookies in each bag. If she had 2 chocolate chip cookies and 7 oatmeal cookies, how many baggies could she make?
+
+Reasoning:
+2 plus 7 = <<2+7=9>>9
+9 divided by 3 = <<9/3=3>>3
+#### 3
+
+<|endoftext|>
+
+373
+
+225_aug1
+
+Question: Paige was unboxing some of her old winter clothes. She found 4 boxes of clothing and inside each box there were 11 scarves and 5 mittens. How many pieces of winter clothing did Paige have total?
+
+Reasoning:
+11 plus 5 = <<11+5=16>>16
+4 times 16 = <<4*16=64>>64
+#### 64
+
+<|endoftext|>
+
+374
+
+349_aug2
+
+Question: Frank had saved up 9 dollars. If he received another 31 dollars for his allowance, how many 2 dollar toys could he buy?
+
+Reasoning:
+9 plus 31 = <<9+31=40>>40
+40 divided by 2 = <<40/2=20>>20
+#### 20
+
+<|endoftext|>
+
+375
+
+261_aug1
+
+Question: A pet store has 15 bird cages. If each cage has 7 parrots and 8 parakeets in it, how many birds does the pet store have total?
+
+Reasoning:
+7 plus 8 = <<7+8=15>>15
+15 times 15 = <<15*15=225>>225
+#### 225
+
+<|endoftext|>
+
+376
+
+146_aug2
+
+Question: For the school bake sale Carol made 1 cupcakes. If she sold 1 of them and then made 4 more, how many cupcakes would she have?
+
+Reasoning:
+1 plus 4 = <<1+4=5>>5
+5 minus 1 = <<5-1=4>>4
+#### 4
+
+<|endoftext|>
+
+377
+
+418_aug2
+
+Question: Mike had 27 video games but 16 of them weren't working. If he wanted to sell the working games for $12 each, how much money could he earn?
+
+Reasoning:
+27 minus 16 = <<27-16=11>>11
+12 times 11 = <<12*11=132>>132
+#### 132
+
+<|endoftext|>
+
+378
+
+341_aug0
+
+Question: A group of 7 friends went into a restaurant. The chef already had 2 chicken wings cooked but cooked 3 more for the group. If they each got the same amount how many would each person get?
+
+Reasoning:
+7 plus 2 = <<7+2=9>>9
+9 divided by 3 = <<9/3=3>>3
+#### 3
+
+<|endoftext|>
+
+379
+
+356
+
+Question: Haley and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Haley recycled 11 pounds and her friends recycled 16 pounds, how many points did they earn?
+
+Reasoning:
+Calculate the total pounds of paper recycled by adding 11 and 16: 11 + 16 = <<11+16=27>>27
+Divide the total pounds by 3 to find the number of points earned: 27 / 3 = <<27/3=9>>9
+#### 9
+
+<|endoftext|>
+
+380
+
+589_aug0
+
+Question: Mike made 51 dollars mowing lawns over the summer. If he spent 11 dollars buying new mower blades, how many 10 dollar games could he buy with the money he had left?
+
+Reasoning:
+51 minus 11 = <<51-11=40>>40
+40 divided by 10 = <<40/10=4>>4
+#### 4
+
+<|endoftext|>
+
+381
+
+469_aug1
+
+Question: A trivia team had 27 members total, but during a game 3 members didn't show up. If each member that did show up scored 9 points, how many points were scored total?
+
+Reasoning:
+27 minus 3 = <<27-3=24>>24
+9 times 24 = <<9*24=216>>216
+#### 216
+
+<|endoftext|>
+
+382
+
+530_aug1
+
+Question: A pet store had 134 puppies. In one day they sold 24 of them and put the rest into cages with 10 in each cage. How many cages did they use?
+
+Reasoning:
+134 minus 24 = <<134-24=110>>110
+110 divided by 10 = <<110/10=11>>11
+#### 11
+
+<|endoftext|>
+
+383
+
+318_aug0
+
+Question: Debby's class is going on a field trip to the zoo. If each van can hold 1 people and there are 7 students and 11 adults going, how many vans will they need?
+
+Reasoning:
+7 plus 11 = <<7+11=18>>18
+18 divided by 1 = <<18/1=18>>18
+#### 18
+
+<|endoftext|>
+
+384
+
+212_aug1
+
+Question: Cody bought 7 boxes of chocolate candy and 11 boxes of caramel candy. If each box has 13 pieces inside it, how much candy did he have total?
+
+Reasoning:
+7 plus 11 = <<7+11=18>>18
+13 times 18 = <<13*18=234>>234
+#### 234
+
+<|endoftext|>
+
+385
+
+206_aug1
+
+Question: There were 7 friends playing a video game online when 12 more players joined the game. If each player had 5 lives, how many lives did they have total?
+
+Reasoning:
+7 plus 12 = <<7+12=19>>19
+5 times 19 = <<5*19=95>>95
+#### 95
+
+<|endoftext|>
+
+386
+
+82_aug3
+
+Question: While on vacation, Nancy took 92 pictures at the zoo and 6 at the museum. If she later deleted 29 of the pictures, how many pictures from her vacation did she still have?
+
+Reasoning:
+92 plus 6 = <<92+6=98>>98
+98 minus 29 = <<98-29=69>>69
+#### 69
+
+<|endoftext|>
+
+387
+
+350_aug1
+
+Question: Luke was organizing his baseball cards in a binder with 1 on each page. If he had 1 new cards and 11 old cards to put in the binder, how many pages would he use?
+
+Reasoning:
+1 plus 11 = <<1+11=12>>12
+12 divided by 1 = <<12/1=12>>12
+#### 12
+
+<|endoftext|>
+
+388
+
+417_aug1
+
+Question: A trivia team had 18 members total, but during a game 5 members didn't show up. If each member that did show up scored 6 points, how many points were scored total?
+
+Reasoning:
+18 minus 5 = <<18-5=13>>13
+6 times 13 = <<6*13=78>>78
+#### 78
+
+<|endoftext|>
+
+389
+
+67_aug0
+
+Question: George had 1 dollars. For his birthday he got 20 more dollars but spent 20 on a new game. How much money does he have now?
+
+Reasoning:
+1 plus 20 = <<1+20=21>>21
+21 minus 20 = <<21-20=1>>1
+#### 1
+
+<|endoftext|>
+
+390
+
+95
+
+Question: Ned was trying to expand his game collection. He bought 50 games from a friend and bought 27 more at a garage sale. If 74 of the games didn't work, how many good games did he end up with?
+
+Reasoning:
+First, calculate the total number of games Ned bought by adding 50 and 27.
+50 + 27 = <<50+27=77>>77
+Next, subtract the number of games that didn't work from the total number of games.
+77 - 74 = <<77-74=3>>3
+#### 3
+
+<|endoftext|>
+
+391
+
+298_aug4
+
+Question: There were 1 friends playing a video game online when 11 more players joined the game. If each player had 3 lives, how many lives did they have total?
+
+Reasoning:
+1 plus 11 = <<1+11=12>>12
+3 times 12 = <<3*12=36>>36
+#### 36
+
+<|endoftext|>
+
+392
+
+414_aug0
+
+Question: There were 6 friends playing a video game online when 4 players quit. If each player left had 11 lives, how many lives did they have total?
+
+Reasoning:
+6 minus 4 = <<6-4=2>>2
+11 times 2 = <<11*2=22>>22
+#### 22
+
+<|endoftext|>
+
+393
+
+592_aug1
+
+Question: Luke was selling his old games. He started out with 83 but sold 61 of them. He packed the rest up putting 1 games into each box. How many boxes did he have to use?
+
+Reasoning:
+83 minus 61 = <<83-61=22>>22
+22 divided by 1 = <<22/1=22>>22
+#### 22
+
+<|endoftext|>
+
+394
+
+164_aug0
+
+Question: Bianca had 10 songs on her mp3 player. If she deleted 11 old songs from it and then added 58 new songs, how many songs does she have on her mp3 player?
+
+Reasoning:
+10 plus 58 = <<10+58=68>>68
+68 minus 11 = <<68-11=57>>57
+#### 57
+
+<|endoftext|>
+
+395
+
+505
+
+Question: Megan had 93 files on her computer. She deleted 21 of them and put the rest into folders with 8 files in each one. How many folders did Megan end up with?
+
+Reasoning:
+Megan had 93 files and deleted 21, leaving 93 - 21 = <<93-21=72>>72 files.
+She put 8 files in each folder, so she ended up with 72 / 8 = <<72/8=9>>9 folders.
+#### 9
+
+<|endoftext|>
+
+396
+
+280_aug0
+
+Question: Lana was unboxing some of her old winter clothes. She found 6 boxes of clothing and inside each box there were 4 scarves and 6 mittens. How many pieces of winter clothing did Lana have total?
+
+Reasoning:
+4 plus 6 = <<4+6=10>>10
+6 times 10 = <<6*10=60>>60
+#### 60
+
+<|endoftext|>
+
+397
+
+321_aug3
+
+Question: Mike made 10 dollars mowing lawns and 49 dollars weed eating. If he only spent 1 dollar a week, how long would the money last him?
+
+Reasoning:
+10 plus 49 = <<10+49=59>>59
+59 divided by 1 = <<59/1=59>>59
+#### 59
+
+<|endoftext|>
+
+398
+
+50_aug2
+
+Question: At the schools book fair Sam bought 7 adventure books and 24 mystery books. If 26 of the books were used, how many new books did he buy?
+
+Reasoning:
+7 plus 24 = <<7+24=31>>31
+31 minus 26 = <<31-26=5>>5
+#### 5
+
+<|endoftext|>
+
+399
+
+105_aug4
+
+Question: A florist had 42 roses. If she sold 31 of them and then later picked 33 more, how many roses would she have?
+
+Reasoning:
+42 plus 33 = <<42+33=75>>75
+75 minus 31 = <<75-31=44>>44
+#### 44
+
+<|endoftext|>
+
+400
+
+62_aug0
+
+Question: Debby bought two coloring books. One had 11 pictures and the other had 43. After one week she had already colored 25 of the pictures. How many pictures does she still have to color?
+
+Reasoning:
+11 plus 43 = <<11+43=54>>54
+54 minus 25 = <<54-25=29>>29
+#### 29
+
+<|endoftext|>
+
+401
+
+584_aug1
+
+Question: A store had 78 coloring books in stock. They ended up putting them on sale and getting rid of 14 of them. The put the ones they still had onto shelves with 1 on each shelf. How many shelves did they use?
+
+Reasoning:
+78 minus 14 = <<78-14=64>>64
+64 divided by 1 = <<64/1=64>>64
+#### 64
+
+<|endoftext|>
+
+402
+
+258_aug3
+
+Question: Megan was selling her necklaces at a garage sale. She sold 9 bead necklaces and 2 gem stone necklaces. If each necklace cost 2 dollars, how much money did she earn?
+
+Reasoning:
+9 plus 2 = <<9+2=11>>11
+2 times 11 = <<2*11=22>>22
+#### 22
+
+<|endoftext|>
+
+403
+
+123_aug1
+
+Question: Paige had 13 songs on her mp3 player. If she deleted 13 old songs from it and then added 8 new songs, how many songs does she have on her mp3 player?
+
+Reasoning:
+13 plus 8 = <<13+8=21>>21
+21 minus 13 = <<21-13=8>>8
+#### 8
+
+<|endoftext|>
+
+404
+
+35
+
+Question: Haley and her mom were picking carrots from their garden. Haley picked 39 and her mother picked 38. If only 64 of the carrots were good, how many bad carrots did they have?
+
+Reasoning:
+First, calculate the total number of carrots picked by adding Haley's 39 carrots and her mother's 38 carrots: 39 + 38 = <<39+38=77>>77
+Next, subtract the 64 good carrots from the total of 77 carrots to find the number of bad carrots: 77 - 64 = <<77-64=13>>13
+#### 13
+
+<|endoftext|>
+
+405
+
+85_aug0
+
+Question: A pet store had 20 siamese cats and 63 house cats. During a sale they sold 30 cats. How many cats do they have left?
+
+Reasoning:
+20 plus 63 = <<20+63=83>>83
+83 minus 30 = <<83-30=53>>53
+#### 53
+
+<|endoftext|>
+
+406
+
+286_aug4
+
+Question: Dave was working as a sacker at a grocery store where he made 4 dollars an hour. On Monday he worked 4 hours and on Tuesday he worked 12 hours. How much money did Dave make in those two days?
+
+Reasoning:
+4 plus 12 = <<4+12=16>>16
+4 times 16 = <<4*16=64>>64
+#### 64
+
+<|endoftext|>
+
+407
+
+238_aug4
+
+Question: At the town carnival Oliver rode the ferris wheel 6 times and the bumper cars 10 times. If each ride cost 11 tickets, how many tickets did he use?
+
+Reasoning:
+6 plus 10 = <<6+10=16>>16
+11 times 16 = <<11*16=176>>176
+#### 176
+
+<|endoftext|>
+
+408
+
+549
+
+Question: Mike made 42 dollars mowing lawns over the summer. If he spent 10 dollars buying new mower blades, how many 8 dollar games could he buy with the money he had left?
+
+Reasoning:
+First, find how many dollars Mike had left after buying mower blades: 42 - 10 = <<42-10=32>>32
+Then, divide the remaining money by the cost of each game: 32 / 8 = <<32/8=4>>4
+#### 4
+
+<|endoftext|>
+
+409
+
+99
+
+Question: Cody had 45 dollars. For his birthday he got 9 more dollars but spent 19 on a new game. How much money does he have now?
+
+Reasoning:
+Add the birthday money to the initial amount to find the total: 45 + 9 = <<45+9=54>>54
+Subtract the cost of the game from the total amount: 54 - 19 = <<54-19=35>>35
+#### 35
+
+<|endoftext|>
+
+410
+
+310_aug4
+
+Question: The schools debate team had 16 boys and 44 girls on it. If they were split into groups of 6 how many groups could they make?
+
+Reasoning:
+16 plus 44 = <<16+44=60>>60
+60 divided by 6 = <<60/6=10>>10
+#### 10
+
+<|endoftext|>
+
+411
+
+67
+
+Question: George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now?
+
+Reasoning:
+First, add the birthday money to the initial amount to find the total George had: 30 + 16 = <<30+16=46>>46.
+Next, subtract the cost of the new game from the total amount: 46 - 38 = <<46-38=8>>8.
+#### 8
+
+<|endoftext|>
+
+412
+
+301_aug3
+
+Question: Robin uploaded 70 pictures from her phone and 5 from her camera to facebook. If she sorted the pics into 5 different albums with the same amount of pics in each album, how many pictures were in each of the albums?
+
+Reasoning:
+70 plus 5 = <<70+5=75>>75
+75 divided by 5 = <<75/5=15>>15
+#### 15
+
+<|endoftext|>
+
+413
+
+369
+
+Question: At a company picnic 23 managers and 7 employees decided to start a game of volleyball. If they split into 6 teams how many people would be on each team?
+
+Reasoning:
+First, calculate the total number of people by adding the managers and employees: 23 + 7 = <<23+7=30>>30
+Next, divide the total number of people by the number of teams: 30 / 6 = <<30/6=5>>5
+#### 5
+
+<|endoftext|>
+
+414
+
+368_aug1
+
+Question: The schools debate team had 8 boys and 12 girls on it. If they were split into groups of 1 how many groups could they make?
+
+Reasoning:
+8 plus 12 = <<8+12=20>>20
+20 divided by 1 = <<20/1=20>>20
+#### 20
+
+<|endoftext|>
+
+415
+
+249_aug1
+
+Question: April's discount flowers was having a sale where each flower was 9 dollars. If Robin bought 6 roses and 10 daisies, how much did she spend?
+
+Reasoning:
+6 plus 10 = <<6+10=16>>16
+9 times 16 = <<9*16=144>>144
+#### 144
+
+<|endoftext|>
+
+416
+
+121
+
+Question: At the fair there were 30 people in line for the bumper cars. If 10 of them got tired of waiting and left and 5 more got in line, how many people would be in line?
+
+Reasoning:
+Subtract the 10 people who left from the original 30 people in line: 30 - 10 = <<30-10=20>>20
+Add the 5 new people who got in line to the remaining 20 people: 20 + 5 = <<20+5=25>>25
+#### 25
+
+<|endoftext|>
+
+417
+
+525_aug0
+
+Question: Megan had 70 homework problems. She finished 26 of them but still had 4 pages of problems to do. If each page has the same number of problems on it, how many problems are on each page?
+
+Reasoning:
+70 minus 26 = <<70-26=44>>44
+44 divided by 4 = <<44/4=11>>11
+#### 11
+
+<|endoftext|>
+
+418
+
+199_aug3
+
+Question: For the school bake sale Chloe made 20 cupcakes. If she sold 20 of them and then made 1 more, how many cupcakes would she have?
+
+Reasoning:
+20 plus 1 = <<20+1=21>>21
+21 minus 20 = <<21-20=1>>1
+#### 1
+
+<|endoftext|>
+
+419
+
+379_aug2
+
+Question: A group of 1 friends went into a restaurant. The chef already had 15 chicken wings cooked but cooked 4 more for the group. If they each got the same amount how many would each person get?
+
+Reasoning:
+15 plus 4 = <<15+4=19>>19
+19 divided by 1 = <<19/1=19>>19
+#### 19
+
+<|endoftext|>
+
+420
+
+168_aug4
+
+Question: A store had 67 oranges in a bin. If they threw away 23 of the old ones and put 15 new ones in the bin how many would be in the bin?
+
+Reasoning:
+67 plus 15 = <<67+15=82>>82
+82 minus 23 = <<82-23=59>>59
+#### 59
+
+<|endoftext|>
+
+421
+
+301_aug2
+
+Question: Robin uploaded 67 pictures from her phone and 5 from her camera to facebook. If she sorted the pics into 2 different albums with the same amount of pics in each album, how many pictures were in each of the albums?
+
+Reasoning:
+67 plus 5 = <<67+5=72>>72
+72 divided by 2 = <<72/2=36>>36
+#### 36
+
+<|endoftext|>
+
+422
+
+188_aug0
+
+Question: A waiter had 14 customers to wait on. If 15 customers left and he got another 34 customers, how many customers would he have?
+
+Reasoning:
+14 plus 34 = <<14+34=48>>48
+48 minus 15 = <<48-15=33>>33
+#### 33
+
+<|endoftext|>
+
+423
+
+455_aug1
+
+Question: There were 13 friends playing a video game online when 7 players quit. If each player left had 3 lives, how many lives did they have total?
+
+Reasoning:
+13 minus 7 = <<13-7=6>>6
+3 times 6 = <<3*6=18>>18
+#### 18
+
+<|endoftext|>
+
+424
+
+381_aug3
+
+Question: Paul had saved up 7 dollars. If he received another 11 dollars for his allowance, how many 2 dollar toys could he buy?
+
+Reasoning:
+7 plus 11 = <<7+11=18>>18
+18 divided by 2 = <<18/2=9>>9
+#### 9
+
+<|endoftext|>
+
+425
+
+74_aug4
+
+Question: There were 17 girls and 1 boys trying out for the schools basketball team. If only 4 of them got called back, how many students didn't make the cut?
+
+Reasoning:
+17 plus 1 = <<17+1=18>>18
+18 minus 4 = <<18-4=14>>14
+#### 14
+
+<|endoftext|>
+
+426
+
+549_aug3
+
+Question: Mike made 84 dollars mowing lawns over the summer. If he spent 14 dollars buying new mower blades, how many 2 dollar games could he buy with the money he had left?
+
+Reasoning:
+84 minus 14 = <<84-14=70>>70
+70 divided by 2 = <<70/2=35>>35
+#### 35
+
+<|endoftext|>
+
+427
+
+156_aug4
+
+Question: Robin had 17 songs on her mp3 player. If she deleted 14 old songs from it and then added 9 new songs, how many songs does she have on her mp3 player?
+
+Reasoning:
+17 plus 9 = <<17+9=26>>26
+26 minus 14 = <<26-14=12>>12
+#### 12
+
+<|endoftext|>
+
+428
+
+275_aug1
+
+Question: Kaleb was collecting cans for recycling. On Saturday he filled 10 bags up and on Sunday he filled 3 more bags. If each bag had 1 cans in it, how many cans did he pick up total?
+
+Reasoning:
+10 plus 3 = <<10+3=13>>13
+1 times 13 = <<1*13=13>>13
+#### 13
+
+<|endoftext|>
+
+429
+
+77_aug1
+
+Question: Tom had to wash 10 short sleeve shirts and 5 long sleeve shirts before school. If he had only washed 4 of them by the time school started, how many did he not wash?
+
+Reasoning:
+10 plus 5 = <<10+5=15>>15
+15 minus 4 = <<15-4=11>>11
+#### 11
+
+<|endoftext|>
+
+430
+
+86_aug4
+
+Question: There were 17 girls and 13 boys trying out for the schools basketball team. If only 11 of them got called back, how many students didn't make the cut?
+
+Reasoning:
+17 plus 13 = <<17+13=30>>30
+30 minus 11 = <<30-11=19>>19
+#### 19
+
+<|endoftext|>
+
+431
+
+41_aug4
+
+Question: Amy had 37 music files and 18 video files on her flash drive. If she deleted 2 of the files, how many files were still on her flash drive?
+
+Reasoning:
+37 plus 18 = <<37+18=55>>55
+55 minus 2 = <<55-2=53>>53
+#### 53
+
+<|endoftext|>
+
+432
+
+182_aug2
+
+Question: Debby had 6 coloring books. If she gave away 10 of them, but then bought 60 more, how many would she have total?
+
+Reasoning:
+6 plus 60 = <<6+60=66>>66
+66 minus 10 = <<66-10=56>>56
+#### 56
+
+<|endoftext|>
+
+433
+
+122_aug4
+
+Question: Faye had 46 coloring books. If she gave away 5 of them, but then bought 75 more, how many would she have total?
+
+Reasoning:
+46 plus 75 = <<46+75=121>>121
+121 minus 5 = <<121-5=116>>116
+#### 116
+
+<|endoftext|>
+
+434
+
+109_aug0
+
+Question: At the fair there were 6 people in line for the bumper cars. If 4 of them got tired of waiting and left and 5 more got in line, how many people would be in line?
+
+Reasoning:
+6 plus 5 = <<6+5=11>>11
+11 minus 4 = <<11-4=7>>7
+#### 7
+
+<|endoftext|>
+
+435
+
+465_aug4
+
+Question: Each chocolate bar in a box cost $7. If a box had 16 bars total and Vanessa sold all but 14 bars, how much money would she have made?
+
+Reasoning:
+16 minus 14 = <<16-14=2>>2
+7 times 2 = <<7*2=14>>14
+#### 14
+
+<|endoftext|>
+
+436
+
+317_aug0
+
+Question: Wendy's old washing machine could only wash 1 pieces of clothing at a time. If she had to wash 31 shirts and 30 sweaters how many loads would she have to do?
+
+Reasoning:
+31 plus 30 = <<31+30=61>>61
+61 divided by 1 = <<61/1=61>>61
+#### 61
+
+<|endoftext|>
+
+437
+
+331_aug4
+
+Question: The schools debate team had 51 boys and 5 girls on it. If they were split into groups of 7 how many groups could they make?
+
+Reasoning:
+51 plus 5 = <<51+5=56>>56
+56 divided by 7 = <<56/7=8>>8
+#### 8
+
+<|endoftext|>
+
+438
+
+117_aug3
+
+Question: Adam had 11 dollars. At the store he spent $5 on a new game. If he got another 3 dollars for his allowance, how much money does he have now?
+
+Reasoning:
+11 plus 3 = <<11+3=14>>14
+14 minus 5 = <<14-5=9>>9
+#### 9
+
+<|endoftext|>
+
+439
+
+434_aug3
+
+Question: A painter needed to paint 15 rooms in a building. Each room takes 16 hours to paint. If he already painted 11 rooms, how much longer will he take to paint the rest?
+
+Reasoning:
+15 minus 11 = <<15-11=4>>4
+16 times 4 = <<16*4=64>>64
+#### 64
+
+<|endoftext|>
+
+440
+
+341_aug1
+
+Question: A group of 12 friends went into a restaurant. The chef already had 6 chicken wings cooked but cooked 2 more for the group. If they each got the same amount how many would each person get?
+
+Reasoning:
+12 plus 6 = <<12+6=18>>18
+18 divided by 2 = <<18/2=9>>9
+#### 9
+
+<|endoftext|>
+
+441
+
+294
+
+Question: Kaleb was collecting cans for recycling. On Saturday he filled 4 bags up and on Sunday he filled 6 more bags. If each bag had 4 cans in it, how many cans did he pick up total?
+
+Reasoning:
+First, find the total number of bags Kaleb filled by adding the bags from Saturday and Sunday: 4 + 6 = <<4+6=10>>10.
+Next, multiply the total number of bags by the number of cans in each bag: 10 * 4 = <<10*4=40>>40.
+#### 40
+
+<|endoftext|>
+
+442
+
+135_aug4
+
+Question: At the fair there were 12 people in line for the bumper cars. If 8 of them got tired of waiting and left and 6 more got in line, how many people would be in line?
+
+Reasoning:
+12 plus 6 = <<12+6=18>>18
+18 minus 8 = <<18-8=10>>10
+#### 10
+
+<|endoftext|>
+
+443
+
+281_aug0
+
+Question: Frank and his friend were buying trick decks from the magic shop for 5 dollars each. How much did they spend if Frank bought 2 decks and his friend bought 6 decks?
+
+Reasoning:
+2 plus 6 = <<2+6=8>>8
+5 times 8 = <<5*8=40>>40
+#### 40
+
+<|endoftext|>
+
+444
+
+542_aug3
+
+Question: A waiter had 40 customers in his section. If 8 of them left and the rest of his tables had 4 people at each table, how many tables did he have?
+
+Reasoning:
+40 minus 8 = <<40-8=32>>32
+32 divided by 4 = <<32/4=8>>8
+#### 8
+
+<|endoftext|>
+
+445
+
+84
+
+Question: For Halloween Katie and her sister combined the candy they received. Katie had 10 pieces of candy while her sister had 6. If they ate 9 pieces the first night, how many pieces do they have left?
+
+Reasoning:
+First, calculate the total amount of candy by adding Katie's 10 pieces and her sister's 6 pieces: 10 + 6 = <<10+6=16>>16.
+Next, subtract the 9 pieces they ate from the total amount of candy: 16 - 9 = <<16-9=7>>7.
+#### 7
+
+<|endoftext|>
+
+446
+
+269_aug0
+
+Question: Frank was collecting cans for recycling. On Saturday he filled 11 bags up and on Sunday he filled 6 more bags. If each bag had 10 cans in it, how many cans did he pick up total?
+
+Reasoning:
+11 plus 6 = <<11+6=17>>17
+10 times 17 = <<10*17=170>>170
+#### 170
+
+<|endoftext|>
+
+447
+
+375
+
+Question: Maria was making baggies of cookies with 3 cookies in each bag. If she had 2 chocolate chip cookies and 16 oatmeal cookies, how many baggies could she make?
+
+Reasoning:
+Calculate the total number of cookies by adding the chocolate chip and oatmeal cookies: 2 + 16 = <<2+16=18>>18
+Divide the total number of cookies by the number of cookies per bag: 18 / 3 = <<18/3=6>>6
+#### 6
+
+<|endoftext|>
+
+448
+
+103_aug0
+
+Question: In fourth grade there were 12 students at the start of the year. During the year 12 students left and 19 new students came to school. How many students were in fourth grade at the end?
+
+Reasoning:
+12 plus 19 = <<12+19=31>>31
+31 minus 12 = <<31-12=19>>19
+#### 19
+
+<|endoftext|>
+
+449
+
+562_aug2
+
+Question: A company invited 75 people to a luncheon, but 33 of them didn't show up. If the tables they had held 7 people each, how many tables do they need?
+
+Reasoning:
+75 minus 33 = <<75-33=42>>42
+42 divided by 7 = <<42/7=6>>6
+#### 6
+
+<|endoftext|>
+
+450
+
+460_aug1
+
+Question: A worksheet had 6 problems on it. If a teacher had 14 worksheets to grade and had already graded 3 of them, how many more problems does she have to grade?
+
+Reasoning:
+14 minus 3 = <<14-3=11>>11
+6 times 11 = <<6*11=66>>66
+#### 66
+
+<|endoftext|>
+
+451
+
+559_aug1
+
+Question: Nancy had 194 homework problems. She finished 34 of them but still had 5 pages of problems to do. If each page has the same number of problems on it, how many problems are on each page?
+
+Reasoning:
+194 minus 34 = <<194-34=160>>160
+160 divided by 5 = <<160/5=32>>32
+#### 32
+
+<|endoftext|>
+
+452
+
+325
+
+Question: Maria was making baggies of cookies with 5 cookies in each bag. If she had 33 chocolate chip cookies and 2 oatmeal cookies, how many baggies could she make?
+
+Reasoning:
+First, find the total number of cookies by adding the chocolate chip cookies and the oatmeal cookies: 33 + 2 = <<33+2=35>>35.
+Next, divide the total number of cookies by the number of cookies per baggie: 35 / 5 = <<35/5=7>>7.
+#### 7
+
+<|endoftext|>
+
+453
+
+435_aug3
+
+Question: Each chocolate bar in a box cost $5. If a box had 12 bars total and Emily sold all but 4 bars, how much money would she have made?
+
+Reasoning:
+12 minus 4 = <<12-4=8>>8
+5 times 8 = <<5*8=40>>40
+#### 40
+
+<|endoftext|>
+
+454
+
+158_aug4
+
+Question: Janet was playing a video game and had 5 lives. In a hard part of the game she lost 30 lives. If she got 48 more lives in the next level, how many lives would she have?
+
+Reasoning:
+5 plus 48 = <<5+48=53>>53
+53 minus 30 = <<53-30=23>>23
+#### 23
+
+<|endoftext|>
+
+455
+
+182_aug0
+
+Question: Debby had 42 coloring books. If she gave away 2 of them, but then bought 22 more, how many would she have total?
+
+Reasoning:
+42 plus 22 = <<42+22=64>>64
+64 minus 2 = <<64-2=62>>62
+#### 62
+
+<|endoftext|>
+
+456
+
+227
+
+Question: George was working as a sacker at a grocery store where he made 5 dollars an hour. On Monday he worked 7 hours and on Tuesday he worked 2 hours. How much money did George make in those two days?
+
+Reasoning:
+First, calculate the total number of hours George worked by adding 7 hours and 2 hours: 7 + 2 = <<7+2=9>>9
+Next, multiply the total hours worked by his hourly wage of 5 dollars: 9 * 5 = <<9*5=45>>45
+#### 45
+
+<|endoftext|>
+
+457
+
+4_aug4
+
+Question: Lana picked 22 tulips and 44 roses to make flower bouquets. If she only used 39 of the flowers though, how many extra flowers did Lana pick?
+
+Reasoning:
+22 plus 44 = <<22+44=66>>66
+66 minus 39 = <<66-39=27>>27
+#### 27
+
+<|endoftext|>
+
+458
+
+42_aug1
+
+Question: Oliver had 60 dollars. For his birthday he got 99 more dollars but spent 31 on a new game. How much money does he have now?
+
+Reasoning:
+60 plus 99 = <<60+99=159>>159
+159 minus 31 = <<159-31=128>>128
+#### 128
+
+<|endoftext|>
+
+459
+
+359_aug1
+
+Question: Frank had saved up 1 dollars. If he received another 14 dollars for his allowance, how many 3 dollar toys could he buy?
+
+Reasoning:
+1 plus 14 = <<1+14=15>>15
+15 divided by 3 = <<15/3=5>>5
+#### 5
+
+<|endoftext|>
+
+460
+
+587_aug0
+
+Question: The cafeteria had 110 apples. For lunch they handed out 42 to students and decided to use the rest to make pies. If each pie takes 2 apples, how many pies could they make?
+
+Reasoning:
+110 minus 42 = <<110-42=68>>68
+68 divided by 2 = <<68/2=34>>34
+#### 34
+
+<|endoftext|>
+
+461
+
+398_aug4
+
+Question: For Halloween Emily received 9 pieces of candy from neighbors and 21 pieces from her older sister. If she only ate 5 pieces a day, how long would the candy last her?
+
+Reasoning:
+9 plus 21 = <<9+21=30>>30
+30 divided by 5 = <<30/5=6>>6
+#### 6
+
+<|endoftext|>
+
+462
+
+582
+
+Question: For Halloween Emily received 54 pieces of candy. She ate 33 pieces then placed the rest into piles with 7 in each pile. How many piles could she make?
+
+Reasoning:
+Emily received 54 pieces of candy and ate 33, leaving 54 - 33 = <<54-33=21>>21 pieces.
+With 7 pieces per pile, she could make 21 / 7 = <<21/7=3>>3 piles.
+#### 3
+
+<|endoftext|>
+
+463
+
+509_aug0
+
+Question: Mike made 159 dollars mowing lawns over the summer. If he spent 38 dollars buying new mower blades, how many 1 dollar games could he buy with the money he had left?
+
+Reasoning:
+159 minus 38 = <<159-38=121>>121
+121 divided by 1 = <<121/1=121>>121
+#### 121
+
+<|endoftext|>
+
+464
+
+271_aug0
+
+Question: Will was working as a sacker at a grocery store where he made 3 dollars an hour. On Monday he worked 12 hours and on Tuesday he worked 6 hours. How much money did Will make in those two days?
+
+Reasoning:
+12 plus 6 = <<12+6=18>>18
+3 times 18 = <<3*18=54>>54
+#### 54
+
+<|endoftext|>
+
+465
+
+383_aug1
+
+Question: While playing at the arcade, Ned won 35 tickets playing 'whack a mole' and 5 tickets playing 'skee ball'. If he was trying to buy candy that cost 2 tickets a piece, how many could he buy?
+
+Reasoning:
+35 plus 5 = <<35+5=40>>40
+40 divided by 2 = <<40/2=20>>20
+#### 20
+
+<|endoftext|>
+
+466
+
+229
+
+Question: Edward and his friend were buying trick decks from the magic shop for 9 dollars each. How much did they spend if Edward bought 4 decks and his friend bought 4 decks?
+
+Reasoning:
+Calculate the total number of decks bought by adding Edward's 4 decks and his friend's 4 decks: 4 + 4 = <<4+4=8>>8
+Multiply the total number of decks by the price of 9 dollars per deck: 8 * 9 = <<8*9=72>>72
+#### 72
+
+<|endoftext|>
+
+467
+
+515_aug1
+
+Question: There are 83 students trying out for the school's trivia teams. If 19 of them didn't get picked for the team and the rest were put into 4 groups, how many students would be in each group?
+
+Reasoning:
+83 minus 19 = <<83-19=64>>64
+64 divided by 4 = <<64/4=16>>16
+#### 16
+
+<|endoftext|>
+
+468
+
+118_aug4
+
+Question: Tiffany was playing a video game and had 50 lives. In a hard part of the game she lost 16 lives. If she got 54 more lives in the next level, how many lives would she have?
+
+Reasoning:
+50 plus 54 = <<50+54=104>>104
+104 minus 16 = <<104-16=88>>88
+#### 88
+
+<|endoftext|>
+
+469
+
+317_aug2
+
+Question: Wendy's old washing machine could only wash 5 pieces of clothing at a time. If she had to wash 34 shirts and 6 sweaters how many loads would she have to do?
+
+Reasoning:
+34 plus 6 = <<34+6=40>>40
+40 divided by 5 = <<40/5=8>>8
+#### 8
+
+<|endoftext|>
+
+470
+
+218_aug1
+
+Question: Victor and his friend were buying trick decks from the magic shop for 15 dollars each. How much did they spend if Victor bought 4 decks and his friend bought 7 decks?
+
+Reasoning:
+4 plus 7 = <<4+7=11>>11
+15 times 11 = <<15*11=165>>165
+#### 165
+
+<|endoftext|>
+
+471
+
+222_aug1
+
+Question: There were 7 friends playing a video game online when 12 more players joined the game. If each player had 12 lives, how many lives did they have total?
+
+Reasoning:
+7 plus 12 = <<7+12=19>>19
+12 times 19 = <<12*19=228>>228
+#### 228
+
+<|endoftext|>
+
+472
+
+459_aug0
+
+Question: A worksheet had 11 problems on it. If a teacher had 5 worksheets to grade and had already graded 3 of them, how many more problems does she have to grade?
+
+Reasoning:
+5 minus 3 = <<5-3=2>>2
+11 times 2 = <<11*2=22>>22
+#### 22
+
+<|endoftext|>
+
+473
+
+389_aug4
+
+Question: Wendy uploaded 25 pictures from her phone and 5 from her camera to facebook. If she sorted the pics into 3 different albums with the same amount of pics in each album, how many pictures were in each of the albums?
+
+Reasoning:
+25 plus 5 = <<25+5=30>>30
+30 divided by 3 = <<30/3=10>>10
+#### 10
+
+<|endoftext|>
+
+474
+
+274_aug1
+
+Question: A pet store has 9 bird cages. If each cage has 9 parrots and 3 parakeets in it, how many birds does the pet store have total?
+
+Reasoning:
+9 plus 3 = <<9+3=12>>12
+9 times 12 = <<9*12=108>>108
+#### 108
+
+<|endoftext|>
+
+475
+
+281_aug3
+
+Question: Frank and his friend were buying trick decks from the magic shop for 10 dollars each. How much did they spend if Frank bought 10 decks and his friend bought 8 decks?
+
+Reasoning:
+10 plus 8 = <<10+8=18>>18
+10 times 18 = <<10*18=180>>180
+#### 180
+
+<|endoftext|>
+
+476
+
+576_aug2
+
+Question: Wendy had 149 files on her computer. She deleted 23 of them and put the rest into folders with 1 files in each one. How many folders did Wendy end up with?
+
+Reasoning:
+149 minus 23 = <<149-23=126>>126
+126 divided by 1 = <<126/1=126>>126
+#### 126
+
+<|endoftext|>
+
+477
+
+177
+
+Question: A florist had 11 roses. If she sold 2 of them and then later picked 32 more, how many roses would she have?
+
+Reasoning:
+Subtract the 2 sold roses from the initial 11 roses to get 11 - 2 = <<11-2=9>>9.
+Add the 32 newly picked roses to the remaining 9 roses to get 9 + 32 = <<9+32=41>>41.
+#### 41
+
+<|endoftext|>
+
+478
+
+172_aug1
+
+Question: Katie had 4 songs on her mp3 player. If she deleted 8 old songs from it and then added 47 new songs, how many songs does she have on her mp3 player?
+
+Reasoning:
+4 plus 47 = <<4+47=51>>51
+51 minus 8 = <<51-8=43>>43
+#### 43
+
+<|endoftext|>
+
+479
+
+57_aug1
+
+Question: While on vacation, Rachel took 4 pictures at the zoo and 13 at the museum. If she later deleted 9 of the pictures, how many pictures from her vacation did she still have?
+
+Reasoning:
+4 plus 13 = <<4+13=17>>17
+17 minus 9 = <<17-9=8>>8
+#### 8
+
+<|endoftext|>
+
+480
+
+49_aug0
+
+Question: A pet store had 10 siamese cats and 24 house cats. During a sale they sold 30 cats. How many cats do they have left?
+
+Reasoning:
+10 plus 24 = <<10+24=34>>34
+34 minus 30 = <<34-30=4>>4
+#### 4
+
+<|endoftext|>
+
+481
+
+249_aug0
+
+Question: April's discount flowers was having a sale where each flower was 6 dollars. If Robin bought 2 roses and 6 daisies, how much did she spend?
+
+Reasoning:
+2 plus 6 = <<2+6=8>>8
+6 times 8 = <<6*8=48>>48
+#### 48
+
+<|endoftext|>
+
+482
+
+216_aug2
+
+Question: Haley's favorite band was holding a concert where tickets were 9 dollars each. Haley bought 5 tickets for herself and her friends and 4 extra tickets in case anyone else wanted to go. How much did she spend?
+
+Reasoning:
+5 plus 4 = <<5+4=9>>9
+9 times 9 = <<9*9=81>>81
+#### 81
+
+<|endoftext|>
+
+483
+
+564_aug3
+
+Question: A pet store had 83 puppies. In one day they sold 34 of them and put the rest into cages with 7 in each cage. How many cages did they use?
+
+Reasoning:
+83 minus 34 = <<83-34=49>>49
+49 divided by 7 = <<49/7=7>>7
+#### 7
+
+<|endoftext|>
+
+484
+
+68_aug2
+
+Question: There were 3 girls and 55 boys trying out for the schools basketball team. If only 2 of them got called back, how many students didn't make the cut?
+
+Reasoning:
+3 plus 55 = <<3+55=58>>58
+58 minus 2 = <<58-2=56>>56
+#### 56
+
+<|endoftext|>
+
+485
+
+451_aug3
+
+Question: Bianca earned 3 points for each bag of cans she recycled. If she had 24 bags, but didn't recycle 5 of them, how many points would she have earned?
+
+Reasoning:
+24 minus 5 = <<24-5=19>>19
+3 times 19 = <<3*19=57>>57
+#### 57
+
+<|endoftext|>
+
+486
+
+315_aug4
+
+Question: A toy store had 7 giant stuffed bears in stock when they got another shipment with 5 bears in it. The put the bears onto shelves with 3 on each shelf. How many shelves did they use?
+
+Reasoning:
+7 plus 5 = <<7+5=12>>12
+12 divided by 3 = <<12/3=4>>4
+#### 4
+
+<|endoftext|>
+
+487
+
+60_aug0
+
+Question: Janet picked 4 tulips and 9 roses to make flower bouquets. If she only used 10 of the flowers though, how many extra flowers did Janet pick?
+
+Reasoning:
+4 plus 9 = <<4+9=13>>13
+13 minus 10 = <<13-10=3>>3
+#### 3
+
+<|endoftext|>
+
+488
+
+441_aug0
+
+Question: A magician was selling magic card decks for 10 dollars each. If he started with 15 decks and by the end of the day he had 2 left, how much money did he earn?
+
+Reasoning:
+15 minus 2 = <<15-2=13>>13
+10 times 13 = <<10*13=130>>130
+#### 130
+
+<|endoftext|>
+
+489
+
+186_aug1
+
+Question: Zoe had 7 songs on her mp3 player. If she deleted 7 old songs from it and then added 38 new songs, how many songs does she have on her mp3 player?
+
+Reasoning:
+7 plus 38 = <<7+38=45>>45
+45 minus 7 = <<45-7=38>>38
+#### 38
+
+<|endoftext|>
+
+490
+
+262
+
+Question: Roger was putting his spare change into piles. He had 3 piles of quarters and 3 piles of dimes. If each pile had 7 coins in it, how many coins did he have total?
+
+Reasoning:
+Calculate the total number of piles by adding the piles of quarters and dimes: 3 + 3 = <<3+3=6>>6
+Multiply the total number of piles by the number of coins in each pile: 6 * 7 = <<6*7=42>>42
+#### 42
+
+<|endoftext|>
+
+491
+
+68_aug4
+
+Question: There were 2 girls and 27 boys trying out for the schools basketball team. If only 2 of them got called back, how many students didn't make the cut?
+
+Reasoning:
+2 plus 27 = <<2+27=29>>29
+29 minus 2 = <<29-2=27>>27
+#### 27
+
+<|endoftext|>
+
+492
+
+186
+
+Question: Zoe had 6 songs on her mp3 player. If she deleted 3 old songs from it and then added 20 new songs, how many songs does she have on her mp3 player?
+
+Reasoning:
+Subtract the 3 deleted songs from the original 6 songs to find the remaining count: 6 - 3 = <<6-3=3>>3
+Add the 20 new songs to the remaining 3 songs to find the total: 3 + 20 = <<3+20=23>>23
+#### 23
+
+<|endoftext|>
+
+493
+
+292_aug3
+
+Question: At the town carnival Oliver rode the ferris wheel 6 times and the bumper cars 8 times. If each ride cost 11 tickets, how many tickets did he use?
+
+Reasoning:
+6 plus 8 = <<6+8=14>>14
+11 times 14 = <<11*14=154>>154
+#### 154
+
+<|endoftext|>
+
+494
+
+407_aug4
+
+Question: In a video game, each enemy defeated gives you 3 points. If a level has 8 enemies total and you destroy all but 3 of them, how many points would you earn?
+
+Reasoning:
+8 minus 3 = <<8-3=5>>5
+3 times 5 = <<3*5=15>>15
+#### 15
+
+<|endoftext|>
+
+495
+
+196
+
+Question: A florist had 5 roses. If she sold 3 of them and then later picked 34 more, how many roses would she have?
+
+Reasoning:
+Subtract the 3 roses sold from the initial 5 roses to find the remaining amount: 5 - 3 = <<5-3=2>>2
+Add the 34 newly picked roses to the 2 remaining roses: 2 + 34 = <<2+34=36>>36
+#### 36
+
+<|endoftext|>
+
+496
+
+34_aug4
+
+Question: For Halloween Janet and her sister combined the candy they received. Janet had 47 pieces of candy while her sister had 43. If they ate 9 pieces the first night, how many pieces do they have left?
+
+Reasoning:
+47 plus 43 = <<47+43=90>>90
+90 minus 9 = <<90-9=81>>81
+#### 81
+
+<|endoftext|>
+
+497
+
+110_aug1
+
+Question: A teacher had 7 worksheets to grade. If she graded 7, but then another 12 were turned in, how many worksheets would she have to grade?
+
+Reasoning:
+7 plus 12 = <<7+12=19>>19
+19 minus 7 = <<19-7=12>>12
+#### 12
+
+<|endoftext|>
+
+498
+
+220_aug2
+
+Question: Faye was playing a video game where she scores 8 points for each treasure she finds. If she found 12 treasures on the first level and 9 on the second, what would her score be?
+
+Reasoning:
+12 plus 9 = <<12+9=21>>21
+8 times 21 = <<8*21=168>>168
+#### 168
+
+<|endoftext|>
+
+499
+
+260_aug2
+
+Question: April's discount flowers was having a sale where each flower was 11 dollars. If Katie bought 6 roses and 8 daisies, how much did she spend?
+
+Reasoning:
+6 plus 8 = <<6+8=14>>14
+11 times 14 = <<11*14=154>>154
+#### 154
+
+<|endoftext|>
+
+500
+
+46_aug1
+
+Question: Dave had to wash 16 short sleeve shirts and 26 long sleeve shirts before school. If he had only washed 2 of them by the time school started, how many did he not wash?
+
+Reasoning:
+16 plus 26 = <<16+26=42>>42
+42 minus 2 = <<42-2=40>>40
+#### 40
+
+<|endoftext|>
+
+501
+
+174
+
+Question: Adam had 48 books. If he sold 19 of them and used the money he earned to buy 38 new books, how many books would Adam have?
+
+Reasoning:
+Subtract the number of books sold from the initial amount to find the remaining books: 48 - 19 = <<48-19=29>>29
+Add the number of new books purchased to the remaining books to find the total: 29 + 38 = <<29+38=67>>67
+#### 67
+
+<|endoftext|>
+
+502
+
+450_aug3
+
+Question: A new building needed 16 windows. The builder had already installed 3 of them. If it takes 3 hours to install each window, how long will it take him to install the rest?
+
+Reasoning:
+16 minus 3 = <<16-3=13>>13
+3 times 13 = <<3*13=39>>39
+#### 39
+
+<|endoftext|>
+
+503
+
+515_aug0
+
+Question: There are 126 students trying out for the school's trivia teams. If 9 of them didn't get picked for the team and the rest were put into 13 groups, how many students would be in each group?
+
+Reasoning:
+126 minus 9 = <<126-9=117>>117
+117 divided by 13 = <<117/13=9>>9
+#### 9
+
+<|endoftext|>
+
+504
+
+559_aug4
+
+Question: Nancy had 195 homework problems. She finished 43 of them but still had 1 pages of problems to do. If each page has the same number of problems on it, how many problems are on each page?
+
+Reasoning:
+195 minus 43 = <<195-43=152>>152
+152 divided by 1 = <<152/1=152>>152
+#### 152
+
+<|endoftext|>
+
+505
+
+280
+
+Question: Lana was unboxing some of her old winter clothes. She found 3 boxes of clothing and inside each box there were 3 scarves and 4 mittens. How many pieces of winter clothing did Lana have total?
+
+Reasoning:
+First, calculate the total number of items in one box by adding the scarves and mittens: 3 + 4 = <<3+4=7>>7
+Next, multiply the number of items in one box by the total number of boxes found: 7 * 3 = <<7*3=21>>21
+#### 21
+
+<|endoftext|>
+
+506
+
+475
+
+Question: At lunch a waiter had 7 customers and 4 of them didn't leave a tip. If he got $9 each from the ones who did tip, how much money did he earn?
+
+Reasoning:
+Subtract the number of customers who didn't tip from the total number of customers to find how many tipped: 7 - 4 = <<7-4=3>>3
+Multiply the number of customers who tipped by the amount each one gave: 3 * 9 = <<3*9=27>>27
+#### 27
+
+<|endoftext|>
+
+507
+
+114
+
+Question: A waiter had 47 customers to wait on. If 41 customers left and he got another 20 customers, how many customers would he have?
+
+Reasoning:
+Subtract the customers who left from the initial amount: 47 - 41 = <<47-41=6>>6
+Add the new customers to the remaining amount: 6 + 20 = <<6+20=26>>26
+#### 26
+
+<|endoftext|>
+
+508
+
+564_aug2
+
+Question: A pet store had 187 puppies. In one day they sold 25 of them and put the rest into cages with 6 in each cage. How many cages did they use?
+
+Reasoning:
+187 minus 25 = <<187-25=162>>162
+162 divided by 6 = <<162/6=27>>27
+#### 27
+
+<|endoftext|>
+
+509
+
+125
+
+Question: In fourth grade there were 40 students at the start of the year. During the year 14 students left and 26 new students came to school. How many students were in fourth grade at the end?
+
+Reasoning:
+Subtract the students who left from the starting number: 40 - 14 = <<40-14=26>>26
+Add the new students to the remaining number: 26 + 26 = <<26+26=52>>52
+#### 52
+
+<|endoftext|>
+
+510
+
+572_aug2
+
+Question: Luke was selling his old games. He started out with 26 but sold 15 of them. He packed the rest up putting 11 games into each box. How many boxes did he have to use?
+
+Reasoning:
+26 minus 15 = <<26-15=11>>11
+11 divided by 11 = <<11/11=1>>1
+#### 1
+
+<|endoftext|>
+
+511
+
+151
+
+Question: Maria had 14 bottles of water in her fridge. If she drank 8 of them and then bought 45 more, how many bottles would she have?
+
+Reasoning:
+Subtract the number of bottles Maria drank from the initial amount: 14 - 8 = <<14-8=6>>6
+Add the number of new bottles she bought to the remaining amount: 6 + 45 = <<6+45=51>>51
+#### 51
+
+<|endoftext|>
+
+512
+
+569_aug4
+
+Question: There are 68 students trying out for the school's trivia teams. If 9 of them didn't get picked for the team and the rest were put into 1 groups, how many students would be in each group?
+
+Reasoning:
+68 minus 9 = <<68-9=59>>59
+59 divided by 1 = <<59/1=59>>59
+#### 59
+
+<|endoftext|>
+
+513
+
+526_aug3
+
+Question: Wendy picked 206 flowers for her friend’s wedding. She was making bouquets with 9 flowers in each one. If 89 of the flowers wilted before the wedding, how many bouquets could she still make?
+
+Reasoning:
+206 minus 89 = <<206-89=117>>117
+117 divided by 9 = <<117/9=13>>13
+#### 13
+
+<|endoftext|>
+
+514
+
+369_aug4
+
+Question: At a company picnic 24 managers and 4 employees decided to start a game of volleyball. If they split into 7 teams how many people would be on each team?
+
+Reasoning:
+24 plus 4 = <<24+4=28>>28
+28 divided by 7 = <<28/7=4>>4
+#### 4
+
+<|endoftext|>
+
+515
+
+302_aug0
+
+Question: Kaleb had saved up 36 dollars. If he received another 22 dollars for his allowance, how many 1 dollar toys could he buy?
+
+Reasoning:
+36 plus 22 = <<36+22=58>>58
+58 divided by 1 = <<58/1=58>>58
+#### 58
+
+<|endoftext|>
+
+516
+
+462_aug4
+
+Question: At a restaurant each adult meal costs $4 and kids eat free. If a group of 27 people came in and 5 were kids, how much would it cost for the group to eat?
+
+Reasoning:
+27 minus 5 = <<27-5=22>>22
+4 times 22 = <<4*22=88>>88
+#### 88
+
+<|endoftext|>
+
+517
+
+163
+
+Question: Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total?
+
+Reasoning:
+Subtract the 2 discarded carrots from the initial 12 to find the remaining amount: 12 - 2 = <<12-2=10>>10
+Add the 21 carrots picked the next day to the 10 remaining carrots: 10 + 21 = <<10+21=31>>31
+#### 31
+
+<|endoftext|>
+
+518
+
+334_aug2
+
+Question: Henry was helping the cafeteria workers pick up lunch trays, but he could only carry 3 trays at a time. If he had to pick up 36 trays from one table and 15 trays from another, how many trips will he make?
+
+Reasoning:
+36 plus 15 = <<36+15=51>>51
+51 divided by 3 = <<51/3=17>>17
+#### 17
+
+<|endoftext|>
+
+519
+
+69_aug3
+
+Question: For the school bake sale Amy made pastries. She baked 20 cupcakes and 87 cookies. After the sale she had 8 to take back home. How many pastries did she sell?
+
+Reasoning:
+20 plus 87 = <<20+87=107>>107
+107 minus 8 = <<107-8=99>>99
+#### 99
+
+<|endoftext|>
+
+520
+
+347_aug3
+
+Question: A pet shelter had 5 puppies when another 27 were brought in. If 4 puppies a day are adopted, how long would it take for all of them to be adopted?
+
+Reasoning:
+5 plus 27 = <<5+27=32>>32
+32 divided by 4 = <<32/4=8>>8
+#### 8
+
+<|endoftext|>
+
+521
+
+431_aug1
+
+Question: At the fair Adam bought 20 tickets. After riding the ferris wheel he had 3 tickets left. If each ticket cost 1 dollars, how much money did Adam spend riding the ferris wheel?
+
+Reasoning:
+20 minus 3 = <<20-3=17>>17
+1 times 17 = <<1*17=17>>17
+#### 17
+
+<|endoftext|>
+
+522
+
+412_aug3
+
+Question: Jerry had 7 action figures, but needed 10 total for a complete collection. If each one costs $6, how much money would he need to finish his collection?
+
+Reasoning:
+10 minus 7 = <<10-7=3>>3
+6 times 3 = <<6*3=18>>18
+#### 18
+
+<|endoftext|>
+
+523
+
+264_aug0
+
+Question: A waiter had 5 tables he was waiting on, with 4 women and 12 men at each table. How many customers total did the waiter have?
+
+Reasoning:
+4 plus 12 = <<4+12=16>>16
+5 times 16 = <<5*16=80>>80
+#### 80
+
+<|endoftext|>
+
+524
+
+596_aug4
+
+Question: Tom bought 48 tickets at the state fair. He spent 20 tickets at the 'dunk a clown' booth and decided to use the rest on rides. If each ride cost 7 tickets, how many rides could he go on?
+
+Reasoning:
+48 minus 20 = <<48-20=28>>28
+28 divided by 7 = <<28/7=4>>4
+#### 4
+
+<|endoftext|>
+
+525
+
+214_aug3
+
+Question: Paul was collecting cans for recycling. On Saturday he filled 12 bags up and on Sunday he filled 2 more bags. If each bag had 13 cans in it, how many cans did he pick up total?
+
+Reasoning:
+12 plus 2 = <<12+2=14>>14
+13 times 14 = <<13*14=182>>182
+#### 182
+
+<|endoftext|>
+
+526
+
+207_aug4
+
+Question: Paul bought 2 boxes of chocolate candy and 7 boxes of caramel candy. If each box has 3 pieces inside it, how much candy did he have total?
+
+Reasoning:
+2 plus 7 = <<2+7=9>>9
+3 times 9 = <<3*9=27>>27
+#### 27
+
+<|endoftext|>
+
+527
+
+236_aug0
+
+Question: A waiter had 2 tables he was waiting on, with 11 women and 1 men at each table. How many customers total did the waiter have?
+
+Reasoning:
+11 plus 1 = <<11+1=12>>12
+2 times 12 = <<2*12=24>>24
+#### 24
+
+<|endoftext|>
+
+528
+
+228_aug3
+
+Question: While playing a trivia game, Frank answered 5 questions correct in the first half and 4 questions correct in the second half. If each question was worth 5 points, what was his final score?
+
+Reasoning:
+5 plus 4 = <<5+4=9>>9
+5 times 9 = <<5*9=45>>45
+#### 45
+
+<|endoftext|>
+
+529
+
+249_aug2
+
+Question: April's discount flowers was having a sale where each flower was 2 dollars. If Robin bought 1 roses and 11 daisies, how much did she spend?
+
+Reasoning:
+1 plus 11 = <<1+11=12>>12
+2 times 12 = <<2*12=24>>24
+#### 24
+
+<|endoftext|>
+
+530
+
+399_aug4
+
+Question: Frank made 10 dollars mowing lawns and 5 dollars weed eating. If he only spent 3 dollar a week, how long would the money last him?
+
+Reasoning:
+10 plus 5 = <<10+5=15>>15
+15 divided by 3 = <<15/3=5>>5
+#### 5
+
+<|endoftext|>
+
+531
+
+144_aug0
+
+Question: A teacher had 58 worksheets to grade. If she graded 41, but then another 10 were turned in, how many worksheets would she have to grade?
+
+Reasoning:
+58 plus 10 = <<58+10=68>>68
+68 minus 41 = <<68-41=27>>27
+#### 27
+
+<|endoftext|>
+
+532
+
+414_aug2
+
+Question: There were 6 friends playing a video game online when 2 players quit. If each player left had 4 lives, how many lives did they have total?
+
+Reasoning:
+6 minus 2 = <<6-2=4>>4
+4 times 4 = <<4*4=16>>16
+#### 16
+
+<|endoftext|>
+
+533
+
+589_aug3
+
+Question: Mike made 94 dollars mowing lawns over the summer. If he spent 5 dollars buying new mower blades, how many 1 dollar games could he buy with the money he had left?
+
+Reasoning:
+94 minus 5 = <<94-5=89>>89
+89 divided by 1 = <<89/1=89>>89
+#### 89
+
+<|endoftext|>
+
+534
+
+74_aug0
+
+Question: There were 24 girls and 6 boys trying out for the schools basketball team. If only 10 of them got called back, how many students didn't make the cut?
+
+Reasoning:
+24 plus 6 = <<24+6=30>>30
+30 minus 10 = <<30-10=20>>20
+#### 20
+
+<|endoftext|>
+
+535
+
+418
+
+Question: Mike had 16 video games but 8 of them weren't working. If he wanted to sell the working games for $7 each, how much money could he earn?
+
+Reasoning:
+Subtract the number of broken games from the total number of games to find how many work: 16 - 8 = <<16-8=8>>8
+Multiply the number of working games by the price per game to find the total earnings: 8 * 7 = <<8*7=56>>56
+#### 56
+
+<|endoftext|>
+
+536
+
+344_aug4
+
+Question: Jerry was helping the cafeteria workers pick up lunch trays, but he could only carry 1 trays at a time. If he had to pick up 15 trays from one table and 8 trays from another, how many trips will he make?
+
+Reasoning:
+15 plus 8 = <<15+8=23>>23
+23 divided by 1 = <<23/1=23>>23
+#### 23
+
+<|endoftext|>
+
+537
+
+275_aug2
+
+Question: Kaleb was collecting cans for recycling. On Saturday he filled 1 bags up and on Sunday he filled 9 more bags. If each bag had 2 cans in it, how many cans did he pick up total?
+
+Reasoning:
+1 plus 9 = <<1+9=10>>10
+2 times 10 = <<2*10=20>>20
+#### 20
+
+<|endoftext|>
+
+538
+
+483
+
+Question: At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat?
+
+Reasoning:
+Subtract the number of kids from the total number of people to find the number of adults: 11 - 2 = <<11-2=9>>9
+Multiply the number of adults by the cost per adult meal: 9 * 8 = <<9*8=72>>72
+Since kids eat for free, the total cost is equal to the cost of the adult meals: 72 + 0 = <<72+0=72>>72
+#### 72
+
+<|endoftext|>
+
+539
+
+470_aug0
+
+Question: A chef needs to cook 18 potatoes. He has already cooked 7. If each potato takes 2 minutes to cook, how long will it take him to cook the rest?
+
+Reasoning:
+18 minus 7 = <<18-7=11>>11
+2 times 11 = <<2*11=22>>22
+#### 22
+
+<|endoftext|>
+
+540
+
+528
+
+Question: A company invited 18 people to a luncheon, but 12 of them didn't show up. If the tables they had held 3 people each, how many tables do they need?
+
+Reasoning:
+The company invited 18 people but 12 didn't show up, leaving 18 - 12 = <<18-12=6>>6 people.
+Each table holds 3 people, so they need 6 / 3 = <<6/3=2>>2 tables.
+#### 2
+
+<|endoftext|>
+
+541
+
+111_aug3
+
+Question: Paige had 11 songs on her mp3 player. If she deleted 3 old songs from it and then added 34 new songs, how many songs does she have on her mp3 player?
+
+Reasoning:
+11 plus 34 = <<11+34=45>>45
+45 minus 3 = <<45-3=42>>42
+#### 42
+
+<|endoftext|>
+
+542
+
+19_aug1
+
+Question: Bianca and her mom were picking carrots from their garden. Bianca picked 11 and her mother picked 5. If only 2 of the carrots were good, how many bad carrots did they have?
+
+Reasoning:
+11 plus 5 = <<11+5=16>>16
+16 minus 2 = <<16-2=14>>14
+#### 14
+
+<|endoftext|>
+
+543
+
+248_aug1
+
+Question: Tiffany had 2 pages of math homework and 4 pages of reading homework. If each page had 5 problems on it, how many problems did she have to complete total?
+
+Reasoning:
+2 plus 4 = <<2+4=6>>6
+5 times 6 = <<5*6=30>>30
+#### 30
+
+<|endoftext|>
+
+544
+
+434_aug2
+
+Question: A painter needed to paint 11 rooms in a building. Each room takes 9 hours to paint. If he already painted 9 rooms, how much longer will he take to paint the rest?
+
+Reasoning:
+11 minus 9 = <<11-9=2>>2
+9 times 2 = <<9*2=18>>18
+#### 18
+
+<|endoftext|>
+
+545
+
+1
+
+Question: A pet store had 13 siamese cats and 5 house cats. During a sale they sold 10 cats. How many cats do they have left?
+
+Reasoning:
+First, calculate the total number of cats by adding the 13 siamese cats and 5 house cats: 13 + 5 = <<13+5=18>>18
+Next, subtract the 10 cats that were sold from the total number of cats: 18 - 10 = <<18-10=8>>8
+#### 8
+
+<|endoftext|>
+
+546
+
+434_aug1
+
+Question: A painter needed to paint 16 rooms in a building. Each room takes 11 hours to paint. If he already painted 1 rooms, how much longer will he take to paint the rest?
+
+Reasoning:
+16 minus 1 = <<16-1=15>>15
+11 times 15 = <<11*15=165>>165
+#### 165
+
+<|endoftext|>
+
+547
+
+104_aug1
+
+Question: Oliver had 32 dollars in January. By March he had spent 4 dollars. If he got another 27 dollars from his mom, how much money would he have?
+
+Reasoning:
+32 plus 27 = <<32+27=59>>59
+59 minus 4 = <<59-4=55>>55
+#### 55
+
+<|endoftext|>
+
+548
+
+247_aug3
+
+Question: At Oliver's Restaurant a group with 6 adults and 3 children came in to eat. If each meal cost 12 dollars, how much was the bill?
+
+Reasoning:
+6 plus 3 = <<6+3=9>>9
+12 times 9 = <<12*9=108>>108
+#### 108
+
+<|endoftext|>
+
+549
+
+524_aug3
+
+Question: Frank made 25 dollars mowing lawns over the summer. If he spent 10 dollars buying new mower blades, how many 5 dollar games could he buy with the money he had left?
+
+Reasoning:
+25 minus 10 = <<25-10=15>>15
+15 divided by 5 = <<15/5=3>>3
+#### 3
+
+<|endoftext|>
+
+550
+
+451
+
+Question: Bianca earned 5 points for each bag of cans she recycled. If she had 17 bags, but didn't recycle 8 of them, how many points would she have earned?
+
+Reasoning:
+Subtract the number of bags not recycled from the total number of bags to find how many were recycled: 17 - 8 = <<17-8=9>>9
+Multiply the number of recycled bags by the points earned per bag: 9 * 5 = <<9*5=45>>45
+#### 45
+
+<|endoftext|>
+
+551
+
+341_aug4
+
+Question: A group of 3 friends went into a restaurant. The chef already had 3 chicken wings cooked but cooked 1 more for the group. If they each got the same amount how many would each person get?
+
+Reasoning:
+3 plus 3 = <<3+3=6>>6
+6 divided by 1 = <<6/1=6>>6
+#### 6
+
+<|endoftext|>
+
+552
+
+434
+
+Question: A painter needed to paint 9 rooms in a building. Each room takes 8 hours to paint. If he already painted 5 rooms, how much longer will he take to paint the rest?
+
+Reasoning:
+Subtract the number of rooms already painted from the total number of rooms to find the remaining rooms: 9 - 5 = <<9-5=4>>4
+Multiply the number of remaining rooms by the hours required per room: 4 * 8 = <<4*8=32>>32
+#### 32
+
+<|endoftext|>
+
+553
+
+26
+
+Question: A pet store had 12 siamese cats and 20 house cats. During a sale they sold 20 cats. How many cats do they have left?
+
+Reasoning:
+First, calculate the total number of cats by adding the 12 siamese cats and 20 house cats: 12 + 20 = <<12+20=32>>32
+Next, subtract the 20 cats sold from the total number of cats: 32 - 20 = <<32-20=12>>12
+#### 12
+
+<|endoftext|>
+
+554
+
+245_aug3
+
+Question: Chloe was organizing her book case making sure each of the shelves had exactly 8 books on it. If she had 11 shelves of mystery books and 7 shelves of picture books, how many books did she have total?
+
+Reasoning:
+11 plus 7 = <<11+7=18>>18
+8 times 18 = <<8*18=144>>144
+#### 144
+
+<|endoftext|>
+
+555
+
+33_aug1
+
+Question: Gwen bought two coloring books. One had 2 pictures and the other had 17. After one week she had already colored 1 of the pictures. How many pictures does she still have to color?
+
+Reasoning:
+2 plus 17 = <<2+17=19>>19
+19 minus 1 = <<19-1=18>>18
+#### 18
+
+<|endoftext|>
+
+556
+
+448_aug4
+
+Question: April's discount flowers was having a sale where each rose was 8 dollars. If April started with 9 roses and had 4 roses left, how much money did she earn?
+
+Reasoning:
+9 minus 4 = <<9-4=5>>5
+8 times 5 = <<8*5=40>>40
+#### 40
+
+<|endoftext|>
+
+557
+
+159_aug0
+
+Question: Megan picked 32 carrots from her garden. If she threw out 10 of them and then picked 9 more the next day, how many carrots would she have total?
+
+Reasoning:
+32 plus 9 = <<32+9=41>>41
+41 minus 10 = <<41-10=31>>31
+#### 31
+
+<|endoftext|>
+
+558
+
+313
+
+Question: A pet shelter had 9 puppies when another 12 were brought in. If 3 puppies a day are adopted, how long would it take for all of them to be adopted?
+
+Reasoning:
+Calculate the total number of puppies by adding the initial 9 to the 12 new ones: 9 + 12 = <<9+12=21>>21
+Divide the total number of puppies by the 3 puppies adopted each day to find the number of days: 21 / 3 = <<21/3=7>>7
+#### 7
+
+<|endoftext|>
+
+559
+
+308_aug1
+
+Question: For homework Nancy had 5 math problems and 25 spelling problems. If she can finish 3 problems in an hour how long will it take her to finish all the problems?
+
+Reasoning:
+5 plus 25 = <<5+25=30>>30
+30 divided by 3 = <<30/3=10>>10
+#### 10
+
+<|endoftext|>
+
+560
+
+364_aug3
+
+Question: There school's baseball team had 16 new players and 4 returning players. If the coach put them into groups with 2 players in each group, how many groups would there be?
+
+Reasoning:
+16 plus 4 = <<16+4=20>>20
+20 divided by 2 = <<20/2=10>>10
+#### 10
+
+<|endoftext|>
+
+561
+
+341
+
+Question: A group of 3 friends went into a restaurant. The chef already had 6 chicken wings cooked but cooked 3 more for the group. If they each got the same amount how many would each person get?
+
+Reasoning:
+Calculate the total number of chicken wings by adding the 6 already cooked to the 3 newly cooked: 6 + 3 = <<6+3=9>>9
+Divide the total number of chicken wings by the 3 friends to find the amount per person: 9 / 3 = <<9/3=3>>3
+#### 3
+
+<|endoftext|>
+
+562
+
+274_aug4
+
+Question: A pet store has 6 bird cages. If each cage has 5 parrots and 11 parakeets in it, how many birds does the pet store have total?
+
+Reasoning:
+5 plus 11 = <<5+11=16>>16
+6 times 16 = <<6*16=96>>96
+#### 96
+
+<|endoftext|>
+
+563
+
+574
+
+Question: A pet store had 13 puppies. In one day they sold 7 of them and put the rest into cages with 2 in each cage. How many cages did they use?
+
+Reasoning:
+The pet store had 13 puppies and sold 7, leaving 13 - 7 = <<13-7=6>>6 puppies.
+With 2 puppies per cage, they used 6 / 2 = <<6/2=3>>3 cages.
+#### 3
+
+<|endoftext|>
+
+564
+
+180_aug2
+
+Question: Luke had 59 dollars in January. By March he had spent 2 dollars. If he got another 41 dollars from his mom, how much money would he have?
+
+Reasoning:
+59 plus 41 = <<59+41=100>>100
+100 minus 2 = <<100-2=98>>98
+#### 98
+
+<|endoftext|>
+
+565
+
+378_aug3
+
+Question: While playing at the arcade, Luke won 5 tickets playing 'whack a mole' and 4 tickets playing 'skee ball'. If he was trying to buy candy that cost 3 tickets a piece, how many could he buy?
+
+Reasoning:
+5 plus 4 = <<5+4=9>>9
+9 divided by 3 = <<9/3=3>>3
+#### 3
+
+<|endoftext|>
+
+566
+
+283_aug3
+
+Question: There were 3 friends playing a video game online when 7 more players joined the game. If each player had 7 lives, how many lives did they have total?
+
+Reasoning:
+3 plus 7 = <<3+7=10>>10
+7 times 10 = <<7*10=70>>70
+#### 70
+
+<|endoftext|>
+
+567
+
+23_aug2
+
+Question: Henry had 18 dollars. For his birthday he got 2 more dollars but spent 3 on a new game. How much money does he have now?
+
+Reasoning:
+18 plus 2 = <<18+2=20>>20
+20 minus 3 = <<20-3=17>>17
+#### 17
+
+<|endoftext|>
+
+568
+
+136_aug3
+
+Question: The school cafeteria had 7 apples. If they used 19 to make lunch for the students and then bought 53 more, how many apples would they have?
+
+Reasoning:
+7 plus 53 = <<7+53=60>>60
+60 minus 19 = <<60-19=41>>41
+#### 41
+
+<|endoftext|>
+
+569
+
+481
+
+Question: Tom bought 12 boxes of chocolate candy and gave 7 to his little brother. If each box has 6 pieces inside it, how many pieces did Tom still have?
+
+Reasoning:
+Subtract the number of boxes given away from the total number of boxes to find how many Tom has left: 12 - 7 = <<12-7=5>>5
+Multiply the remaining boxes by the number of pieces in each box to find the total pieces: 5 * 6 = <<5*6=30>>30
+#### 30
+
+<|endoftext|>
+
+570
+
+489_aug2
+
+Question: At lunch a waiter had 11 customers and 3 of them didn't leave a tip. If he got $10 each from the ones who did tip, how much money did he earn?
+
+Reasoning:
+11 minus 3 = <<11-3=8>>8
+10 times 8 = <<10*8=80>>80
+#### 80
+
+<|endoftext|>
+
+571
+
+63_aug0
+
+Question: The school cafeteria ordered 12 red apples and 54 green apples for students lunches. But, if only 16 students wanted fruit, how many extra did the cafeteria end up with?
+
+Reasoning:
+12 plus 54 = <<12+54=66>>66
+66 minus 16 = <<66-16=50>>50
+#### 50
+
+<|endoftext|>
+
+572
+
+143_aug2
+
+Question: Edward had 61 books. If he sold 27 of them and used the money he earned to buy 25 new books, how many books would Edward have?
+
+Reasoning:
+61 plus 25 = <<61+25=86>>86
+86 minus 27 = <<86-27=59>>59
+#### 59
+
+<|endoftext|>
+
+573
+
+268
+
+Question: Isabel was selling her necklaces at a garage sale. She sold 3 bead necklaces and 3 gem stone necklaces. If each necklace cost 6 dollars, how much money did she earn?
+
+Reasoning:
+First, calculate the total number of necklaces sold by adding the bead necklaces and gem stone necklaces: 3 + 3 = <<3+3=6>>6
+Next, multiply the total number of necklaces by the cost of each necklace: 6 * 6 = <<6*6=36>>36
+#### 36
+
+<|endoftext|>
+
+574
+
+259_aug1
+
+Question: Rachel was playing a video game where she scores 8 points for each treasure she finds. If she found 3 treasures on the first level and 11 on the second, what would her score be?
+
+Reasoning:
+3 plus 11 = <<3+11=14>>14
+8 times 14 = <<8*14=112>>112
+#### 112
+
+<|endoftext|>
+
+575
+
+487_aug3
+
+Question: A magician was selling magic card decks for 10 dollars each. If he started with 24 decks and by the end of the day he had 12 left, how much money did he earn?
+
+Reasoning:
+24 minus 12 = <<24-12=12>>12
+10 times 12 = <<10*12=120>>120
+#### 120
+
+<|endoftext|>
+
+576
+
+541
+
+Question: Bianca was planting vegetables in her garden. She started with 52 seeds and planted 40 of them in the big garden and in each of her small gardens put 2 seeds each. How many small gardens did Bianca have?
+
+Reasoning:
+First, find how many seeds were left after planting in the big garden: 52 - 40 = <<52-40=12>>12
+Then, divide the remaining seeds by the number of seeds per small garden: 12 / 2 = <<12/2=6>>6
+#### 6
+
+<|endoftext|>
+
+577
+
+125_aug2
+
+Question: In fourth grade there were 36 students at the start of the year. During the year 8 students left and 23 new students came to school. How many students were in fourth grade at the end?
+
+Reasoning:
+36 plus 23 = <<36+23=59>>59
+59 minus 8 = <<59-8=51>>51
+#### 51
+
+<|endoftext|>
+
+578
+
+552
+
+Question: Emily was planting vegetables in her garden. She started with 42 seeds and planted 36 of them in the big garden and in each of her small gardens put 2 seeds each. How many small gardens did Emily have?
+
+Reasoning:
+First, find how many seeds were left after planting in the big garden: 42 - 36 = <<42-36=6>>6
+Then, divide the remaining seeds by the number of seeds per small garden: 6 / 2 = <<6/2=3>>3
+#### 3
+
+<|endoftext|>
+
+579
+
+237_aug1
+
+Question: Faye was selling her necklaces at a garage sale. She sold 10 bead necklaces and 11 gem stone necklaces. If each necklace cost 13 dollars, how much money did she earn?
+
+Reasoning:
+10 plus 11 = <<10+11=21>>21
+13 times 21 = <<13*21=273>>273
+#### 273
+
+<|endoftext|>
+
+580
+
+518
+
+Question: For Halloween Sarah received 108 pieces of candy. She ate 36 pieces then placed the rest into piles with 9 in each pile. How many piles could she make?
+
+Reasoning:
+Sarah received 108 pieces of candy and ate 36, leaving 108 - 36 = <<108-36=72>>72 pieces.
+She placed them into piles of 9, so she could make 72 / 9 = <<72/9=8>>8 piles.
+#### 8
+
+<|endoftext|>
+
+581
+
+65_aug4
+
+Question: A pet store had 41 siamese cats and 18 house cats. During a sale they sold 20 cats. How many cats do they have left?
+
+Reasoning:
+41 plus 18 = <<41+18=59>>59
+59 minus 20 = <<59-20=39>>39
+#### 39
+
+<|endoftext|>
+
+582
+
+319_aug3
+
+Question: Isabel uploaded 2 pictures from her phone and 1 from her camera to facebook. If she sorted the pics into 1 different albums with the same amount of pics in each album, how many pictures were in each of the albums?
+
+Reasoning:
+2 plus 1 = <<2+1=3>>3
+3 divided by 1 = <<3/1=3>>3
+#### 3
+
+<|endoftext|>
+
+583
+
+403_aug1
+
+Question: There were 15 friends playing a video game online when 12 players quit. If each player left had 4 lives, how many lives did they have total?
+
+Reasoning:
+15 minus 12 = <<15-12=3>>3
+4 times 3 = <<4*3=12>>12
+#### 12
+
+<|endoftext|>
+
+584
+
+585_aug4
+
+Question: Roger is at the library helping put away books. There are 27 book to put away total but a librarian takes 7 of them and leaves Roger with the rest. If he can fit 1 books on a shelf, how many shelves will he need?
+
+Reasoning:
+27 minus 7 = <<27-7=20>>20
+20 divided by 1 = <<20/1=20>>20
+#### 20
+
+<|endoftext|>
+
+585
+
+240_aug4
+
+Question: Katie was selling her necklaces at a garage sale. She sold 5 bead necklaces and 2 gem stone necklaces. If each necklace cost 7 dollars, how much money did she earn?
+
+Reasoning:
+5 plus 2 = <<5+2=7>>7
+7 times 7 = <<7*7=49>>49
+#### 49
+
+<|endoftext|>
+
+586
+
+90_aug4
+
+Question: A pet store had 10 siamese cats and 47 house cats. During a sale they sold 43 cats. How many cats do they have left?
+
+Reasoning:
+10 plus 47 = <<10+47=57>>57
+57 minus 43 = <<57-43=14>>14
+#### 14
+
+<|endoftext|>
+
+587
+
+60_aug1
+
+Question: Janet picked 2 tulips and 20 roses to make flower bouquets. If she only used 16 of the flowers though, how many extra flowers did Janet pick?
+
+Reasoning:
+2 plus 20 = <<2+20=22>>22
+22 minus 16 = <<22-16=6>>6
+#### 6
+
+<|endoftext|>
+
+588
+
+240_aug3
+
+Question: Katie was selling her necklaces at a garage sale. She sold 10 bead necklaces and 8 gem stone necklaces. If each necklace cost 4 dollars, how much money did she earn?
+
+Reasoning:
+10 plus 8 = <<10+8=18>>18
+4 times 18 = <<4*18=72>>72
+#### 72
+
+<|endoftext|>
+
+589
+
+176_aug1
+
+Question: For the school bake sale Robin made 51 cupcakes. If she sold 2 of them and then made 22 more, how many cupcakes would she have?
+
+Reasoning:
+51 plus 22 = <<51+22=73>>73
+73 minus 2 = <<73-2=71>>71
+#### 71
+
+<|endoftext|>
+
+590
+
+494_aug0
+
+Question: Edward earned 15 dollars for each lawn he mowed. If he had 12 lawns to mow, but forgot to mow 7 of them, how much money did he actually earn?
+
+Reasoning:
+12 minus 7 = <<12-7=5>>5
+15 times 5 = <<15*5=75>>75
+#### 75
+
+<|endoftext|>
+
+591
+
+1_aug0
+
+Question: A pet store had 13 siamese cats and 1 house cats. During a sale they sold 8 cats. How many cats do they have left?
+
+Reasoning:
+13 plus 1 = <<13+1=14>>14
+14 minus 8 = <<14-8=6>>6
+#### 6
+
+<|endoftext|>
+
+592
+
+281
+
+Question: Frank and his friend were buying trick decks from the magic shop for 7 dollars each. How much did they spend if Frank bought 3 decks and his friend bought 2 decks?
+
+Reasoning:
+Calculate the total number of decks bought by adding Frank's 3 decks and his friend's 2 decks: 3 + 2 = <<3+2=5>>5
+Multiply the total number of decks by the price of 7 dollars per deck: 5 * 7 = <<5*7=35>>35
+#### 35
+
+<|endoftext|>
+
+593
+
+306_aug2
+
+Question: For a birthday party Jerry bought 53 regular sodas and 42 diet sodas. If his fridge would only hold 5 on each shelf, how many shelves would he fill up?
+
+Reasoning:
+53 plus 42 = <<53+42=95>>95
+95 divided by 5 = <<95/5=19>>19
+#### 19
+
+<|endoftext|>
+
+594
+
+305
+
+Question: There school's baseball team had 48 new players and 6 returning players. If the coach put them into groups with 6 players in each group, how many groups would there be?
+
+Reasoning:
+First, calculate the total number of players by adding the new players and the returning players: 48 + 6 = <<48+6=54>>54
+Next, divide the total number of players by the number of players in each group: 54 / 6 = <<54/6=9>>9
+#### 9
+
+<|endoftext|>
+
+595
+
+593_aug2
+
+Question: A pet store had 47 puppies. In one day they sold 23 of them and put the rest into cages with 6 in each cage. How many cages did they use?
+
+Reasoning:
+47 minus 23 = <<47-23=24>>24
+24 divided by 6 = <<24/6=4>>4
+#### 4
+
+<|endoftext|>
+
+596
+
+412_aug0
+
+Question: Jerry had 3 action figures, but needed 11 total for a complete collection. If each one costs $6, how much money would he need to finish his collection?
+
+Reasoning:
+11 minus 3 = <<11-3=8>>8
+6 times 8 = <<6*8=48>>48
+#### 48
+
+<|endoftext|>
+
+597
+
+496_aug2
+
+Question: Chloe baked 4 brownies, but needed 6 total for her party. If she used 1 cups of flour on each one, how much cups of flour does she still need?
+
+Reasoning:
+6 minus 4 = <<6-4=2>>2
+1 times 2 = <<1*2=2>>2
+#### 2
+
+<|endoftext|>
+
+598
+
+23
+
+Question: Henry had 11 dollars. For his birthday he got 18 more dollars but spent 10 on a new game. How much money does he have now?
+
+Reasoning:
+Add the birthday money to the initial amount to find the total: 11 + 18 = <<11+18=29>>29
+Subtract the cost of the game from the total amount: 29 - 10 = <<29-10=19>>19
+#### 19
+
+<|endoftext|>
+
+599
+
+6_aug1
+
+Question: Roger had 20 dollars. For his birthday he got 42 more dollars but spent 37 on a new game. How much money does he have now?
+
+Reasoning:
+20 plus 42 = <<20+42=62>>62
+62 minus 37 = <<62-37=25>>25
+#### 25
+
+<|endoftext|>
+
