@@ -20,11 +20,14 @@ Output block format (id + <|endoftext|> added by writer):
   Entities:            (only if the source block had one)
   - ...
 
-  Plan: Solve in N steps. (1) add; (2) subtract; then give the final answer.
-
   Reasoning:
+  Plan: Solve in N steps. (1) add; (2) subtract; then give the final answer.
   ... <<expr=result>>result
   #### answer
+
+  The skeleton Plan (number-free) is the FIRST line inside Reasoning so it is
+  (a) covered by the default 'reasoning' loss mask and (b) generated at inference,
+  since the eval harness prompts with 'Question: ...\\n\\nReasoning:\\n'.
 
 Usage:
   python prepare_triple_data.py                 # build all curriculum files
@@ -131,9 +134,10 @@ def _strip_inline_plan(reasoning: str) -> str:
 def transform_block(body: str, *, keep_entities: bool = True) -> str | None:
   """Normalize one block to the unified format:
 
-  Question -> [Entities] -> Plan (skeleton, number-free, before Reasoning) -> Reasoning.
-  Any pre-existing inline 'Plan:' line inside Reasoning is stripped so every
-  source ends up in the same convention.
+  Question -> [Entities] -> Reasoning: { Plan line, then steps } -> #### answer.
+  The skeleton Plan (number-free) is the FIRST line inside the Reasoning block
+  (same position as yoonBot's number-ful Plan) so training loss and greedy eval
+  stay aligned.  Any pre-existing inline 'Plan:' line is stripped first.
   """
   parsed = parse_body(body)
   reasoning = _strip_inline_plan(parsed['reasoning'])
@@ -144,8 +148,7 @@ def transform_block(body: str, *, keep_entities: bool = True) -> str | None:
   parts = [f"Question: {parsed['question']}", '']
   if keep_entities and parsed['entities']:
     parts += ['Entities:', parsed['entities'], '']
-  parts += [plan, '']
-  parts += ['Reasoning:', reasoning, f"#### {parsed['answer']}"]
+  parts += ['Reasoning:', plan, reasoning, f"#### {parsed['answer']}"]
   return '\n'.join(parts)
 
 
@@ -194,7 +197,7 @@ def build_stage2(seed: int, ma_anchor: int):
   """Stage 2: GSM8K+Plan and entity+Plan, plus a MultiArith plan anchor.
 
   All sources go through the same transform, so every block shares one plan
-  convention (skeleton, number-free, Plan block before Reasoning).
+  convention (skeleton, number-free, Plan as first line inside Reasoning).
   """
   print('[stage2] component files')
   gsm8k = transform_file('data/gsm8k_sft_train.txt')

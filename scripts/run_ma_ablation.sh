@@ -8,7 +8,7 @@
 #   Arm  what               init          plan          entity  train file
 #   M0   base (floor)       vanilla GPT2  -             no      multiarith_sft_train_aug.txt
 #   M1   +PEMDAS            arith(weak)   -             no      multiarith_sft_train_aug.txt
-#   M2   +plan(skeleton)    arith(weak)   number-free   no      triple/ma_plan_aug.txt
+#   M2   +plan(skeleton)    arith(weak)   inline, no nums  no      triple/ma_plan_aug.txt
 #   M3   +plan(number-ful)  arith(weak)   number-ful    no      multiarith_sft_train_plan_aug.txt
 #   M4   +entity            arith(weak)   -             yes     ma_ablation/m4_aug_entity.txt
 #   M5   +plan+entity       arith(weak)   number-free   yes     ma_ablation/m5_plan_entity.txt
