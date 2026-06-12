@@ -1,0 +1,13 @@
+{
+  "n": 500,
+  "exact_accuracy": 0.026,
+  "no_answer_rate": 0.002,
+  "format_valid_rate": 0.886,
+  "repetition_rate": 0.128,
+  "dataset": "gsm8k_dev",
+  "n_dev": 500,
+  "dev_path": "data/gsm8k_dev.jsonl",
+  "epoch": 2,
+  "train_loss": 0.28789303922094406,
+  "checkpoint_tag": "triple_full_ext"
+}

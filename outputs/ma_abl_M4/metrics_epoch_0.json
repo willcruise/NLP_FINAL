@@ -1,0 +1,13 @@
+{
+  "n": 90,
+  "exact_accuracy": 0.17777777777777778,
+  "no_answer_rate": 0.011111111111111112,
+  "format_valid_rate": 0.9888888888888889,
+  "repetition_rate": 0.011111111111111112,
+  "dataset": "multiarith",
+  "n_dev": 90,
+  "dev_path": "data/multiarith_dev.jsonl",
+  "epoch": 0,
+  "train_loss": 1.2792560892243499,
+  "checkpoint_tag": "ma_abl_M4"
+}

@@ -1,0 +1,13 @@
+{
+  "n": 500,
+  "exact_accuracy": 0.004,
+  "no_answer_rate": 0.004,
+  "format_valid_rate": 0.126,
+  "repetition_rate": 0.272,
+  "dataset": "gsm8k_dev",
+  "n_dev": 500,
+  "dev_path": "data/gsm8k_dev.jsonl",
+  "epoch": 3,
+  "dpo_loss": 0.02696007406097773,
+  "checkpoint_tag": "exp9_step_dpo"
+}

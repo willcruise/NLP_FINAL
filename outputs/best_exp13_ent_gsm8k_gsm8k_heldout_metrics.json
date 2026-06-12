@@ -1,0 +1,11 @@
+{
+  "n": 200,
+  "exact_accuracy": 0.025,
+  "no_answer_rate": 0.0,
+  "format_valid_rate": 0.975,
+  "repetition_rate": 0.035,
+  "checkpoint": "best_exp13_ent_gsm8k.pt",
+  "dataset": "gsm8k_small_held_out",
+  "num_examples": 200,
+  "held_out_path": "data/gsm8k_small_held_out.txt"
+}

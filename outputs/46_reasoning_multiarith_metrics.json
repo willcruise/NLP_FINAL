@@ -1,0 +1,9 @@
+{
+  "n": 60,
+  "exact_accuracy": 0.18333333333333332,
+  "no_answer_rate": 0.0,
+  "format_valid_rate": 1.0,
+  "repetition_rate": 0.0,
+  "checkpoint": "46_reasoning.pt",
+  "dataset": "multiarith"
+}

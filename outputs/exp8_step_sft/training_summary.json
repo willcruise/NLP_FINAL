@@ -1,0 +1,90 @@
+{
+  "phase": "step_sft",
+  "checkpoint_tag": "exp8_step_sft",
+  "train_path": "data/step_sft_train.jsonl",
+  "init_checkpoint": "best_exp4_gsm8k_ma_ent.pt",
+  "best_epoch": 6,
+  "best_exact_accuracy": 0.036,
+  "best_checkpoint": "best_exp8_step_sft.pt",
+  "history": [
+    {
+      "n": 500,
+      "exact_accuracy": 0.014,
+      "no_answer_rate": 0.002,
+      "format_valid_rate": 0.98,
+      "repetition_rate": 0.442,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 0,
+      "train_loss": 0.5187434977774914,
+      "checkpoint_tag": "exp8_step_sft"
+    },
+    {
+      "n": 500,
+      "exact_accuracy": 0.032,
+      "no_answer_rate": 0.0,
+      "format_valid_rate": 0.97,
+      "repetition_rate": 0.414,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 2,
+      "train_loss": 0.47720415013545,
+      "checkpoint_tag": "exp8_step_sft"
+    },
+    {
+      "n": 500,
+      "exact_accuracy": 0.028,
+      "no_answer_rate": 0.0,
+      "format_valid_rate": 0.984,
+      "repetition_rate": 0.422,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 4,
+      "train_loss": 0.4582638351667027,
+      "checkpoint_tag": "exp8_step_sft"
+    },
+    {
+      "n": 500,
+      "exact_accuracy": 0.036,
+      "no_answer_rate": 0.002,
+      "format_valid_rate": 0.978,
+      "repetition_rate": 0.42,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 6,
+      "train_loss": 0.4375646271791289,
+      "checkpoint_tag": "exp8_step_sft"
+    },
+    {
+      "n": 500,
+      "exact_accuracy": 0.032,
+      "no_answer_rate": 0.002,
+      "format_valid_rate": 0.984,
+      "repetition_rate": 0.448,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 8,
+      "train_loss": 0.4198379979364317,
+      "checkpoint_tag": "exp8_step_sft"
+    },
+    {
+      "n": 500,
+      "exact_accuracy": 0.018,
+      "no_answer_rate": 0.0,
+      "format_valid_rate": 0.974,
+      "repetition_rate": 0.428,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 9,
+      "train_loss": 0.41254721951919465,
+      "checkpoint_tag": "exp8_step_sft"
+    }
+  ],
+  "finished_epoch": 9
+}

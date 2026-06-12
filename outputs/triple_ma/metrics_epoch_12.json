@@ -1,0 +1,13 @@
+{
+  "n": 90,
+  "exact_accuracy": 0.2222222222222222,
+  "no_answer_rate": 0.0,
+  "format_valid_rate": 1.0,
+  "repetition_rate": 0.0,
+  "dataset": "multiarith",
+  "n_dev": 90,
+  "dev_path": "data/multiarith_dev.jsonl",
+  "epoch": 12,
+  "train_loss": 0.046072768419494675,
+  "checkpoint_tag": "triple_ma"
+}

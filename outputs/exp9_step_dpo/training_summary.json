@@ -1,0 +1,65 @@
+{
+  "phase": "step_dpo",
+  "checkpoint_tag": "exp9_step_dpo",
+  "train_path": "data/step_dpo_train.jsonl",
+  "init_checkpoint": "best_exp8_step_sft.pt",
+  "beta": 0.2,
+  "best_epoch": 2,
+  "best_exact_accuracy": 0.012,
+  "best_checkpoint": "best_exp9_step_dpo.pt",
+  "history": [
+    {
+      "n": 500,
+      "exact_accuracy": 0.004,
+      "no_answer_rate": 0.004,
+      "format_valid_rate": 0.452,
+      "repetition_rate": 0.516,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 0,
+      "dpo_loss": 0.13053532410856142,
+      "checkpoint_tag": "exp9_step_dpo"
+    },
+    {
+      "n": 500,
+      "exact_accuracy": 0.01,
+      "no_answer_rate": 0.004,
+      "format_valid_rate": 0.46,
+      "repetition_rate": 0.488,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 1,
+      "dpo_loss": 0.046567008531002776,
+      "checkpoint_tag": "exp9_step_dpo"
+    },
+    {
+      "n": 500,
+      "exact_accuracy": 0.012,
+      "no_answer_rate": 0.008,
+      "format_valid_rate": 0.284,
+      "repetition_rate": 0.346,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 2,
+      "dpo_loss": 0.036334879887069724,
+      "checkpoint_tag": "exp9_step_dpo"
+    },
+    {
+      "n": 500,
+      "exact_accuracy": 0.004,
+      "no_answer_rate": 0.004,
+      "format_valid_rate": 0.126,
+      "repetition_rate": 0.272,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 3,
+      "dpo_loss": 0.02696007406097773,
+      "checkpoint_tag": "exp9_step_dpo"
+    }
+  ],
+  "finished_epoch": 3
+}

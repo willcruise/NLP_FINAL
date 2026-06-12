@@ -1,0 +1,9 @@
+{
+  "n": 90,
+  "exact_accuracy": 0.2222222222222222,
+  "no_answer_rate": 0.0,
+  "format_valid_rate": 1.0,
+  "repetition_rate": 0.0,
+  "checkpoint": "best_exp7_gsm8k_ma_sub_ent.pt",
+  "dataset": "multiarith"
+}

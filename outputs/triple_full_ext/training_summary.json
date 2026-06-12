@@ -1,0 +1,102 @@
+{
+  "checkpoint_tag": "triple_full_ext",
+  "train_path": "data/triple/stage2_full.txt",
+  "init_checkpoint": "best_triple_full_ep19.pt",
+  "best_epoch": 0,
+  "best_exact_accuracy": 0.03,
+  "best_checkpoint": "best_triple_full_ext.pt",
+  "history": [
+    {
+      "n": 500,
+      "exact_accuracy": 0.03,
+      "no_answer_rate": 0.002,
+      "format_valid_rate": 0.906,
+      "repetition_rate": 0.148,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 0,
+      "train_loss": 0.3039430271187148,
+      "checkpoint_tag": "triple_full_ext"
+    },
+    {
+      "n": 500,
+      "exact_accuracy": 0.026,
+      "no_answer_rate": 0.002,
+      "format_valid_rate": 0.886,
+      "repetition_rate": 0.128,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 2,
+      "train_loss": 0.28789303922094406,
+      "checkpoint_tag": "triple_full_ext"
+    },
+    {
+      "n": 500,
+      "exact_accuracy": 0.018,
+      "no_answer_rate": 0.01,
+      "format_valid_rate": 0.912,
+      "repetition_rate": 0.118,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 4,
+      "train_loss": 0.2729915738402104,
+      "checkpoint_tag": "triple_full_ext"
+    },
+    {
+      "n": 500,
+      "exact_accuracy": 0.03,
+      "no_answer_rate": 0.006,
+      "format_valid_rate": 0.912,
+      "repetition_rate": 0.124,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 6,
+      "train_loss": 0.25871225658059827,
+      "checkpoint_tag": "triple_full_ext"
+    },
+    {
+      "n": 500,
+      "exact_accuracy": 0.028,
+      "no_answer_rate": 0.002,
+      "format_valid_rate": 0.894,
+      "repetition_rate": 0.14,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 8,
+      "train_loss": 0.2445672410647173,
+      "checkpoint_tag": "triple_full_ext"
+    },
+    {
+      "n": 500,
+      "exact_accuracy": 0.022,
+      "no_answer_rate": 0.002,
+      "format_valid_rate": 0.936,
+      "repetition_rate": 0.11,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 10,
+      "train_loss": 0.23362138151004205,
+      "checkpoint_tag": "triple_full_ext"
+    },
+    {
+      "n": 500,
+      "exact_accuracy": 0.03,
+      "no_answer_rate": 0.004,
+      "format_valid_rate": 0.942,
+      "repetition_rate": 0.078,
+      "dataset": "gsm8k_dev",
+      "n_dev": 500,
+      "dev_path": "data/gsm8k_dev.jsonl",
+      "epoch": 12,
+      "train_loss": 0.22128597909750444,
+      "checkpoint_tag": "triple_full_ext"
+    }
+  ],
+  "finished_epoch": 12
+}

@@ -1,0 +1,11 @@
+{
+  "n": 200,
+  "exact_accuracy": 0.035,
+  "no_answer_rate": 0.0,
+  "format_valid_rate": 0.985,
+  "repetition_rate": 0.03,
+  "checkpoint": "best_exp6_gsm8k_ma_ent_arith.pt",
+  "dataset": "gsm8k_small_held_out",
+  "num_examples": 200,
+  "held_out_path": "data/gsm8k_small_held_out.txt"
+}

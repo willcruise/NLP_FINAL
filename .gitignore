@@ -6,7 +6,7 @@
 .idea/
 out/
 
-# Python 
+# Python
 __pycache__/
 
 # Virtual environments
@@ -34,38 +34,11 @@ nul
 # Antigravity intermediate part files
 data/_aug_cot_part*.jsonl
 
-# Trained model outputs (generations/logs); keep experiment metrics JSON
+# Training outputs: keep metrics JSON, exclude large local artifacts
 outputs/*
-!outputs/exp1_gsm8k/
-!outputs/exp2_gsm8k_ma/
-!outputs/exp3_gsm8k_ma_ent/
-outputs/exp1_gsm8k/*
-!outputs/exp1_gsm8k/*.json
-outputs/exp2_gsm8k_ma/*
-!outputs/exp2_gsm8k_ma/*.json
-outputs/exp3_gsm8k_ma_ent/*
-!outputs/exp3_gsm8k_ma_ent/*.json
-!outputs/exp4_gsm8k_ma_ent/
-outputs/exp4_gsm8k_ma_ent/*
-!outputs/exp4_gsm8k_ma_ent/*.json
-!outputs/exp5_gsm8k_ma_aug_ent/
-outputs/exp5_gsm8k_ma_aug_ent/*
-!outputs/exp5_gsm8k_ma_aug_ent/*.json
-!outputs/exp6_gsm8k_ma_ent_arith/
-outputs/exp6_gsm8k_ma_ent_arith/*
-!outputs/exp6_gsm8k_ma_ent_arith/*.json
-!outputs/exp7_gsm8k_ma_sub_ent/
-outputs/exp7_gsm8k_ma_sub_ent/*
-!outputs/exp7_gsm8k_ma_sub_ent/*.json
-!outputs/exp10_gsm8k_ma_aug_sub_ent/
-outputs/exp10_gsm8k_ma_aug_sub_ent/*
-!outputs/exp10_gsm8k_ma_aug_sub_ent/*.json
-!outputs/exp11_gsm8k/
-outputs/exp11_gsm8k/*
-!outputs/exp11_gsm8k/*.json
-!outputs/exp14_gsm8k4500_ent1_ma/
-outputs/exp14_gsm8k4500_ent1_ma/*
-!outputs/exp14_gsm8k4500_ent1_ma/*.json
-!outputs/exp15_gsm8k_ma_ent_planning/
-outputs/exp15_gsm8k_ma_ent_planning/*
-!outputs/exp15_gsm8k_ma_ent_planning/*.json
+!outputs/**/
+!outputs/**/*.json
+outputs/**/*.txt
+outputs/**/*.log
+outputs/**/*.pptx
+outputs/**/*.html
